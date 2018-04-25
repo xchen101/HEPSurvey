@@ -1,4 +1,5 @@
 library(rworldmap)
+setwd("/Users/xiaolichen/R projects/HEP survey/HEPSurvey/country")
 country = read.csv("country.csv")
 
 n <- joinCountryData2Map(country, joinCode = "NAME", nameJoinColumn = "country")
