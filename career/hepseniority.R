@@ -1,6 +1,8 @@
 library(plotly)
 packageVersion('plotly')
 
+setwd("/Users/xiaolichen/R projects/HEP survey/HEPSurvey/career/")
+
 data = read.csv("career.csv")
 
 year <- seq(1, 67)
