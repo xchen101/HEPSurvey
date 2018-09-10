@@ -1,4 +1,4 @@
-#$Rev: 12179 $ filter.
+#$Rev: 12179 $ .
 data <- read.table("survey_77428_R_data_file.csv", sep=",", quote = "'", na.strings=c("","\"\""), stringsAsFactors=FALSE)
 
 data[, 1] <- as.numeric(data[, 1])
