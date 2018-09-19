@@ -1,8 +1,24 @@
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
+library(readr)
 
 coded_data <- read_csv("Data/Base/Usable_QC_FA_coded.csv")
+
+# F1 by seniority and gender
+F1 <- coded_data %>% #<- change
+  filter(!is.na(Sex)) %>%
+  group_by(D3, `p5q2 [1]`) %>% #<- change  
+  summarize(count = n()) %>%
+  mutate(freq = count / sum(count))
+
+ggplot(F1, aes(x = `p5q2 [1]`, y = freq, color = D3)) + # <- change
+  geom_line() +
+  geom_point() +
+#  facet_wrap(~ Sex) +
+  ggtitle("Factor 1 \nHow much additional work it takes to share.") +
+  labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
+
 
 # F1 by seniority and gender
 F1 <- coded_data %>% #<- change
