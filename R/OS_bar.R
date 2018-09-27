@@ -43,14 +43,6 @@ p3 <- ggplot(OS3, aes(x = `p2q1 [OS3]`, y = freq, fill = D3)) + # <- change
   ggtitle("Open Science benefits \nthe general public") +
   labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
 
-
-grid.arrange(
-  p1,
-  p2,
-  p3,
-  nrow = 1
-)
-
 ################
 ################
 ################
@@ -63,7 +55,7 @@ OS4 <- coded_data %>%
 
 p4 <- ggplot(OS4, aes(x = `p2q1 [OS1]`, y = freq, fill = D4)) + # <- change
   geom_bar(stat="identity", position=position_dodge()) +
-  ggtitle("Open Science benefits \nHEP as a discipline") +
+ # ggtitle("Open Science benefits \nHEP as a discipline") +
   labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
 
 OS5 <- coded_data %>% #<- change
@@ -74,7 +66,7 @@ OS5 <- coded_data %>% #<- change
 
 p5 <- ggplot(OS5, aes(x = `p2q1 [OS2]`, y = freq, fill = D4)) + # <- change
   geom_bar(stat="identity", position=position_dodge()) +
-  ggtitle("Open Science benefits \nindividual researcher") +
+#  ggtitle("Open Science benefits \nindividual researcher") +
   labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
 
 OS6 <- coded_data %>% #<- change
@@ -85,13 +77,16 @@ OS6 <- coded_data %>% #<- change
 
 p6 <- ggplot(OS6, aes(x = `p2q1 [OS3]`, y = freq, fill = D4)) + # <- change
   geom_bar(stat="identity", position=position_dodge()) +
-  ggtitle("Open Science benefits \nthe general public") +
+#  ggtitle("Open Science benefits \nthe general public") +
   labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
 
 
 grid.arrange(
+  p1,
+  p2,
+  p3,
   p4,
   p5,
   p6,
-  nrow = 1
+  nrow = 2
 )
