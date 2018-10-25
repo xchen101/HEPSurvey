@@ -48,38 +48,41 @@ p3 <- ggplot(OS3, aes(x = `p2q1 [OS3]`, y = freq, fill = D3)) + # <- change
 ################
 
 OS4 <- coded_data %>%
-  filter(!is.na(Sex)) %>%
+  filter(D4 != "Other") %>%
   group_by(D4, `p2q1 [OS1]`) %>% #<- change  
   summarize(count = n()) %>%
   mutate(freq = count / sum(count))
 
 p4 <- ggplot(OS4, aes(x = `p2q1 [OS1]`, y = freq, fill = D4)) + # <- change
   geom_bar(stat="identity", position=position_dodge()) +
- # ggtitle("Open Science benefits \nHEP as a discipline") +
-  labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
+  ggtitle("Open Science benefits \nHEP as a discipline") +
+  labs(x = "Strongly disagree - Strongly agree", y = "Frequency") +
+  scale_fill_brewer(palette="Paired")
 
 OS5 <- coded_data %>% #<- change
-  filter(!is.na(Sex)) %>%
+  filter(D4 != "Other") %>%
   group_by(D4, `p2q1 [OS2]`) %>% #<- change  
   summarize(count = n()) %>%
   mutate(freq = count / sum(count))
 
 p5 <- ggplot(OS5, aes(x = `p2q1 [OS2]`, y = freq, fill = D4)) + # <- change
   geom_bar(stat="identity", position=position_dodge()) +
-#  ggtitle("Open Science benefits \nindividual researcher") +
-  labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
+  ggtitle("Open Science benefits \nindividual researcher") +
+  labs(x = "Strongly disagree - Strongly agree", y = "Frequency") +
+  scale_fill_brewer(palette="Paired")
 
 OS6 <- coded_data %>% #<- change
-  filter(!is.na(Sex)) %>%
+  filter(D4 != "Other") %>%
   group_by(D4, `p2q1 [OS3]`) %>% #<- change  
   summarize(count = n()) %>%
   mutate(freq = count / sum(count))
 
 p6 <- ggplot(OS6, aes(x = `p2q1 [OS3]`, y = freq, fill = D4)) + # <- change
   geom_bar(stat="identity", position=position_dodge()) +
-#  ggtitle("Open Science benefits \nthe general public") +
-  labs(x = "Strongly disagree - Strongly agree", y = "Frequency")
-
+  ggtitle("Open Science benefits \nthe general public") +
+  labs(x = "Strongly disagree - Strongly agree", y = "Frequency") +
+  scale_fill_brewer(palette="Paired")
+p6
 
 grid.arrange(
   p1,
@@ -89,4 +92,11 @@ grid.arrange(
   p5,
   p6,
   nrow = 2
+)
+
+grid.arrange(
+  p4,
+  p5,
+  p6,
+  nrow = 1
 )
