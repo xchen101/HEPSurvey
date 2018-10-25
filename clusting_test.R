@@ -31,39 +31,9 @@ head(res.hcpc$desc.axes, 10)
 clusters <- res.hcpc$data.clust
 write.csv(clusters, file = "clusters.csv")
 
-ex = 1
-th = 0
-other = 2
-senior = 1
-junior = 0
-collab =0
-community = 1
-other = 2
-funder = 3
-individual = 4
-
-clusterSummary <- read_csv("clusterSummary.csv")
 
 
 clusterTest2 <- read_csv("Data/Processed/clusteringTest2.csv")
-
-data(clusterTest2)
-res.mca <- MCA(clusterTest2,
-               ncp = 20,
-               graph = TRUE)
-res.hcpc <- HCPC(res.mca, nb.clust = -1, min = 3, max = NULL, graph = T)
-fviz_dend(res.hcpc, show_labels = FALSE)
-fviz_cluster(res.hcpc, geom = "point", main = "Factor map")
-h# Description by variables
-res.hcpc$desc.var$test.chi2
-# Description by variable categories
-res.hcpc$desc.var$category
-# Description by principle components
-res.hcpc$desc.axes
-# Description by individuals
-res.hcpc$desc.ind$para
-
-
 
 test.mca <- MCA(clusterTest2,
                ncp = 20,
@@ -84,7 +54,7 @@ dimdesc(res.mca, axes=1:7, proba=0.05)
 clusterTest2 <- res.hcpc$data.clust
 
 
-
+#count instances of each cluster
 clusterTest21 <- clusterTest2 %>%
   group_by(clust) %>%
   summarize(count = n()) 
