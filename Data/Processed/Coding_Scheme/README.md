@@ -1,0 +1,2 @@
+La pel�cula trata de las aventuras de Maidou, un ni�o de ciudad. Cuando pasa las vacaciones de verano en la casa de su abuela en el campo, descubre una serie de cosas muy interesantes. El aislamiento del estilo de vida urbano al que Maidou est� acostumbrado se ve desafiado por los valores familiares tradicionales del modo de vida rural. Despu�s de una sucesi�n de conflictos y fricciones, al final aprende a tener compasi�n, surge la amistad entre �l y los ni�os del pueblo y logra un gran crecimiento personal.
+Palabras claves: ni�os, amistad.

@@ -1,0 +1,26 @@
+﻿id,Gender,Country,Seniority,Field,Field_O,Research_done,Submitted_arxiv,Submitted_Journal,Accepted,Published,After_publication,Not_appropriate,Other,Rev_data,Rev_code,Rev_Twiki,Rev_slides,Rev_workflow
+1,Female,China,less than 5 years,Other,Library and Information Science,No,No,No,No,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+17,Male,Switzerland,more than 20 years,Other,accelerator physics,No,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat unhelpful,Very unhelpful,Somewhat unhelpful
+64,Male,Germany,11 - 15 years,Other,Computer Science,No,No,No,No,No,Yes,No,No,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful
+134,Male,Sweden,5 - 10 years,Other,IT,Yes,Yes,No,No,Yes,No,No,No,Very helpful,Very helpful,Neutral,Somewhat unhelpful,Somewhat helpful
+155,Male,Hungary,11 - 15 years,Other,Experiment and theory,No,No,No,No,Yes,No,Yes,Yes,Neutral,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+188,Male,Poland,less than 5 years,Other,Phenomenology,No,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+207,Male,France,11 - 15 years,Other,Phenomenology,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+250,Male,Germany,16 - 20 years,Other,,No,No,No,No,Yes,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Very helpful
+347,Male,Netherlands,less than 5 years,Other,Computer technologies,No,Yes,Yes,Yes,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+356,Male,Russian Federation,5 - 10 years,Other,IT,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+381,Male,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Other,Accelerator Physics,No,No,No,No,Yes,Yes,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+406,Male,Brazil,5 - 10 years,Other,Instrumentation,No,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+442,Male,Netherlands,less than 5 years,Other,,No,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+504,Male,Italy,more than 20 years,Other,radiation detectors,No,No,No,No,Yes,No,No,No,Neutral,Neutral,Neutral,Very helpful,Neutral
+505,Male,Bulgaria,less than 5 years,Other,Computing,Yes,Yes,Yes,No,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Somewhat helpful
+546,Male,Belgium,11 - 15 years,Other,pheno/it,Yes,Yes,No,No,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Neutral,Very helpful
+553,Male,Italy,16 - 20 years,Other,computing,No,No,No,No,Yes,No,No,No,Very unhelpful,Somewhat unhelpful,Neutral,Neutral,Neutral
+612,Male,Romania,less than 5 years,Other,,No,No,No,Yes,No,No,No,No,Somewhat helpful,Very helpful,Very helpful,Very helpful,Very helpful
+630,Female,Italy,16 - 20 years,Other,superconducting accelerator magnets,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful
+671,Male,Germany,11 - 15 years,Other,Electronics Design,No,No,No,No,No,Yes,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+698,Male,Portugal,more than 20 years,Other,process control,No,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+848,Male,Germany,more than 20 years,Other,Engineering,No,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+854,Male,Belarus,more than 20 years,Other,particle penetration through matter/crystals,No,Yes,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+875,Male,Greece,more than 20 years,Other,astroparticle physics,Yes,No,No,No,No,No,No,No,Neutral,Neutral,Neutral,Very helpful,Neutral
+231,Prefer not to say,United States of America,11 - 15 years,Other,,No,No,No,Yes,No,No,No,No,,,,,

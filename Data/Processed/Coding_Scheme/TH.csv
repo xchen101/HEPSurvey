@@ -1,0 +1,72 @@
+﻿id,Gender,Country,Seniority,Field,OD_using_TH,OD_using_EX,OD_helpful_EX,OD_helpful_TH,Research_done,Submitted_arxiv,Submitted_Journal,Accepted,Published,After_publication,Not_appropriate,Other,Rev_data,Rev_workflow,Rev_method
+13,Male,Finland,5 - 10 years,Theory,Yes,Yes,Strongly agree,Somewhat agree,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Neutral
+15,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Theory,Yes,Yes,Strongly agree,Somewhat agree,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+31,Male,Italy,11 - 15 years,Theory,No,No,Neutral,Neutral,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Neutral
+41,Prefer not to say,United States of America,more than 20 years,Theory,No,No,Somewhat agree,Strongly agree,No,Yes,No,No,No,No,No,No,Very helpful,Somewhat helpful,Very helpful
+58,Male,Slovenia,11 - 15 years,Theory,No,No,Strongly agree,Strongly agree,No,Yes,Yes,Yes,Yes,Yes,No,No,Somewhat unhelpful,Neutral,Somewhat helpful
+70,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Theory,No,No,Strongly disagree,Strongly disagree,Yes,Yes,Yes,Yes,Yes,No,No,No,Very helpful,Very helpful,Very helpful
+108,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Theory,No,No,Neutral,Neutral,No,No,No,Yes,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+109,Male,Italy,16 - 20 years,Theory,No,No,Somewhat agree,Somewhat agree,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+138,Male,France,11 - 15 years,Theory,Yes,Yes,Somewhat agree,Strongly agree,Yes,No,No,No,No,No,No,No,Neutral,Somewhat helpful,Very helpful
+139,Female,Portugal,5 - 10 years,Theory,No,Yes,Strongly agree,Neutral,No,No,No,No,No,No,No,Yes,Neutral,Neutral,Somewhat helpful
+150,Male,Sweden,more than 20 years,Theory,No,Yes,Strongly agree,Strongly agree,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Very helpful
+151,Male,Republic of Korea,more than 20 years,Theory,No,No,Strongly agree,Somewhat agree,No,No,No,Yes,No,No,No,No,Somewhat helpful,Neutral,Neutral
+156,Male,Denmark,5 - 10 years,Theory,Yes,Yes,Strongly agree,Strongly agree,No,Yes,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful
+158,Male,Portugal,more than 20 years,Theory,No,No,Neutral,Neutral,No,Yes,Yes,Yes,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful
+169,Male,Netherlands,more than 20 years,Theory,No,No,Neutral,Neutral,No,No,No,Yes,No,No,No,No,Neutral,Neutral,Neutral
+196,Male,Germany,5 - 10 years,Theory,Yes,No,Somewhat agree,Somewhat agree,No,Yes,No,No,No,No,No,No,Somewhat helpful,Very helpful,Very helpful
+210,Male,Italy,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,Yes,No,Yes,No,No,No,No,Neutral,Neutral,Somewhat helpful
+211,Male,Australia,11 - 15 years,Theory,No,Yes,Strongly agree,Strongly agree,Yes,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Neutral
+214,Male,Germany,more than 20 years,Theory,No,No,Neutral,Neutral,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Somewhat helpful
+236,Male,Czech Republic,5 - 10 years,Theory,No,No,Somewhat agree,Somewhat agree,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+265,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Theory,Yes,Yes,Strongly agree,Strongly agree,No,Yes,No,No,Yes,No,No,No,Neutral,Neutral,Somewhat helpful
+283,Male,Italy,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+300,Male,France,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,Yes,No,No,No,No,No,No,Very helpful,Very helpful,Very helpful
+314,Male,Poland,more than 20 years,Theory,No,No,Neutral,Neutral,No,Yes,No,No,No,No,No,No,Somewhat unhelpful,Neutral,Somewhat helpful
+328,Male,United States of America,more than 20 years,Theory,No,No,Somewhat disagree,Somewhat disagree,No,No,No,No,No,No,Yes,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful
+331,Female,South Africa,less than 5 years,Theory,No,No,Neutral,Neutral,No,Yes,No,No,No,No,No,No,Very helpful,Very helpful,Very helpful
+346,Male,Slovakia,16 - 20 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful
+354,Male,France,16 - 20 years,Theory,No,Yes,Strongly agree,Somewhat agree,No,No,No,Yes,No,No,No,No,Neutral,Neutral,Somewhat helpful
+361,Male,Norway,less than 5 years,Theory,Yes,No,Somewhat agree,Somewhat agree,No,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+400,Male,Germany,more than 20 years,Theory,Yes,No,Neutral,Somewhat agree,No,Yes,No,Yes,No,No,No,No,Neutral,Somewhat helpful,Very helpful
+407,Prefer not to say,Germany,more than 20 years,Theory,No,No,Strongly disagree,Somewhat disagree,No,No,No,Yes,No,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful
+423,Male,Russian Federation,11 - 15 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful
+425,Male,France,11 - 15 years,Theory,No,Yes,Strongly agree,Somewhat agree,No,No,No,No,No,Yes,No,No,Somewhat helpful,Neutral,Somewhat helpful
+438,Male,Italy,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,Yes,No,No,No,No,No,No,Neutral,Somewhat unhelpful,Somewhat unhelpful
+444,Male,Italy,more than 20 years,Theory,No,No,Strongly disagree,Strongly disagree,No,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral
+445,Female,Italy,more than 20 years,Theory,No,No,Neutral,Somewhat agree,No,No,No,Yes,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful
+456,Male,United States of America,more than 20 years,Theory,No,No,Somewhat agree,Somewhat agree,No,No,No,Yes,No,No,No,No,Very helpful,Somewhat unhelpful,Somewhat helpful
+467,Female,Germany,more than 20 years,Theory,No,Yes,Somewhat agree,Somewhat agree,No,Yes,Yes,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+529,Male,Chile,more than 20 years,Theory,No,No,Somewhat agree,Somewhat agree,No,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful
+536,Male,France,more than 20 years,Theory,No,No,Neutral,Neutral,Yes,No,No,No,Yes,No,No,No,Neutral,Neutral,Neutral
+564,Male,Germany,11 - 15 years,Theory,Yes,Yes,Strongly agree,Strongly agree,No,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Somewhat helpful
+582,Male,Germany,5 - 10 years,Theory,Yes,No,Strongly agree,Strongly agree,Yes,Yes,No,No,No,No,No,Yes,Neutral,Somewhat unhelpful,Neutral
+617,Male,Republic of Korea,more than 20 years,Theory,No,No,Somewhat agree,Somewhat agree,No,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful
+634,Female,China,less than 5 years,Theory,Yes,No,Somewhat agree,Somewhat agree,Yes,No,No,No,No,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful
+642,Male,United States of America,more than 20 years,Theory,Yes,Yes,Strongly disagree,Strongly disagree,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Neutral
+661,Male,France,11 - 15 years,Theory,No,No,Neutral,Somewhat agree,No,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+668,Male,Germany,16 - 20 years,Theory,No,Yes,Strongly agree,Strongly agree,Yes,No,No,Yes,Yes,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful
+697,Male,Colombia,more than 20 years,Theory,Yes,No,Strongly agree,Strongly agree,No,Yes,No,No,No,No,No,No,Somewhat helpful,Neutral,Somewhat helpful
+700,Male,Russian Federation,more than 20 years,Theory,Yes,No,Somewhat agree,Somewhat agree,No,No,No,No,Yes,No,No,No,Somewhat unhelpful,Very unhelpful,Neutral
+703,Male,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Theory,No,No,Neutral,Neutral,No,No,No,No,Yes,No,No,No,Neutral,Neutral,Neutral
+713,Male,Ukraine,more than 20 years,Theory,No,No,Neutral,Neutral,No,Yes,No,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+749,Male,Italy,5 - 10 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+751,Male,Hungary,more than 20 years,Theory,No,Yes,Strongly agree,Strongly agree,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Very helpful
+757,Male,France,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+758,Male,Russian Federation,more than 20 years,Theory,Yes,Yes,Strongly agree,Strongly agree,No,Yes,No,No,No,No,No,No,Very helpful,Neutral,Somewhat helpful
+779,Male,Spain,more than 20 years,Theory,No,Yes,Somewhat agree,Somewhat agree,No,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral
+793,Male,France,more than 20 years,Theory,Yes,Yes,Somewhat agree,Somewhat agree,No,Yes,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+795,Male,Italy,more than 20 years,Theory,Yes,No,Somewhat agree,Somewhat agree,No,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful
+796,Male,Bulgaria,more than 20 years,Theory,No,No,Neutral,Strongly agree,No,Yes,No,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+797,Female,Denmark,16 - 20 years,Theory,Yes,No,Somewhat agree,Somewhat agree,No,No,No,Yes,Yes,Yes,No,No,Neutral,Neutral,Neutral
+801,Male,Italy,more than 20 years,Theory,No,No,Somewhat agree,Somewhat agree,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+849,Male,Lithuania,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+850,Male,Poland,more than 20 years,Theory,Yes,No,Somewhat disagree,Somewhat disagree,No,No,No,No,Yes,No,No,No,Neutral,Neutral,Somewhat helpful
+852,Male,United States of America,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,Yes,No,Yes,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful
+857,Female,Venezuela (Bolivarian Republic of),more than 20 years,Theory,Yes,No,Somewhat agree,Somewhat agree,No,Yes,No,No,No,No,No,No,Neutral,Neutral,Neutral
+867,Male,Switzerland,more than 20 years,Theory,No,No,Strongly agree,Strongly agree,No,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Somewhat helpful
+878,Male,Iran (Islamic Republic of),more than 20 years,Theory,Yes,No,Neutral,Strongly agree,No,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Very helpful
+11,Male,United States of America,less than 5 years,Theory,No,No,Strongly agree,Strongly agree,Yes,No,No,No,No,No,No,No,,,
+247,Male,Norway,more than 20 years,Theory,No,No,Somewhat disagree,Somewhat disagree,No,Yes,No,No,No,No,No,No,,,
+291,Male,Ukraine,more than 20 years,Theory,Yes,Yes,Strongly disagree,Somewhat agree,No,No,No,No,No,Yes,No,No,,,
+846,Male,Hungary,more than 20 years,Theory,Yes,Yes,Somewhat agree,Somewhat agree,No,No,No,Yes,No,No,No,No,,,

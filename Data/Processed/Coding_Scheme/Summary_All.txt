@@ -1,0 +1,148 @@
+ id                      Gender                                                        Country
+Min.   :  1.0   Female           :103   United States of America                                :112
+1st Qu.:213.5   Male             :486   Italy                                                   : 76
+Median :402.0   Prefer not to say: 18   Germany                                                 : 63
+Mean   :428.1                           France                                                  : 57
+3rd Qu.:662.5                           the United Kingdom of Great Britain and Northern Ireland: 53
+Max.   :880.0                           Switzerland                                             : 22
+                                   (Other)                                                 :224
+        Seniority          Field             OS_BeneDiscipline         OS_BeneIndividual
+11 - 15 years     : 70   Experiment:511   Neutral          : 26     Neutral          : 80
+16 - 20 years     : 58   Other     : 25   Somewhat agree   :138     Somewhat agree   :152
+5 - 10 years      :121   Theory    : 71   Somewhat disagree: 14     Somewhat disagree: 13
+less than 5 years :126                    Strongly agree   :418     Strongly agree   :344
+more than 20 years:232                    Strongly disagree: 11     Strongly disagree: 18
+
+
+     OS_BenePublic            OA_ChSeeking              OA_ChSub        OD_aware  OD_seeking OD_using
+Neutral          : 85   Neutral          :107   Neutral          :244   No :203   No :441    No :439
+Somewhat agree   :156   Somewhat agree   :180   Somewhat agree   :159   Yes:404   Yes:166    Yes:168
+Somewhat disagree: 27   Somewhat disagree: 42   Somewhat disagree: 58
+Strongly agree   :327   Strongly agree   :247   Strongly agree   :106
+Strongly disagree: 12   Strongly disagree: 31   Strongly disagree: 40
+
+
+OD_sharing OD_none         OD_publish              OD_anyone               OD_helpful
+No :465    No :484   Neutral          : 60   Neutral          : 75   Neutral          :155
+Yes:142    Yes:123   Somewhat agree   :211   Somewhat agree   :209   Somewhat agree   :179
+                Somewhat disagree: 55   Somewhat disagree: 68   Somewhat disagree: 33
+                Strongly agree   :262   Strongly agree   :224   Strongly agree   :210
+                Strongly disagree: 19   Strongly disagree: 31   Strongly disagree: 30
+
+
+     OD_dontaffect
+Neutral          :100
+Somewhat agree   :171
+Somewhat disagree: 97
+Strongly agree   :208
+Strongly disagree: 31
+
+
+                                                                                      Who_decide
+Each collaboration or team should decide for their work.                                        :299
+Each individual researcher should decide for their work autonomously.                           : 47
+Other                                                                                           :  7
+The funding bodies or institutions should decide and develop policies for researchers to follow.: 78
+The HEP community as a whole should decide and set practices.                                   :176
+
+
+Sharing_asked Sharing_shared Sharing_never Sharing_not_interested     Sharing_addedwork
+No :271       No :164        No :519       No :591                            : 17
+Yes:336       Yes:443        Yes: 88       Yes: 16           Affect a lot     :160
+                                                             Neutral          : 94
+                                                             Not at all affect: 27
+                                                             Rarely affect    : 53
+                                                             Somewhat affect  :256
+
+     Sharing_rights        Sharing_competition          Sharing_quality         Sharing_essential
+            : 17                     : 17                       : 17                     : 17
+Affect a lot     :249    Affect a lot     : 91      Affect a lot     :188    Affect a lot     :210
+Neutral          :121    Neutral          :162      Neutral          :106    Neutral          :125
+Not at all affect: 24    Not at all affect: 67      Not at all affect: 29    Not at all affect: 33
+Rarely affect    : 26    Rarely affect    : 70      Rarely affect    : 32    Rarely affect    : 25
+Somewhat affect  :170    Somewhat affect  :200      Somewhat affect  :235    Somewhat affect  :197
+
+    Sharing_selfeval          Sharing_request      Sharing_responsiblyused
+            : 17                      : 17                     : 17
+Affect a lot     :167     Affect a lot     :186    Affect a lot     :200
+Neutral          :105     Neutral          :108    Neutral          :131
+Not at all affect: 21     Not at all affect: 25    Not at all affect: 39
+Rarely affect    : 37     Rarely affect    : 37    Rarely affect    : 40
+Somewhat affect  :260     Somewhat affect  :234    Somewhat affect  :180
+
+    Sharing_required           Doc_askpeople            Doc_reproduc          Doc_unproductive
+            : 17                      : 31                    : 31                    : 31
+Affect a lot     :157     Neutral          :128   Neutral          : 19   Neutral          : 92
+Neutral          :192     Somewhat agree   :188   Somewhat agree   :158   Somewhat agree   :104
+Not at all affect: 45     Somewhat disagree:139   Somewhat disagree:  3   Somewhat disagree:200
+Rarely affect    : 28     Strongly agree   : 62   Strongly agree   :395   Strongly agree   : 33
+Somewhat affect  :168     Strongly disagree: 59   Strongly disagree:  1   Strongly disagree:147
+
+      Doc_unuseful            Rev_coderev         Rev_qualitynotaffect              Rev_doc
+            : 31                    : 32                    : 32                        : 33
+Neutral          : 81   Neutral          :126   Neutral          : 99       Neutral          :143
+Somewhat agree   :103   Somewhat agree   :137   Somewhat agree   :213       Somewhat agree   :160
+Somewhat disagree:200   Somewhat disagree:152   Somewhat disagree: 73       Somewhat disagree:142
+Strongly agree   : 34   Strongly agree   : 50   Strongly agree   :169       Strongly agree   : 41
+Strongly disagree:158   Strongly disagree:110   Strongly disagree: 21       Strongly disagree: 88
+
+Rev_docreadywhenpublish              Tool_codemanage             Tool_issuetracker
+            : 33        Daily                :209    Less than once a year:229
+Neutral          :115        Weekly               :140    Monthly              : 88
+Somewhat agree   :216        Less than once a year: 84    Weekly               : 85
+Somewhat disagree: 89        Monthly              : 65    Daily                : 83
+Strongly agree   :108        Once every 3 months  : 43    Once every 3 months  : 41
+Strongly disagree: 46                             : 37                         : 37
+                             (Other)              : 29    (Other)              : 44
+
+         Tool_docmanage               Tool_coediting              Tool_eventmanage
+Weekly               :180    Weekly               :156    Daily                :266
+Daily                :179    Monthly              :117    Weekly               :183
+Monthly              : 86    Daily                :112    Monthly              : 56
+Less than once a year: 51    Less than once a year: 91                         : 37
+                : 37    Once every 3 months  : 49    Once every 3 months  : 25
+Once every 3 months  : 31                         : 37    Less than once a year: 21
+(Other)              : 43    (Other)              : 45    (Other)              : 19
+
+         Tool_notebook                           Happy_codemanage
+Less than once a year:324                                     : 37
+Daily                : 49   Moderately dissatisfied           : 33
+Once every 3 months  : 48   Moderately satisfied              :137
+Weekly               : 48   Neither satisfied nor dissatisfied: 48
+Monthly              : 47   No experience                     : 73
+                : 37   Very dissatisfied                 : 11
+(Other)              : 54   Very satisfied                    :268
+                    Happy_issuetracker                           Happy_docmanage
+                             : 37                                        : 37
+Moderately dissatisfied           : 32      Moderately dissatisfied           : 70
+Moderately satisfied              :139      Moderately satisfied              :220
+Neither satisfied nor dissatisfied: 86      Neither satisfied nor dissatisfied: 96
+No experience                     :221      No experience                     : 38
+Very dissatisfied                 :  8      Very dissatisfied                 : 22
+Very satisfied                    : 84      Very satisfied                    :124
+
+                     Happy_coediting                           Happy_refmanage
+                             : 37                                      : 37
+Moderately dissatisfied           : 26    Moderately dissatisfied           : 23
+Moderately satisfied              :175    Moderately satisfied              : 27
+Neither satisfied nor dissatisfied: 87    Neither satisfied nor dissatisfied: 48
+No experience                     :106    No experience                     :443
+Very dissatisfied                 : 10    Very dissatisfied                 :  5
+Very satisfied                    :166    Very satisfied                    : 24
+
+                    Happy_eventmanage                            Happy_notebook
+                             : 37                                       : 37
+Moderately dissatisfied           : 23     Moderately dissatisfied           : 14
+Moderately satisfied              :193     Moderately satisfied              : 77
+Neither satisfied nor dissatisfied: 37     Neither satisfied nor dissatisfied: 60
+No experience                     : 22     No experience                     :329
+Very dissatisfied                 : 16     Very dissatisfied                 :  7
+Very satisfied                    :279     Very satisfied                    : 83
+
+    Tool_endorsement           Tool_efficient             Tool_easy               Tool_peers
+            : 37                      : 37                     : 37                    : 37
+Affect a lot     :232     Affect a lot     :312    Affect a lot     :370   Affect a lot     :207
+Neutral          : 67     Neutral          : 51    Neutral          : 34   Neutral          : 70
+Not at all affect: 20     Not at all affect:  6    Not at all affect:  3   Not at all affect: 10
+Rarely affect    : 24     Rarely affect    :  2    Rarely affect    :  5   Rarely affect    : 26
+Somewhat affect  :227     Somewhat affect  :199    Somewhat affect  :158   Somewhat affect  :257

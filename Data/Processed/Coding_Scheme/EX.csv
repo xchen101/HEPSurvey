@@ -1,0 +1,512 @@
+﻿id,Gender,Country,Seniority,Field,Field_S,Research_done,Submitted,Accepted,Published,After_publication,Not_appropriate,Other,Rev_data,Rev_code,Rev_Twiki,Rev_slides,Rev_workflow
+8,Female,United States of America,11 - 15 years,Experiment,51 - 100 members,No,Yes,No,No,No,No,No,Very helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+19,Male,Slovakia,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+20,Male,Germany,11 - 15 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+21,Female,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+22,Female,China,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Neutral
+23,Male,South Africa,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Very helpful,Neutral
+25,Prefer not to say,United States of America,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+27,Female,Belgium,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+28,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Neutral,Very unhelpful
+33,Male,Switzerland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very unhelpful,Very helpful,Very helpful,Very helpful,Very unhelpful
+36,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Neutral,Neutral,Somewhat unhelpful
+39,Male,Netherlands,5 - 10 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+40,Female,United States of America,5 - 10 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful
+42,Male,France,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+45,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+46,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Very helpful,Somewhat unhelpful
+49,Male,United States of America,more than 20 years,Experiment,< 20 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+52,Male,Germany,5 - 10 years,Experiment,> 500 members,No,No,Yes,Yes,Yes,No,No,Very helpful,Very helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+53,Female,Czech Republic,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Very helpful
+54,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Neutral
+55,Male,France,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,Yes,Somewhat unhelpful,Very helpful,Somewhat unhelpful,Somewhat unhelpful,Very helpful
+59,Male,Switzerland,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Neutral,Neutral,Very unhelpful
+60,Male,Portugal,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Somewhat helpful,Very helpful,Somewhat helpful,Very helpful
+61,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+62,Male,Belgium,5 - 10 years,Experiment,> 500 members,Yes,Yes,Yes,Yes,No,No,No,Somewhat helpful,Very helpful,Neutral,Somewhat unhelpful,Very helpful
+63,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+66,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+68,Male,Russian Federation,16 - 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Neutral,Neutral
+69,Male,Germany,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very unhelpful,Very unhelpful,Neutral,Somewhat unhelpful,Very unhelpful
+71,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,Yes,Very unhelpful,Very unhelpful,Very unhelpful,Neutral,Very unhelpful
+73,Male,Italy,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Neutral,Somewhat unhelpful
+77,Female,Italy,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Neutral,Somewhat helpful,Very helpful,Neutral
+79,Male,Italy,less than 5 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+80,Male,Austria,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Neutral,Somewhat helpful,Very helpful,Somewhat helpful,Neutral
+81,Male,Georgia,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+83,Male,Italy,more than 20 years,Experiment,51 - 100 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+84,Male,United States of America,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+87,Male,Spain,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+89,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+90,Male,Russian Federation,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+91,Male,Italy,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+93,Male,France,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+94,Female,Italy,5 - 10 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Neutral,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+98,Female,Spain,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Very helpful,Neutral,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+100,Male,Greece,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+101,Male,France,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+102,Female,United States of America,11 - 15 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Somewhat helpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+105,Male,Australia,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Neutral,Neutral,Somewhat helpful,Somewhat helpful
+106,Male,Italy,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+107,Male,Czech Republic,more than 20 years,Experiment,101 - 500 members,No,Yes,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+110,Male,Republic of Korea,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+114,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+115,Male,Russian Federation,more than 20 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+117,Male,Greece,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Somewhat helpful
+118,Male,France,less than 5 years,Experiment,> 500 members,Yes,No,No,Yes,No,No,No,Neutral,Very helpful,Very helpful,Very helpful,Very helpful
+121,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+122,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+123,Male,Hungary,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+124,Prefer not to say,Switzerland,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+128,Male,India,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+130,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Neutral,Neutral,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+132,Male,United States of America,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+135,Prefer not to say,Russian Federation,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,Yes,Neutral,Neutral,Neutral,Neutral,Neutral
+136,Male,Italy,5 - 10 years,Experiment,> 500 members,No,Yes,No,Yes,Yes,No,No,Somewhat helpful,Neutral,Very helpful,Very helpful,Somewhat unhelpful
+140,Male,Italy,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat helpful,Neutral
+141,Female,Italy,11 - 15 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Neutral,Somewhat unhelpful,Very helpful,Very helpful,Somewhat unhelpful
+142,Male,France,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Neutral,Somewhat helpful,Very helpful,Somewhat helpful
+144,Male,Slovakia,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Very unhelpful,Very unhelpful
+145,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful
+146,Female,Spain,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+147,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Very unhelpful,Somewhat unhelpful,Neutral,Very unhelpful
+148,Female,Italy,16 - 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Neutral,Somewhat helpful,Somewhat unhelpful,Very unhelpful
+149,Female,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+152,Female,Netherlands,more than 20 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+157,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Neutral
+159,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+161,Female,United States of America,less than 5 years,Experiment,> 500 members,Yes,Yes,No,Yes,Yes,No,No,Somewhat unhelpful,Somewhat helpful,Neutral,Somewhat unhelpful,Neutral
+162,Male,China,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+164,Male,Switzerland,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Somewhat unhelpful,Somewhat unhelpful
+165,Prefer not to say,France,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+166,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Neutral,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful,Very unhelpful
+167,Male,Spain,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+168,Male,Netherlands,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Neutral,Very helpful
+170,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful
+171,Male,Sweden,5 - 10 years,Experiment,20 - 50 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat unhelpful,Somewhat helpful
+173,Male,Germany,5 - 10 years,Experiment,> 500 members,Yes,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+174,Male,Switzerland,16 - 20 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+175,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+176,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+177,Male,Italy,more than 20 years,Experiment,20 - 50 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+178,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+179,Male,Switzerland,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat helpful
+180,Male,Germany,11 - 15 years,Experiment,51 - 100 members,Yes,Yes,No,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+182,Female,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Somewhat helpful,Very helpful,Neutral
+185,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Neutral,Somewhat unhelpful
+186,Male,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,Yes,No,No,Neutral,Neutral,Neutral,Somewhat helpful,Somewhat helpful
+187,Male,Switzerland,11 - 15 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+189,Male,Switzerland,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Very helpful,Very helpful,Neutral
+190,Male,Sweden,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+193,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Neutral,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+194,Male,France,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+195,Male,Slovakia,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+197,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Neutral
+198,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Somewhat helpful,Neutral
+199,Male,China,11 - 15 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+200,Male,France,5 - 10 years,Experiment,101 - 500 members,No,No,No,Yes,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Neutral,Somewhat unhelpful
+202,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Very helpful,Neutral,Neutral,Neutral
+203,Male,Switzerland,11 - 15 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Neutral,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful
+204,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very unhelpful,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat unhelpful
+205,Female,Norway,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,No,No,No,No,Somewhat helpful,Very helpful,Very helpful,Very helpful,Somewhat helpful
+208,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+209,Male,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat unhelpful,Somewhat helpful
+212,Male,Czech Republic,less than 5 years,Experiment,> 500 members,No,No,Yes,Yes,Yes,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+213,Male,Poland,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Neutral,Somewhat helpful
+215,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+216,Male,Canada,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+217,Male,Brazil,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+219,Male,United States of America,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+220,Male,Germany,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,Yes,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful
+221,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,Yes,Yes,Yes,No,Yes,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat helpful
+222,Male,Denmark,5 - 10 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+223,Female,Brazil,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Neutral,Somewhat unhelpful
+224,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Very unhelpful,Very unhelpful
+225,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful
+226,Female,United States of America,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Very helpful,Very unhelpful
+228,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+229,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Very unhelpful,Somewhat helpful,Very unhelpful
+230,Male,France,16 - 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+232,Male,France,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat unhelpful,Somewhat helpful
+233,Male,Czech Republic,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful
+234,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+237,Male,Spain,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat unhelpful
+238,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat unhelpful,Neutral,Neutral,Somewhat unhelpful
+239,Male,Germany,5 - 10 years,Experiment,51 - 100 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Neutral,Somewhat helpful
+240,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Neutral,Neutral,Neutral,Neutral
+242,Male,Brazil,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+243,Male,Germany,11 - 15 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+244,Male,India,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+246,Male,United States of America,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+248,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Neutral,Neutral,Somewhat helpful
+251,Female,Spain,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Very helpful
+252,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful
+253,Male,United States of America,11 - 15 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Very helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+255,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,Yes,No,Yes,No,No,No,Very helpful,Very helpful,Very unhelpful,Somewhat unhelpful,Very helpful
+257,Male,United States of America,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+258,Male,United States of America,16 - 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Neutral,Neutral,Very helpful
+259,Male,United States of America,11 - 15 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Very helpful,Neutral,Neutral,Very helpful
+260,Prefer not to say,United States of America,5 - 10 years,Experiment,> 500 members,Yes,Yes,No,Yes,No,No,Yes,Neutral,Very helpful,Neutral,Neutral,Neutral
+261,Female,United States of America,more than 20 years,Experiment,> 500 members,No,No,Yes,Yes,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+263,Male,United States of America,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+264,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+266,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Very unhelpful,Very unhelpful,Very unhelpful
+267,Male,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Somewhat helpful,Very unhelpful
+269,Male,Portugal,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat unhelpful,Somewhat helpful
+270,Female,United States of America,5 - 10 years,Experiment,> 500 members,Yes,Yes,Yes,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+273,Male,France,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+274,Male,Mexico,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Very helpful,Very helpful,Very helpful,Very helpful
+276,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful
+277,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat helpful,Very unhelpful,Very unhelpful,Very unhelpful,Neutral
+278,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+279,Male,Republic of Korea,less than 5 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+280,Female,United States of America,less than 5 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Very helpful,Very helpful
+281,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat unhelpful,Very unhelpful,Neutral,Neutral,Very unhelpful
+282,Female,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,No,Yes,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+285,Female,Canada,5 - 10 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Very unhelpful,Very unhelpful
+287,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Neutral,Somewhat unhelpful,Somewhat unhelpful,Neutral
+288,Male,Ecuador,5 - 10 years,Experiment,51 - 100 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+289,Female,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Very unhelpful,Neutral,Somewhat helpful,Neutral
+290,Male,United States of America,more than 20 years,Experiment,101 - 500 members,No,Yes,Yes,No,No,No,No,Somewhat helpful,Neutral,Neutral,Somewhat helpful,Neutral
+292,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+293,Male,Canada,less than 5 years,Experiment,20 - 50 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+295,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat helpful,Very helpful,Very unhelpful
+296,Male,France,more than 20 years,Experiment,101 - 500 members,No,Yes,Yes,No,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+297,Female,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Neutral,Somewhat helpful
+298,Female,France,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Somewhat unhelpful,Neutral,Neutral,Somewhat unhelpful
+299,Male,United States of America,less than 5 years,Experiment,> 500 members,No,Yes,No,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+301,Male,Russian Federation,more than 20 years,Experiment,> 500 members,Yes,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful
+303,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+304,Male,Canada,5 - 10 years,Experiment,20 - 50 members,No,No,Yes,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+305,Male,United States of America,5 - 10 years,Experiment,> 500 members,Yes,Yes,No,Yes,Yes,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+307,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+309,Male,Canada,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Neutral,Somewhat unhelpful,Neutral
+311,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat helpful,Very helpful,Very helpful,Somewhat unhelpful
+313,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+315,Male,Czech Republic,less than 5 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Neutral,Neutral
+316,Female,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful,Neutral
+318,Male,Canada,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Neutral,Neutral
+320,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,Yes,Neutral,Neutral,Neutral,Somewhat helpful,Neutral
+321,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat unhelpful,Neutral,Neutral,Very unhelpful
+322,Male,Brazil,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+323,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat unhelpful,Very unhelpful,Neutral,Neutral,Somewhat unhelpful
+324,Male,Greece,5 - 10 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+326,Female,Republic of Korea,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Somewhat helpful,Neutral
+329,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+330,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful
+332,Female,United States of America,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+334,Male,Denmark,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Very helpful,Somewhat unhelpful
+335,Male,Turkey,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+337,Male,Germany,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+339,Female,France,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+340,Male,Germany,more than 20 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+342,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+344,Male,Switzerland,less than 5 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Neutral,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+345,Male,Germany,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+348,Female,Brazil,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+349,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Neutral,Neutral
+350,Male,Belgium,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+351,Male,Russian Federation,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Neutral,Neutral,Somewhat helpful
+355,Male,Italy,11 - 15 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very unhelpful,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+358,Male,Russian Federation,5 - 10 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Very helpful,Somewhat helpful
+359,Female,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Neutral,Somewhat helpful,Very helpful,Neutral
+360,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Very unhelpful,Very unhelpful,Somewhat unhelpful,Neutral,Somewhat unhelpful
+362,Male,Belgium,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very unhelpful,Neutral,Somewhat helpful,Very helpful,Neutral
+363,Male,France,more than 20 years,Experiment,101 - 500 members,No,Yes,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+364,Female,Germany,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+365,Female,Portugal,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+366,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+367,Male,United States of America,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Neutral,Somewhat helpful,Neutral,Somewhat helpful,Neutral
+368,Male,Switzerland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+369,Male,Canada,less than 5 years,Experiment,20 - 50 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+370,Male,Belgium,16 - 20 years,Experiment,> 500 members,No,Yes,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very helpful,Very unhelpful
+372,Female,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+373,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+376,Male,Slovakia,more than 20 years,Experiment,> 500 members,No,Yes,No,No,Yes,No,No,Very unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+377,Male,New Zealand,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Neutral
+378,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+379,Male,France,less than 5 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Neutral,Very helpful,Neutral
+380,Male,France,11 - 15 years,Experiment,20 - 50 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+382,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+383,Male,Spain,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+384,Male,Italy,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+385,Male,Netherlands,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,Yes,Very unhelpful,Somewhat helpful,Somewhat helpful,Very helpful,Neutral
+386,Male,Russian Federation,5 - 10 years,Experiment,101 - 500 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful
+388,Male,Italy,16 - 20 years,Experiment,20 - 50 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+389,Female,Canada,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+390,Male,Netherlands,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+391,Male,United States of America,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very unhelpful,Very unhelpful,Neutral,Somewhat helpful,Somewhat unhelpful
+393,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Neutral,Neutral
+395,Female,Spain,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+397,Male,Japan,more than 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Neutral,Somewhat unhelpful
+398,Male,Austria,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+399,Male,China,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Neutral,Neutral,Neutral,Very helpful,Somewhat unhelpful
+402,Female,Canada,less than 5 years,Experiment,20 - 50 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful
+403,Male,Germany,11 - 15 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+404,Female,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+409,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat helpful,Very helpful,Neutral
+410,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very helpful,Somewhat helpful,Very unhelpful,Somewhat helpful,Neutral
+411,Male,Germany,less than 5 years,Experiment,< 20 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+412,Male,Germany,more than 20 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Somewhat helpful,Neutral,Neutral
+413,Female,Germany,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Neutral,Somewhat unhelpful,Somewhat helpful,Neutral
+414,Male,United States of America,11 - 15 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+416,Male,Japan,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful
+418,Male,Netherlands,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Neutral,Neutral
+419,Male,Canada,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Somewhat helpful
+420,Male,United States of America,11 - 15 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Neutral,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+422,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Very helpful,Very helpful,Neutral
+424,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful
+426,Female,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Neutral,Neutral
+428,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat unhelpful
+429,Male,Italy,less than 5 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Very unhelpful,Somewhat helpful,Very helpful,Very unhelpful
+430,Female,Sweden,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+431,Male,India,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+432,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Very helpful,Somewhat unhelpful
+434,Male,United States of America,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Very helpful,Very helpful,Somewhat unhelpful
+435,Male,Italy,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Neutral
+439,Male,Switzerland,11 - 15 years,Experiment,20 - 50 members,No,No,No,Yes,Yes,No,No,Neutral,Neutral,Neutral,Somewhat helpful,Neutral
+441,Prefer not to say,Switzerland,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Somewhat helpful,Very unhelpful
+443,Male,Belgium,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Very helpful,Very helpful,Very helpful,Very helpful
+446,Male,Italy,16 - 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+448,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+449,Female,United States of America,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Neutral,Somewhat helpful,Neutral
+450,Prefer not to say,Italy,11 - 15 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Neutral,Somewhat helpful
+451,Female,Bulgaria,5 - 10 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+455,Male,Italy,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very helpful
+457,Male,Italy,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+458,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful
+459,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+460,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,101 - 500 members,No,No,Yes,Yes,No,No,No,Neutral,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+461,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Somewhat helpful,Somewhat helpful,Very unhelpful,Somewhat helpful,Somewhat helpful
+462,Male,Germany,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+463,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Very unhelpful,Somewhat helpful,Very helpful,Very unhelpful
+466,Male,Poland,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+468,Female,China,5 - 10 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+470,Male,France,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Very helpful,Very helpful,Somewhat helpful
+471,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+479,Male,Denmark,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Neutral,Somewhat helpful,Neutral
+480,Prefer not to say,France,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Neutral,Somewhat unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+481,Female,Germany,less than 5 years,Experiment,> 500 members,No,Yes,No,No,Yes,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+482,Female,Republic of Korea,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+486,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Neutral,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful
+487,Male,Switzerland,less than 5 years,Experiment,< 20 members,No,Yes,Yes,Yes,Yes,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Neutral
+489,Male,United States of America,11 - 15 years,Experiment,> 500 members,No,Yes,Yes,No,No,No,No,Neutral,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+490,Female,India,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Somewhat helpful,Very helpful,Very helpful,Very helpful
+493,Female,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Experiment,> 500 members,Yes,No,No,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful
+495,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,> 500 members,No,No,Yes,Yes,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+496,Male,Russian Federation,16 - 20 years,Experiment,101 - 500 members,No,Yes,Yes,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+497,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat unhelpful,Somewhat helpful
+501,Prefer not to say,Italy,5 - 10 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+502,Male,Italy,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Neutral,Neutral,Somewhat helpful,Somewhat unhelpful
+507,Female,India,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+509,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Neutral,Very helpful
+511,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+512,Male,Turkey,less than 5 years,Experiment,> 500 members,No,Yes,Yes,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Neutral
+516,Male,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Somewhat helpful,Very unhelpful
+518,Male,United States of America,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+519,Male,Poland,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+520,Female,Romania,11 - 15 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+521,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,20 - 50 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+522,Male,Austria,11 - 15 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Neutral,Neutral,Somewhat helpful,Very unhelpful,Somewhat unhelpful
+523,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+527,Male,Switzerland,5 - 10 years,Experiment,< 20 members,No,No,No,No,Yes,No,No,Very unhelpful,Somewhat unhelpful,Somewhat helpful,Neutral,Very unhelpful
+528,Male,Italy,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Neutral,Somewhat helpful,Somewhat helpful,Very helpful,Neutral
+530,Male,France,more than 20 years,Experiment,< 20 members,No,No,Yes,No,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful
+532,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat helpful,Neutral
+533,Female,United States of America,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+534,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Neutral,Somewhat helpful,Neutral
+539,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Neutral,Neutral,Somewhat helpful,Neutral
+541,Male,Norway,less than 5 years,Experiment,< 20 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Neutral
+542,Male,Slovenia,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Neutral,Neutral,Somewhat unhelpful
+544,Male,Romania,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+548,Male,Austria,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very unhelpful,Somewhat unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+549,Female,Italy,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Neutral,Somewhat unhelpful,Neutral
+550,Male,Russian Federation,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful
+555,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat helpful
+556,Male,France,16 - 20 years,Experiment,101 - 500 members,Yes,Yes,Yes,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat unhelpful,Neutral,Very helpful
+558,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+561,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+562,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Neutral,Very unhelpful,Very unhelpful,Somewhat unhelpful,Very unhelpful
+568,Female,Germany,less than 5 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Very helpful,Neutral
+569,Prefer not to say,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+570,Male,Croatia,more than 20 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+573,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat unhelpful
+574,Male,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful
+577,Male,Austria,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Very helpful,Somewhat unhelpful,Very helpful,Very helpful,Neutral
+579,Female,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+580,Male,Germany,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+583,Prefer not to say,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+584,Male,Israel,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat unhelpful
+585,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+586,Male,Germany,5 - 10 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+590,Female,Hungary,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Somewhat helpful,Very helpful,Somewhat unhelpful
+594,Male,Slovenia,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Neutral,Neutral,Somewhat helpful,Neutral
+595,Male,Germany,less than 5 years,Experiment,51 - 100 members,No,No,Yes,Yes,Yes,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Somewhat helpful
+598,Female,Germany,less than 5 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+599,Male,United States of America,16 - 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat unhelpful,Very helpful
+600,Female,Switzerland,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+606,Male,Turkey,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Neutral
+611,Male,United States of America,11 - 15 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+614,Male,Italy,5 - 10 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat unhelpful,Neutral
+616,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+620,Male,Spain,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+621,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Neutral,Neutral,Somewhat helpful,Neutral
+626,Male,France,more than 20 years,Experiment,20 - 50 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Very unhelpful,Neutral,Neutral,Very unhelpful
+629,Male,Italy,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+638,Male,India,less than 5 years,Experiment,< 20 members,No,Yes,No,No,Yes,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+639,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Very helpful,Very unhelpful
+645,Male,Spain,more than 20 years,Experiment,< 20 members,No,No,No,Yes,Yes,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+646,Female,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+650,Female,Italy,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+652,Female,China,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+655,Female,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful
+656,Female,Brazil,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+657,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Neutral,Very helpful,Somewhat helpful,Neutral
+664,Male,Belgium,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat unhelpful,Neutral
+665,Male,Switzerland,11 - 15 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Neutral,Neutral,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+666,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Neutral
+670,Male,Canada,more than 20 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+672,Male,India,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+673,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+675,Male,Italy,more than 20 years,Experiment,51 - 100 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Neutral,Very helpful,Neutral
+677,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat unhelpful
+678,Female,United States of America,less than 5 years,Experiment,< 20 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful
+679,Male,Belgium,5 - 10 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+680,Female,Germany,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Very unhelpful,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful
+681,Male,China,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+686,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Very helpful
+687,Female,United States of America,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+688,Male,Italy,more than 20 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+689,Male,Germany,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+690,Male,Iran (Islamic Republic of),11 - 15 years,Experiment,> 500 members,No,No,Yes,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+691,Female,Finland,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+692,Male,Brazil,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Very helpful,Somewhat helpful,Neutral,Somewhat unhelpful,Somewhat helpful
+694,Male,Italy,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+695,Male,Germany,more than 20 years,Experiment,101 - 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+696,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Very helpful,Somewhat helpful,Somewhat helpful,Neutral
+699,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,Yes,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+701,Female,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+702,Female,Poland,5 - 10 years,Experiment,> 500 members,Yes,Yes,No,No,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+704,Female,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Very helpful
+706,Female,Republic of Korea,16 - 20 years,Experiment,20 - 50 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Somewhat helpful,Somewhat unhelpful
+708,Female,Italy,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+709,Male,Italy,more than 20 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat unhelpful,Very unhelpful,Neutral,Somewhat unhelpful,Somewhat unhelpful
+711,Male,Bulgaria,16 - 20 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+712,Female,Canada,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,Yes,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat unhelpful
+714,Male,France,more than 20 years,Experiment,20 - 50 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+715,Prefer not to say,France,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+716,Male,France,more than 20 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful
+717,Male,Switzerland,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+718,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat unhelpful
+719,Male,Canada,more than 20 years,Experiment,101 - 500 members,No,No,No,No,No,No,Yes,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+720,Male,South Africa,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral,Somewhat unhelpful
+721,Male,United States of America,more than 20 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Neutral,Neutral,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+724,Male,France,16 - 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Very helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Neutral
+725,Male,France,5 - 10 years,Experiment,< 20 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+728,Male,Italy,5 - 10 years,Experiment,< 20 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Very unhelpful
+731,Prefer not to say,United States of America,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+732,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Very helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+733,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat unhelpful,Neutral,Neutral,Somewhat unhelpful
+737,Male,Colombia,less than 5 years,Experiment,< 20 members,No,No,No,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+738,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful,Very unhelpful
+739,Male,Germany,more than 20 years,Experiment,101 - 500 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Neutral,Neutral,Very helpful
+741,Prefer not to say,Germany,5 - 10 years,Experiment,> 500 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+742,Female,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+743,Male,China,less than 5 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Very helpful,Neutral,Somewhat helpful
+748,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+750,Male,United States of America,more than 20 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat unhelpful,Somewhat helpful
+752,Female,United States of America,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Neutral,Somewhat unhelpful,Neutral,Somewhat helpful,Neutral
+753,Male,Italy,11 - 15 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat unhelpful,Very unhelpful,Somewhat helpful,Very helpful,Very unhelpful
+754,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Very unhelpful,Very unhelpful,Neutral,Somewhat unhelpful,Very unhelpful
+756,Male,United States of America,less than 5 years,Experiment,> 500 members,No,No,Yes,Yes,Yes,No,No,Very helpful,Very helpful,Neutral,Somewhat helpful,Very helpful
+759,Male,Germany,5 - 10 years,Experiment,> 500 members,No,No,Yes,No,Yes,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful
+761,Male,Russian Federation,more than 20 years,Experiment,> 500 members,No,No,No,No,No,Yes,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Neutral
+766,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,20 - 50 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Very helpful
+767,Male,Canada,5 - 10 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+769,Male,New Zealand,5 - 10 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+771,Female,France,5 - 10 years,Experiment,20 - 50 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Neutral,Neutral,Neutral
+774,Male,Switzerland,less than 5 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Very helpful,Very helpful,Neutral
+775,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+778,Male,France,less than 5 years,Experiment,> 500 members,Yes,No,No,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Very helpful
+781,Male,France,11 - 15 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+782,Male,Greece,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very helpful
+786,Female,France,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+787,Male,Portugal,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Neutral
+788,Male,Spain,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Neutral,Somewhat unhelpful
+789,Male,Poland,more than 20 years,Experiment,101 - 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Neutral,Neutral,Somewhat helpful
+790,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+791,Male,Germany,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful
+792,Male,Sweden,more than 20 years,Experiment,20 - 50 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Somewhat unhelpful,Neutral,Very unhelpful
+794,Male,Russian Federation,less than 5 years,Experiment,51 - 100 members,No,Yes,No,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Somewhat helpful
+798,Female,Germany,16 - 20 years,Experiment,51 - 100 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Neutral,Neutral
+799,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+800,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Very helpful,Somewhat unhelpful,Very unhelpful,Somewhat helpful,Somewhat unhelpful
+803,Male,Italy,more than 20 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Neutral
+804,Male,Czech Republic,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,Yes,No,Somewhat unhelpful,Somewhat unhelpful,Neutral,Neutral,Somewhat unhelpful
+805,Male,France,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Very helpful,Very helpful,Somewhat helpful
+806,Female,South Africa,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+807,Male,Israel,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Neutral,Somewhat helpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+809,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+813,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+818,Male,China,5 - 10 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Somewhat helpful,Neutral,Somewhat helpful,Very helpful,Neutral
+822,Male,Spain,more than 20 years,Experiment,101 - 500 members,No,No,Yes,Yes,Yes,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+824,Female,Italy,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very unhelpful,Very unhelpful,Somewhat helpful,Very helpful,Very unhelpful
+825,Male,Netherlands,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very helpful,Somewhat unhelpful
+826,Male,Colombia,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful
+827,Female,Italy,16 - 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Neutral
+830,Male,Russian Federation,5 - 10 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Neutral,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+831,Male,Italy,more than 20 years,Experiment,51 - 100 members,No,No,No,No,Yes,No,No,Very unhelpful,Very unhelpful,Very unhelpful,Somewhat helpful,Very unhelpful
+833,Male,Germany,less than 5 years,Experiment,51 - 100 members,No,No,Yes,Yes,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat helpful,Very unhelpful
+834,Male,Ukraine,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+836,Female,Israel,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,Very unhelpful,Very unhelpful,Neutral,Somewhat helpful,Very unhelpful
+837,Male,France,5 - 10 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful
+838,Male,Russian Federation,16 - 20 years,Experiment,> 500 members,No,Yes,No,Yes,No,No,No,Very unhelpful,Somewhat unhelpful,Neutral,Somewhat helpful,Very unhelpful
+839,Male,Romania,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Very unhelpful,Neutral
+840,Male,Spain,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+842,Male,France,11 - 15 years,Experiment,20 - 50 members,No,No,Yes,No,No,No,No,Very helpful,Very helpful,Neutral,Very unhelpful,Very unhelpful
+845,Male,Czech Republic,more than 20 years,Experiment,51 - 100 members,No,No,Yes,Yes,No,No,No,Somewhat helpful,Neutral,Somewhat helpful,Somewhat helpful,Neutral
+853,Male,Spain,11 - 15 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Very helpful,Very helpful,Very helpful,Very helpful,Very helpful
+855,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful
+859,Male,Germany,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,Neutral,Somewhat helpful,Somewhat helpful,Somewhat helpful,Very unhelpful
+862,Male,Germany,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Very unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat unhelpful
+863,Male,United States of America,more than 20 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,Somewhat helpful,Somewhat unhelpful,Neutral,Somewhat helpful,Very unhelpful
+866,Male,Austria,less than 5 years,Experiment,20 - 50 members,No,No,Yes,Yes,No,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+868,Female,Brazil,5 - 10 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful
+869,Male,Hungary,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Neutral,Somewhat helpful,Neutral
+870,Prefer not to say,United States of America,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+872,Male,Sweden,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat helpful
+874,Female,United States of America,11 - 15 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,Somewhat unhelpful,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+876,Male,Italy,16 - 20 years,Experiment,< 20 members,No,No,Yes,No,Yes,No,Yes,Neutral,Very unhelpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful
+879,Male,Czech Republic,more than 20 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,Very helpful,Very helpful,Somewhat helpful,Somewhat helpful,Very helpful
+47,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,,,,,
+50,Male,Switzerland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,,,,,
+74,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,,,,,
+95,Male,United States of America,less than 5 years,Experiment,> 500 members,Yes,Yes,Yes,Yes,Yes,No,No,,,,,
+97,Male,Brazil,less than 5 years,Experiment,> 500 members,No,Yes,Yes,No,No,No,No,,,,,
+125,Male,Italy,less than 5 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,,,,,
+127,Male,Germany,less than 5 years,Experiment,> 500 members,No,No,No,Yes,Yes,No,No,,,,,
+137,Male,Hungary,11 - 15 years,Experiment,101 - 500 members,No,No,No,Yes,No,No,No,,,,,
+469,Male,Spain,16 - 20 years,Experiment,101 - 500 members,No,No,Yes,Yes,Yes,No,No,,,,,
+609,Male,Spain,16 - 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,,,,,
+619,Male,Japan,less than 5 years,Experiment,< 20 members,No,No,No,No,No,No,Yes,,,,,
+627,Male,Norway,less than 5 years,Experiment,> 500 members,Yes,Yes,No,No,No,No,No,,,,,
+640,Male,Poland,more than 20 years,Experiment,> 500 members,No,No,No,No,No,No,Yes,,,,,
+772,Male,France,11 - 15 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,,,,,
+44,Male,Germany,less than 5 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,,,,,
+86,Male,Spain,less than 5 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,,,,,
+113,Male,India,less than 5 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,,,,,
+160,Male,Russian Federation,11 - 15 years,Experiment,101 - 500 members,No,No,No,No,No,Yes,No,,,,,
+241,Male,Italy,5 - 10 years,Experiment,> 500 members,No,Yes,Yes,Yes,Yes,No,No,,,,,
+256,Male,Netherlands,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,,,,,
+294,Male,Brazil,more than 20 years,Experiment,> 500 members,No,Yes,No,No,No,No,No,,,,,
+524,Male,Spain,11 - 15 years,Experiment,> 500 members,No,Yes,Yes,Yes,No,No,No,,,,,
+552,Male,South Africa,11 - 15 years,Experiment,> 500 members,No,No,No,Yes,No,No,No,,,,,
+723,Male,Germany,more than 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,,,,,
+760,Male,United States of America,more than 20 years,Experiment,> 500 members,No,No,Yes,No,No,No,No,,,,,
+780,Male,Italy,16 - 20 years,Experiment,> 500 members,No,No,No,No,Yes,No,No,,,,,
+802,Female,Italy,less than 5 years,Experiment,20 - 50 members,No,No,No,Yes,Yes,No,No,,,,,
+880,Male,France,11 - 15 years,Experiment,> 500 members,No,Yes,No,Yes,Yes,No,No,,,,,
+333,Male,Russian Federation,more than 20 years,Experiment,101 - 500 members,No,Yes,No,No,No,No,No,Very helpful,Very helpful,Somewhat helpful,Very helpful,Somewhat helpful
+817,Male,Andorra,5 - 10 years,Experiment,< 20 members,No,No,No,No,Yes,No,No,Neutral,Neutral,Neutral,Neutral,Neutral
+861,Male,United States of America,5 - 10 years,Experiment,> 500 members,No,No,Yes,No,Yes,No,No,Very unhelpful,Somewhat unhelpful,Neutral,Somewhat helpful,Somewhat helpful
+865,Male,Poland,11 - 15 years,Experiment,101 - 500 members,No,No,Yes,No,Yes,No,No,Somewhat unhelpful,Somewhat helpful,Somewhat helpful,Somewhat helpful,Somewhat unhelpful

@@ -1,0 +1,608 @@
+﻿id,Gender,Country,Seniority,Field,interview_time,GroupTime_demo,GroupTime_General,GroupTime_OD,GroupTime_Sharing,GroupTime_SharingFactors,GroupTime_Doc,GroupTime_Rev,GroupTime_Tool
+8,Female,United States of America,11 - 15 years,Experiment,756.56,71.2,48.59,51.73,49.5,80.77,79.55,230.82,144.4
+19,Male,Slovakia,less than 5 years,Experiment,395.64,27.76,31.93,50.7,24.52,80.99,72.76,30.81,76.17
+20,Male,Germany,11 - 15 years,Experiment,335.67,21.95,20.93,54.36,47.86,50.11,52.44,20.72,67.3
+21,Female,United States of America,less than 5 years,Experiment,397.66,31.58,20.62,37.19,29.67,66.87,98.68,25.14,87.91
+22,Female,China,less than 5 years,Experiment,950.12,44.26,157.32,68.1,73.57,80.33,116.8,36.02,373.72
+23,Male,South Africa,11 - 15 years,Experiment,355.52,39.8,60.83,51.66,28.72,43.21,45.59,32.27,53.44
+25,Prefer not to say,United States of America,less than 5 years,Experiment,420.3,30.45,30.55,51.02,49.84,90.94,91.11,14.98,61.41
+27,Female,Belgium,5 - 10 years,Experiment,336.78,44.91,51.55,43.12,34.5,38.69,46.65,25.19,52.17
+28,Male,Germany,less than 5 years,Experiment,853.32,36.01,69.05,361.82,49.16,73.45,109.93,73.38,80.52
+33,Male,Switzerland,less than 5 years,Experiment,1217.22,30.87,95.27,73.14,61.67,53.6,486.24,328.88,87.55
+36,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,667.82,29.12,102.47,59.83,118.48,89.24,126.79,40.92,100.97
+39,Male,Netherlands,5 - 10 years,Experiment,899.42,32.27,124.27,95.1,98.79,111.67,139.67,161.44,136.21
+40,Female,United States of America,5 - 10 years,Experiment,412.01,21.76,78.52,40.65,36.76,54.8,54.88,25.66,98.98
+42,Male,France,less than 5 years,Experiment,791.69,31.43,140.82,131.91,84.52,138.64,106.2,66.14,92.03
+45,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,402.18,29.72,49.23,35.53,72.83,36.44,85.11,17.18,76.14
+46,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,395.81,29.69,34.19,65.32,37.62,68.1,62.1,18.51,80.28
+49,Male,United States of America,more than 20 years,Experiment,395.6,27.13,23.04,23.24,27.44,111.45,59,21.09,103.21
+52,Male,Germany,5 - 10 years,Experiment,251.09,18.21,20.04,28.17,30.71,39.8,47.47,19.67,47.02
+53,Female,Czech Republic,5 - 10 years,Experiment,917.91,40.54,49.86,82.41,349.16,159.78,79.37,42.42,114.37
+54,Male,Germany,less than 5 years,Experiment,650.63,33.56,94.26,67.7,40.42,88.03,220.26,36.31,70.09
+55,Male,France,5 - 10 years,Experiment,469.92,36.8,42.05,37.27,119.51,40.14,48.26,46.96,98.93
+59,Male,Switzerland,11 - 15 years,Experiment,1069.11,35.87,203.01,92.62,74.48,109.77,406.12,29.89,117.35
+60,Male,Portugal,less than 5 years,Experiment,413.91,26.08,95.3,31.51,45.51,60.71,71.14,18.92,64.74
+61,Male,France,more than 20 years,Experiment,370.84,32.52,23.47,32.8,27.05,44.84,74.21,19.81,116.14
+62,Male,Belgium,5 - 10 years,Experiment,2228.94,1226.97,29.08,70.18,46.94,160.04,98.43,405.43,191.87
+63,Male,United States of America,less than 5 years,Experiment,956.23,44.12,64.7,59.17,68.26,51.14,116.68,481.21,70.95
+66,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,2021.83,71.87,16.69,19.21,25.85,28.75,1790.08,21.86,47.52
+68,Male,Russian Federation,16 - 20 years,Experiment,617.97,40.05,100.79,66.16,45.68,117.93,100.26,41.23,105.87
+69,Male,Germany,less than 5 years,Experiment,413.05,29.47,32.92,48.05,35,77.32,75.35,25.12,89.82
+71,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,1229.81,42.36,140.69,166.34,146.65,89.22,413.85,97.86,132.84
+73,Male,Italy,5 - 10 years,Experiment,311.31,19.5,29.27,36.11,32.4,32.4,55.79,60.37,45.47
+77,Female,Italy,less than 5 years,Experiment,365.39,26.42,27.25,40.14,41.77,71.81,60.13,22.47,75.4
+79,Male,Italy,less than 5 years,Experiment,726.24,29.71,36.17,78.09,65.68,176.93,85.15,52,202.51
+80,Male,Austria,less than 5 years,Experiment,547.54,27.5,75.77,55.13,69.71,76.76,98.7,34.6,109.37
+81,Male,Georgia,5 - 10 years,Experiment,1581.35,50.87,192.04,103.84,81.08,524.4,329.69,65.45,233.98
+83,Male,Italy,more than 20 years,Experiment,1976.26,37.9,69.5,64.18,35.59,41.19,1621.35,25.59,80.96
+84,Male,United States of America,less than 5 years,Experiment,571.27,32.87,66.22,51.47,52.18,67.6,89.99,73.88,137.06
+87,Male,Spain,11 - 15 years,Experiment,663.82,39.76,120.99,94.58,56.32,85.42,100.82,72.23,93.7
+89,Male,United States of America,5 - 10 years,Experiment,575.08,26.55,50.48,43.9,52.04,90.72,229.11,18.62,63.66
+90,Male,Russian Federation,5 - 10 years,Experiment,708.96,28.66,115.28,87.94,84.19,75.49,141.26,78.19,97.95
+91,Male,Italy,less than 5 years,Experiment,502.75,21.59,75.08,70.21,81.39,59.49,79.52,27.46,88.01
+93,Male,France,less than 5 years,Experiment,334.07,21.6,26.16,47.82,36.8,61.97,54.77,19.2,65.75
+94,Female,Italy,5 - 10 years,Experiment,404.42,25.42,58.14,35.61,55.49,51.56,57.85,25.5,94.85
+98,Female,Spain,more than 20 years,Experiment,380.19,30.08,34.18,52.26,27.49,63.94,64.34,22.67,85.23
+100,Male,Greece,more than 20 years,Experiment,1755.2,50.2,680.14,162.6,76.58,164.66,267.72,108.89,244.41
+101,Male,France,less than 5 years,Experiment,505.79,29.46,69.37,75.31,48.93,94.45,65.89,31.31,91.07
+102,Female,United States of America,11 - 15 years,Experiment,974.57,321.94,119.14,76.04,129.87,70.55,110.9,37.83,108.3
+105,Male,Australia,5 - 10 years,Experiment,441.98,28.98,40.53,78.57,41.4,62.49,75.83,32.13,82.05
+106,Male,Italy,16 - 20 years,Experiment,593.32,41.18,50.53,64.91,59.37,115.72,113.58,26.96,121.07
+107,Male,Czech Republic,more than 20 years,Experiment,813.3,46.45,114.5,82.35,57.89,142.21,118.65,50.57,200.68
+110,Male,Republic of Korea,11 - 15 years,Experiment,478.1,66.01,33.04,59.18,45.06,70.27,87.66,28.41,88.47
+114,Male,United States of America,more than 20 years,Experiment,316.96,28.2,27.11,35.38,39.08,50.22,54.02,17.67,65.28
+115,Male,Russian Federation,more than 20 years,Experiment,565.91,43.66,86.41,74.28,45.38,84.65,86.09,34.53,110.91
+117,Male,Greece,less than 5 years,Experiment,440.4,30.81,68.29,45.05,42.23,53.93,72.74,22.41,104.94
+118,Male,France,less than 5 years,Experiment,481.68,35.75,60.77,58.17,61.56,64.61,85.33,47.74,67.75
+121,Male,United States of America,more than 20 years,Experiment,524.39,43.77,46.12,75.74,39.54,77.1,86.44,33.96,121.72
+122,Male,Italy,more than 20 years,Experiment,521.78,27.52,95.3,56.12,34.87,63.45,97.6,28.59,118.33
+123,Male,Hungary,5 - 10 years,Experiment,1805.79,19.8,45.64,771.47,63.85,45.85,754.59,21.64,82.95
+124,Prefer not to say,Switzerland,more than 20 years,Experiment,623.19,44.53,89.93,81.89,72.51,110.3,75.97,33.36,114.7
+128,Male,India,less than 5 years,Experiment,503.9,31.16,43.32,83.87,38.04,68.87,84.1,23.82,130.72
+130,Male,Italy,more than 20 years,Experiment,859.29,35.41,120.83,68.32,194.42,105.68,119.77,71.45,143.41
+132,Male,United States of America,more than 20 years,Experiment,3876.21,17.17,50.38,46.94,18.41,46.14,50.24,18.63,3628.3
+135,Prefer not to say,Russian Federation,16 - 20 years,Experiment,492.97,42.41,57.51,38.67,38.77,70.18,61.81,32.32,151.3
+136,Male,Italy,5 - 10 years,Experiment,533.64,28.45,69.33,75.32,43.09,91.78,102.64,31.65,91.38
+140,Male,Italy,less than 5 years,Experiment,1862.67,255.93,54.28,1266.85,68.28,54.3,64.62,28.45,69.96
+141,Female,Italy,11 - 15 years,Experiment,551.03,29.22,56.75,60.71,61.78,108.71,91.88,42.27,99.71
+142,Male,France,less than 5 years,Experiment,517.91,36.11,69.84,48.71,42.04,69.37,117.44,26.8,107.6
+144,Male,Slovakia,more than 20 years,Experiment,940.84,61.32,111.35,63.98,37.76,244.93,96.96,200.9,123.64
+145,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,1246.53,24.84,704.33,70.61,41.7,124.01,147.52,54.25,79.27
+146,Female,Spain,16 - 20 years,Experiment,683.25,52.89,106.89,69.64,62.76,97.39,106.29,69.64,117.75
+147,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,431.54,30.1,49.93,42.03,34.09,54.27,56.86,49.14,115.12
+148,Female,Italy,16 - 20 years,Experiment,443.16,22.36,47.26,59.85,55.19,75.08,86.74,27.78,68.9
+149,Female,Italy,more than 20 years,Experiment,1269.22,62.03,127.75,174.91,98.62,167.2,334.4,70.25,234.06
+152,Female,Netherlands,more than 20 years,Experiment,671.82,39.32,64.11,69.63,64.09,118.72,127.37,46.6,141.98
+157,Male,Germany,less than 5 years,Experiment,598.67,28.92,110.91,56.55,64.99,97.91,100.58,28.75,110.06
+159,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,444.2,22.09,51.42,41.65,54.08,83.16,67.31,49.21,75.28
+161,Female,United States of America,less than 5 years,Experiment,643.73,24.71,159.35,160.82,81.51,40.59,72.45,29.87,74.43
+162,Male,China,5 - 10 years,Experiment,480.05,27.77,46.37,47.5,32.74,70.96,100.38,26.85,127.48
+164,Male,Switzerland,5 - 10 years,Experiment,557.4,36.48,52.87,69.42,48.17,102.48,112.17,38.12,97.69
+165,Prefer not to say,France,less than 5 years,Experiment,555.35,177.76,36.47,64.75,36.64,57.34,63.03,39.15,80.21
+166,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,392.56,37.32,53.59,49.93,32.01,43.44,79,22.46,74.81
+167,Male,Spain,16 - 20 years,Experiment,1204.86,36.08,34.09,423.71,43.23,107.22,76.59,358.59,125.35
+168,Male,Netherlands,5 - 10 years,Experiment,761.15,36.13,71.97,55.13,116.3,118.99,70.21,129.88,162.54
+170,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,427.53,26.54,41.81,39.79,41.04,71.83,60.79,54.08,91.65
+171,Male,Sweden,5 - 10 years,Experiment,435.28,40.12,49.37,63.66,43.82,70.09,60.12,27.14,80.96
+173,Male,Germany,5 - 10 years,Experiment,530.13,41.29,64.99,42.23,126.04,55.99,80.26,37.07,82.26
+174,Male,Switzerland,16 - 20 years,Experiment,364.91,34.39,27.48,48.39,26.63,66.19,70.79,25.65,65.39
+175,Male,Italy,more than 20 years,Experiment,334.97,30.75,32.8,30.5,34.44,40.53,60.38,24.52,81.05
+176,Male,France,more than 20 years,Experiment,724.92,38.1,54.07,48.13,29.68,169.69,100.13,145.26,139.86
+177,Male,Italy,more than 20 years,Experiment,374.84,31.27,47.06,43.24,27.21,65.83,65.45,22.34,72.44
+178,Male,Italy,more than 20 years,Experiment,958.86,29.52,137.28,86.94,83.91,104.9,143.76,233.74,138.81
+179,Male,Switzerland,5 - 10 years,Experiment,483.49,30.65,27.54,37.96,45.52,59.46,189.7,19.28,73.38
+180,Male,Germany,11 - 15 years,Experiment,3609.34,52.67,95.79,78.45,131.84,108.3,2133.17,24.8,984.32
+182,Female,United States of America,more than 20 years,Experiment,675.83,52.41,103.92,107.77,51.07,73.29,84.46,47.54,155.37
+185,Male,Germany,more than 20 years,Experiment,453.09,34.67,87.66,47.52,43.59,54.38,82.67,23.49,79.11
+186,Male,Italy,more than 20 years,Experiment,683.03,35.86,51.13,78.33,74.12,123.64,122.17,51.4,146.38
+187,Male,Switzerland,11 - 15 years,Experiment,81304.75,42.25,80654.59,75.56,80.09,106.53,119.57,32.03,194.13
+189,Male,Switzerland,5 - 10 years,Experiment,825.1,17.9,56.21,57.87,76.24,55.13,211.61,254.22,95.92
+190,Male,Sweden,less than 5 years,Experiment,847.48,19.88,68.38,60.15,76.58,94.14,197.04,31.26,300.05
+193,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,524.84,26.37,61.11,63.23,35.35,123.49,118.76,22.05,74.48
+194,Male,France,11 - 15 years,Experiment,493.03,48.37,73.83,51.72,44.62,76.3,89.19,29.91,79.09
+195,Male,Slovakia,less than 5 years,Experiment,947.21,85.12,168.5,74.71,108.37,110.91,174.33,67.52,157.75
+197,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,472.66,28.17,73.68,57.01,38.58,60.15,70.79,29.78,114.5
+198,Male,United States of America,more than 20 years,Experiment,681.39,101.31,72.37,85.86,23.31,147.24,70.47,50.23,130.6
+199,Male,China,11 - 15 years,Experiment,720.2,110.3,57.92,48.65,155.29,69.12,135.63,29.32,113.97
+200,Male,France,5 - 10 years,Experiment,1252.05,70.5,89.19,111.7,266.74,109.59,152.54,276.61,175.18
+202,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,272.52,25.38,34.38,35.96,21.77,38.47,37.04,26.96,52.56
+203,Male,Switzerland,11 - 15 years,Experiment,485.52,21.94,75.76,61.61,42.29,75.95,87.42,42.22,78.33
+204,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,426.07,25.29,38.81,44.5,33.94,64.57,92.53,66.43,60
+205,Female,Norway,5 - 10 years,Experiment,680.12,26.45,67.21,45.97,47.45,186.32,99.2,24.02,183.5
+208,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,375.69,18.35,31.87,36.72,24.26,79.38,91.36,26.98,66.77
+209,Male,Italy,more than 20 years,Experiment,382.75,74.33,26.61,44.26,37.08,43.91,58.16,29.87,68.53
+212,Male,Czech Republic,less than 5 years,Experiment,575.7,32.21,108.21,59.11,85.51,86.52,98.27,26.28,79.59
+213,Male,Poland,5 - 10 years,Experiment,475.75,26.4,59.95,65.76,45.03,72.5,81.16,37.17,87.78
+215,Male,Italy,more than 20 years,Experiment,557.33,41.89,79.98,60.04,49.09,81.81,97.57,53.77,93.18
+216,Male,Canada,11 - 15 years,Experiment,548.37,27.48,73.98,51.42,67.39,64.98,122.98,55.92,84.22
+217,Male,Brazil,more than 20 years,Experiment,631.38,35.95,88.45,99.58,41.92,98.71,114.14,32.91,119.72
+219,Male,United States of America,16 - 20 years,Experiment,962.82,354.51,36.9,44.91,95.85,58.84,238.8,35.73,97.28
+220,Male,Germany,5 - 10 years,Experiment,472.23,39.14,63.98,44.32,64.7,77.5,62.29,43.11,77.19
+221,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,855.46,38.78,62.13,96.32,110.87,102.25,166.53,128.37,150.21
+222,Male,Denmark,5 - 10 years,Experiment,885.88,26.55,37.13,40.13,39.89,68.8,574.83,29.03,69.52
+223,Female,Brazil,more than 20 years,Experiment,491.94,37.34,80.13,49.81,45.87,62.48,85.32,29.85,101.14
+224,Male,United States of America,more than 20 years,Experiment,661.69,36.02,81.64,79,39.91,194.04,92.48,43.2,95.4
+225,Male,United States of America,more than 20 years,Experiment,592.08,39.14,38.24,61.42,55.5,102.97,136.28,42.37,116.16
+226,Female,United States of America,11 - 15 years,Experiment,963.35,21.82,99.41,45.97,76.2,230.01,329.95,33.77,126.22
+228,Male,United States of America,more than 20 years,Experiment,398.46,22.49,53.69,54,32.68,64.6,70.63,36.83,63.54
+229,Male,United States of America,more than 20 years,Experiment,22098.3,35.48,123.29,102.01,62.23,988.36,13253.41,691.13,6842.39
+230,Male,France,16 - 20 years,Experiment,518.05,28.86,72.74,53.51,70.94,65.52,98.96,29.79,97.73
+232,Male,France,less than 5 years,Experiment,68567.45,20.01,64.18,244.9,68028.76,50.57,63.23,28.34,67.46
+233,Male,Czech Republic,less than 5 years,Experiment,762.71,86.35,101.59,74.99,88.99,79.76,136.18,42.27,152.58
+234,Male,United States of America,more than 20 years,Experiment,317.43,22.37,24.77,35.99,27,66.07,48.33,23.52,69.38
+237,Male,Spain,more than 20 years,Experiment,677.56,54.04,97.88,67.85,33.94,87.02,86.26,49.07,201.5
+238,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,489.91,24.14,61,60.58,46.03,83.04,69.54,65.61,79.97
+239,Male,Germany,5 - 10 years,Experiment,479.89,42.76,30.26,56.84,36.52,65.73,141.68,29.78,76.32
+240,Male,United States of America,less than 5 years,Experiment,372.65,26.27,27.76,50.9,36.73,48.92,88.08,28.48,65.51
+242,Male,Brazil,more than 20 years,Experiment,794.65,33.75,135.1,77.87,76.35,121.29,131.61,79.04,139.64
+243,Male,Germany,11 - 15 years,Experiment,761.32,45.96,151.25,93.3,41.19,71.77,131.26,143.46,83.13
+244,Male,India,less than 5 years,Experiment,3061.15,92.93,151.73,142.74,149.9,1714.46,534.13,75.22,200.04
+246,Male,United States of America,more than 20 years,Experiment,531.11,41.88,81.7,51.67,38.39,59.32,65.6,89.95,102.6
+248,Male,Germany,more than 20 years,Experiment,475.03,34.19,36.14,67.19,49.77,78.15,71.29,34.98,103.32
+251,Female,Spain,more than 20 years,Experiment,524.57,48.13,95.28,55.53,44.3,80.33,67.35,25.53,108.12
+252,Male,United States of America,more than 20 years,Experiment,537.9,34.76,60.62,39.92,43.32,77.38,82.3,41.08,158.52
+253,Male,United States of America,11 - 15 years,Experiment,708.32,57.31,63.1,75.94,58.18,92.6,83.1,178.75,99.34
+255,Male,United States of America,5 - 10 years,Experiment,409.42,28.58,60.69,44.94,46.76,66.81,78.12,15.9,67.62
+257,Male,United States of America,more than 20 years,Experiment,573.19,40.58,86.38,56.51,67.4,73,95.38,33.05,120.89
+258,Male,United States of America,16 - 20 years,Experiment,367.14,18.9,24.78,55.79,36.9,53.78,100.12,22.7,54.17
+259,Male,United States of America,11 - 15 years,Experiment,2192.88,29.18,138.98,99.07,351.24,166.89,1211.2,44.64,151.68
+260,Prefer not to say,United States of America,5 - 10 years,Experiment,1464.34,32.78,105.37,135.24,421.03,155.43,253.66,187.11,173.72
+261,Female,United States of America,more than 20 years,Experiment,551.22,38.73,55.51,54.79,51.04,59.16,69.93,138.91,83.15
+263,Male,United States of America,16 - 20 years,Experiment,501.38,26.6,79.79,54.34,45.73,88.96,94.41,34.6,76.95
+264,Male,United States of America,more than 20 years,Experiment,481.72,21.28,23.21,48.54,31.08,49.87,96.85,18.73,192.16
+266,Male,United States of America,5 - 10 years,Experiment,311.48,30.73,36.06,39.33,27.4,39.94,57.96,22.45,57.61
+267,Male,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Experiment,374.26,19.44,42.05,37.61,22.71,84.65,60.54,54.85,52.41
+269,Male,Portugal,more than 20 years,Experiment,651.6,25.6,29.88,35.48,34.46,293,71.68,25.49,136.01
+270,Female,United States of America,5 - 10 years,Experiment,325.09,26.51,62.59,33.44,48.18,33.75,49.79,15.25,55.58
+273,Male,France,11 - 15 years,Experiment,2301.75,35.2,150.44,1500.55,32.31,114.55,141.4,192.82,134.48
+274,Male,Mexico,more than 20 years,Experiment,693.89,43.81,98.77,108.98,39.28,116.54,128.08,40.29,118.14
+276,Male,United States of America,5 - 10 years,Experiment,92822.42,32.84,223.4,44.56,40.64,46.92,92310.06,55.06,68.94
+277,Male,France,more than 20 years,Experiment,667.98,30.45,30.28,53.5,225.93,86.79,108,36.98,96.05
+278,Male,United States of America,5 - 10 years,Experiment,284.41,17.8,20.43,34.79,26.5,57.15,60.75,16.57,50.42
+279,Male,Republic of Korea,less than 5 years,Experiment,762.29,40.18,201.68,80.65,115.7,78.38,102.43,46.38,96.89
+280,Female,United States of America,less than 5 years,Experiment,312.04,20.89,21.48,46.4,27.83,45.17,56.92,52.16,41.19
+281,Male,United States of America,more than 20 years,Experiment,529.97,28.61,69.08,48.93,50.34,108.82,100.17,30.74,93.28
+282,Female,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,616.51,34.3,59.82,68.62,67.45,133.7,95.45,33.37,123.8
+285,Female,Canada,5 - 10 years,Experiment,481.6,22.37,48.88,46.28,32.7,73.44,114.84,31.5,111.59
+287,Male,United States of America,less than 5 years,Experiment,511.08,71.3,63.94,51.87,43.99,51.7,85.66,56.65,85.97
+288,Male,Ecuador,5 - 10 years,Experiment,458,31.57,57.6,51.05,40.58,46.37,77.91,31.6,121.32
+289,Female,United States of America,5 - 10 years,Experiment,278.37,20.63,28.62,39.3,23.72,39.68,43.4,27.29,55.73
+290,Male,United States of America,more than 20 years,Experiment,2143.16,159.58,422.99,378.16,98.33,236.72,277.61,118.32,451.45
+292,Male,United States of America,more than 20 years,Experiment,836.45,27.69,91.59,66.49,50.2,130.32,176.31,170.97,122.88
+293,Male,Canada,less than 5 years,Experiment,524.08,53.87,80.35,71.97,47.21,55.35,81.43,30.96,102.94
+295,Male,Germany,less than 5 years,Experiment,569.14,48.32,82.65,80.43,53.94,95.94,83.42,30.78,93.66
+296,Male,France,more than 20 years,Experiment,719.51,25.19,51.27,102.86,92.68,66.14,117.67,118.99,144.71
+297,Female,United States of America,less than 5 years,Experiment,504.62,30.87,71.08,56.93,37.01,59.22,124.22,35.86,89.43
+298,Female,France,more than 20 years,Experiment,709.78,27.46,104.87,66.93,51.18,99.57,166.48,70.27,123.02
+299,Male,United States of America,less than 5 years,Experiment,524.24,22.48,79.31,74.43,31.77,110.43,86.03,23.1,96.69
+301,Male,Russian Federation,more than 20 years,Experiment,638.36,47.26,43.83,100.29,64.41,104.18,106.21,37.77,134.41
+303,Male,United States of America,5 - 10 years,Experiment,482.47,82.43,65.05,51.22,57.24,69.73,51.93,16.43,88.44
+304,Male,Canada,5 - 10 years,Experiment,492.71,45.14,34.57,49.93,59.31,61.88,102.41,49.3,90.17
+305,Male,United States of America,5 - 10 years,Experiment,963.34,27.83,30.77,35.3,26.41,679.34,70.85,25.16,67.68
+307,Male,United States of America,more than 20 years,Experiment,540.13,33.31,54.81,57.17,45.19,82.84,108.27,48.56,109.98
+309,Male,Canada,more than 20 years,Experiment,335.08,20.62,31.95,32.08,29.8,45.13,72.9,23.55,79.05
+311,Male,United States of America,5 - 10 years,Experiment,600.33,45.72,64.07,46.16,52.51,91.81,82.28,78.26,139.52
+313,Male,United States of America,more than 20 years,Experiment,579.32,26.89,135.95,53.44,77.66,64.28,99.86,23.54,97.7
+315,Male,Czech Republic,less than 5 years,Experiment,977.19,48.8,99.21,68.42,89.22,104.55,155.64,222.73,188.62
+316,Female,United States of America,less than 5 years,Experiment,495.07,28.88,76.65,70.78,69.4,58.7,68.54,35.45,86.67
+318,Male,Canada,5 - 10 years,Experiment,417.11,27.77,61.26,59.82,30.47,46.39,62.32,58.89,70.19
+320,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,1414.6,85.66,109.24,137.96,330.97,135.71,230.87,147.52,236.67
+321,Male,United States of America,5 - 10 years,Experiment,559.06,28.5,89.63,57.09,51.1,76.05,75.3,58.54,122.85
+322,Male,Brazil,more than 20 years,Experiment,605.39,32.9,94.36,75.12,58.49,90.19,100.89,40.59,112.85
+323,Male,United States of America,more than 20 years,Experiment,2195.39,53.97,81.06,153.01,183.98,423.04,302.43,67.92,929.98
+324,Male,Greece,5 - 10 years,Experiment,753.8,52.46,101.4,102.71,95.92,118.32,104.21,31.98,146.8
+326,Female,Republic of Korea,more than 20 years,Experiment,282.71,37.12,23.86,39.09,22.02,35.39,48.41,19.01,57.81
+329,Male,United States of America,more than 20 years,Experiment,435.72,51.76,38.81,45.53,56.9,51.73,63.58,25.06,102.35
+330,Male,United States of America,more than 20 years,Experiment,367.76,21.74,45.73,46.33,24.32,52.81,67.03,22.22,87.58
+332,Female,United States of America,5 - 10 years,Experiment,1631.72,49.43,41.81,63.03,50.43,840.85,120.09,23.1,442.98
+334,Male,Denmark,16 - 20 years,Experiment,12654.97,38.38,47.59,63.16,66.13,12114.53,149.49,67.91,107.78
+335,Male,Turkey,5 - 10 years,Experiment,594.96,48.38,84,70.56,59.27,101.74,96.81,29.4,104.8
+337,Male,Germany,5 - 10 years,Experiment,532.74,31.57,36.41,80.44,68.36,57.06,100.3,57.11,101.49
+339,Female,France,5 - 10 years,Experiment,765.5,29.07,113.66,61.82,120.94,90.54,153.75,63.35,132.37
+340,Male,Germany,more than 20 years,Experiment,590.13,41.74,45.76,102.18,55.27,80.56,91.58,36.07,136.97
+342,Male,United States of America,more than 20 years,Experiment,439.43,30.48,33.35,60.28,48.75,44.91,76.55,68.67,76.44
+344,Male,Switzerland,less than 5 years,Experiment,420.6,39.66,55.28,52.63,27.7,54.46,69.71,22.99,98.17
+345,Male,Germany,5 - 10 years,Experiment,487.1,21.37,91.98,42.05,39.93,70.2,75.44,32.98,113.15
+348,Female,Brazil,16 - 20 years,Experiment,452.62,30.49,56.43,46.35,34.51,62.36,80.66,38.4,103.42
+349,Male,United States of America,less than 5 years,Experiment,231.59,27.55,17.73,24.65,24.05,37.15,34.8,17.69,47.97
+350,Male,Belgium,more than 20 years,Experiment,336.67,29.68,39.05,39.73,30.88,59.04,47.96,21.33,69
+351,Male,Russian Federation,more than 20 years,Experiment,3071.37,242.5,768.12,468.42,266.59,427.86,413.47,182.33,302.08
+355,Male,Italy,11 - 15 years,Experiment,684.97,30.65,48.69,174.61,49.47,82.37,131.5,39.26,128.42
+358,Male,Russian Federation,5 - 10 years,Experiment,715.98,31.55,115.14,114.21,95,96.34,121.55,55.98,86.21
+359,Female,Italy,more than 20 years,Experiment,1299.46,34.37,98.77,76.49,48.67,747.5,126.02,38.97,128.67
+360,Male,France,more than 20 years,Experiment,787.25,43.34,81.66,95.42,90.35,124.93,121.21,54.78,175.56
+362,Male,Belgium,16 - 20 years,Experiment,642.27,38.87,98.03,71.26,117.31,70.77,111.68,62.69,71.66
+363,Male,France,more than 20 years,Experiment,6405.08,27.27,38.32,53.32,74.99,75.55,5798.37,34.2,303.06
+364,Female,Germany,5 - 10 years,Experiment,793.63,41.07,156.96,93.69,55.91,92.73,195.48,48.26,109.53
+365,Female,Portugal,less than 5 years,Experiment,591.6,37.41,92.22,88.02,49.32,54.07,147.4,34.04,89.12
+366,Male,France,more than 20 years,Experiment,772.72,42.83,123.4,125.88,53.66,98.65,123.22,56.43,148.65
+367,Male,United States of America,less than 5 years,Experiment,388.17,32.39,52.78,49.64,57,44.75,64.17,26.54,60.9
+368,Male,Switzerland,more than 20 years,Experiment,808.58,46.28,98.76,91.21,45.46,229.82,116.06,45.81,135.18
+369,Male,Canada,less than 5 years,Experiment,822.99,76.81,153.47,95.08,70.39,111.15,137.62,32.86,145.61
+370,Male,Belgium,16 - 20 years,Experiment,579.22,37.65,117.43,93.05,42.78,81.39,72.1,33.43,101.39
+372,Female,Italy,more than 20 years,Experiment,1241.49,50.99,372.35,188,97.54,156.18,164.08,54.94,157.41
+373,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,1431.08,22.29,74.57,247.75,47.81,501.04,281.28,47.68,208.66
+376,Male,Slovakia,more than 20 years,Experiment,615.28,42.34,116.35,49.78,52.29,78.18,108.26,46.94,121.14
+377,Male,New Zealand,16 - 20 years,Experiment,559.22,58.65,62.44,69.36,33.82,65.17,92.02,40.29,137.47
+378,Male,France,more than 20 years,Experiment,780.92,59.95,130.61,75.27,58.82,120.86,175.27,36.52,123.62
+379,Male,France,less than 5 years,Experiment,342.41,22.82,37.96,33.86,35.75,58.21,69.92,20.23,63.66
+380,Male,France,11 - 15 years,Experiment,1715.69,53.36,152.31,107.99,86.77,701.12,185,97.71,331.43
+382,Male,France,more than 20 years,Experiment,609.02,32.88,138.08,55.45,49.86,70.44,106.58,44.91,110.82
+383,Male,Spain,more than 20 years,Experiment,637.38,34.36,97.11,87.18,42.69,44.35,122.99,49.87,158.83
+384,Male,Italy,more than 20 years,Experiment,588.73,39.23,82.17,62.66,91.93,86.55,102.95,27.69,95.55
+385,Male,Netherlands,less than 5 years,Experiment,653.67,33.89,91.28,65.23,86.46,102.96,136.23,37.62,100
+386,Male,Russian Federation,5 - 10 years,Experiment,592.28,62.54,86.74,55.79,39.61,76.96,117.86,29.75,123.03
+388,Male,Italy,16 - 20 years,Experiment,854.24,72.87,114.25,81.54,154.1,100.39,122.61,46.83,161.65
+389,Female,Canada,5 - 10 years,Experiment,332.42,30.29,41.83,37.07,37.43,45.84,41.75,26.89,71.32
+390,Male,Netherlands,16 - 20 years,Experiment,339.77,24.5,42.84,34.41,22.96,50.41,67.98,36.7,59.97
+391,Male,United States of America,more than 20 years,Experiment,524.51,24.32,74.17,59.69,52.84,70.96,100.25,35.61,106.67
+393,Male,Germany,more than 20 years,Experiment,482.24,29.38,73.01,56.55,41.61,68.98,83.13,35.76,93.82
+395,Female,Spain,more than 20 years,Experiment,502.16,25.61,191.56,38.69,26.61,52.13,58.3,25.58,83.68
+397,Male,Japan,more than 20 years,Experiment,947.52,47.78,180.37,123.62,106.46,118.58,164.41,48.57,157.73
+398,Male,Austria,less than 5 years,Experiment,471.9,30.51,77.13,63.2,32.7,71.36,76.09,30.07,90.84
+399,Male,China,more than 20 years,Experiment,642.67,27.79,59.28,172.39,65.89,84.52,104.46,42.19,86.15
+402,Female,Canada,less than 5 years,Experiment,536.09,30.92,108.13,49.16,52.4,75.58,103.46,27.55,88.89
+403,Male,Germany,11 - 15 years,Experiment,533.86,31.26,24.93,42.12,62.41,121.51,108.49,39.04,104.1
+404,Female,United States of America,more than 20 years,Experiment,690.5,22.43,94.98,28.2,25.89,122.34,83.36,231.26,82.04
+409,Male,Italy,more than 20 years,Experiment,553.66,65.68,67.71,66.75,48.4,71.89,85.33,28.23,119.67
+410,Male,United States of America,5 - 10 years,Experiment,316.39,19.77,35.58,38.24,37.46,34.96,62.09,26.27,62.02
+411,Male,Germany,less than 5 years,Experiment,1101.82,69.01,152.58,124.05,74.4,228.88,222.63,40.78,189.49
+412,Male,Germany,more than 20 years,Experiment,1074.68,66.42,132.78,146.08,91.8,153.35,163.77,90.32,230.16
+413,Female,Germany,more than 20 years,Experiment,547.39,32.5,56.13,58.9,43.92,145.6,72.86,30.29,107.19
+414,Male,United States of America,11 - 15 years,Experiment,509.7,38.3,121.99,54.67,54.21,53.58,85.41,37.02,64.52
+416,Male,Japan,more than 20 years,Experiment,546,28.98,67.92,72.57,55.14,83.04,88.19,35.73,114.43
+418,Male,Netherlands,more than 20 years,Experiment,784.89,38.17,106.37,217.81,60.5,111.97,92.34,39.09,118.64
+419,Male,Canada,more than 20 years,Experiment,413.65,29.46,46.43,46.86,37.43,57.79,62.55,30.55,102.58
+420,Male,United States of America,11 - 15 years,Experiment,1661.35,27.53,1310.66,46.89,30.06,36.86,43.58,23.31,142.46
+422,Male,Germany,less than 5 years,Experiment,1940.98,26.42,98.3,126.48,72.95,116.96,1334.64,59.78,105.45
+424,Male,Italy,more than 20 years,Experiment,466.84,25.07,72.82,59.56,39.62,55.95,90.04,48.83,74.95
+426,Female,United States of America,5 - 10 years,Experiment,526.32,36.66,70.29,92.86,63.54,50.85,87.15,46.76,78.21
+428,Male,United States of America,more than 20 years,Experiment,936.08,49,50.21,94.82,116.52,111.35,149.11,204.06,161.01
+429,Male,Italy,less than 5 years,Experiment,486.23,24.17,87.13,52.47,48.8,65.14,83.21,28.98,96.33
+430,Female,Sweden,less than 5 years,Experiment,435.8,30.22,100.06,35.79,41.19,34.54,51.54,39.08,103.38
+431,Male,India,16 - 20 years,Experiment,69472.11,37.71,8159.51,70.33,28.25,37.04,46.34,61024.02,68.91
+432,Male,United States of America,less than 5 years,Experiment,464.86,33.64,42.26,45.69,32.21,63.6,83.78,31.08,132.6
+434,Male,United States of America,16 - 20 years,Experiment,820.91,41.09,87.8,74.91,48.36,88,157.3,230.47,92.98
+435,Male,Italy,5 - 10 years,Experiment,665.03,33.32,99.36,79.84,67.48,87.3,106.68,64.41,126.64
+439,Male,Switzerland,11 - 15 years,Experiment,804.13,31.41,26.95,85.02,273.66,116.17,114.46,60.95,95.51
+441,Prefer not to say,Switzerland,5 - 10 years,Experiment,588.15,45.51,28.79,59.42,99.69,71.58,75.99,126.52,80.65
+443,Male,Belgium,5 - 10 years,Experiment,398.29,17.15,30.07,33.24,35.15,83.1,92.41,22.58,84.59
+446,Male,Italy,16 - 20 years,Experiment,629.29,37.67,96.9,47.22,67.67,84.69,200.23,21.8,73.11
+448,Male,Germany,more than 20 years,Experiment,557.34,55.21,54.84,60.51,45.27,77.77,89.3,37.47,136.97
+449,Female,United States of America,16 - 20 years,Experiment,344,22.64,17.37,35.34,34.08,39.47,63.82,66.92,64.36
+450,Prefer not to say,Italy,11 - 15 years,Experiment,658.06,30.07,64.14,60.18,167.05,78.58,112.22,28.55,117.27
+451,Female,Bulgaria,5 - 10 years,Experiment,781.42,38.73,50.62,178.62,124.92,108.58,134.93,43.4,101.62
+455,Male,Italy,5 - 10 years,Experiment,546.81,21.4,24.74,43.43,122.54,128.01,72.96,44.47,89.26
+457,Male,Italy,16 - 20 years,Experiment,577.53,32.47,91.81,52.37,25.33,96.75,142.76,41.8,94.24
+458,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,615.25,31.93,50.51,71.17,73.31,66.5,196.35,38.28,87.2
+459,Male,France,more than 20 years,Experiment,1240.56,44.48,236.59,250.68,95.03,148.58,211.86,50.3,203.04
+460,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,442.55,23.97,51.67,43.72,39.88,51.97,69.19,97.77,64.38
+461,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,1057.65,58.24,99.52,57.97,80.35,83.92,132.93,33,511.72
+462,Male,Germany,5 - 10 years,Experiment,330.34,72.69,35.77,37.11,23.17,31.79,45.9,23.25,60.66
+463,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,610.13,30.45,122.33,74.51,36.92,77.81,94.99,67.79,105.33
+466,Male,Poland,more than 20 years,Experiment,942.53,40.24,90.74,81.34,107.04,91.62,265.15,48.54,217.86
+468,Female,China,5 - 10 years,Experiment,584.6,36.66,83.69,55.68,57.96,99.59,88.68,39.35,122.99
+470,Male,France,less than 5 years,Experiment,569.82,34.68,196.46,47.99,41.34,62.09,67.94,29.04,90.28
+471,Male,Germany,less than 5 years,Experiment,729.54,43.38,133.79,63.01,66.78,82.31,142.69,111.29,86.29
+479,Male,Denmark,more than 20 years,Experiment,376.98,24.84,52.16,33.45,33.45,54.46,82.72,29.96,65.94
+480,Prefer not to say,France,less than 5 years,Experiment,1292.62,27.62,53.06,89.37,50.24,154.72,109.48,33.06,775.07
+481,Female,Germany,less than 5 years,Experiment,742.99,58.48,139.07,55.35,81.62,94.33,108.05,36.22,169.87
+482,Female,Republic of Korea,11 - 15 years,Experiment,621.08,45.93,47.74,54.99,118.3,80.78,90.92,38.9,143.52
+486,Male,United States of America,less than 5 years,Experiment,466.44,33.64,39.6,57.51,44.96,89.01,72.96,31.5,97.26
+487,Male,Switzerland,less than 5 years,Experiment,487.63,25.68,36.59,42.62,74.16,56.82,127.17,16.41,108.18
+489,Male,United States of America,11 - 15 years,Experiment,3345.19,2892.1,20.89,46.37,57.52,177.56,53.72,41.97,55.06
+490,Female,India,5 - 10 years,Experiment,531.73,42.64,51.16,53.6,76.6,84.45,86.46,53.21,83.61
+493,Female,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Experiment,638.34,54.16,108.13,89.44,58.16,76.13,97.58,51.78,102.96
+495,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,410.87,39.88,43.37,46.02,40.93,65.54,71.05,26.47,77.61
+496,Male,Russian Federation,16 - 20 years,Experiment,608.55,53.48,82.75,75.94,70.46,82.1,79.96,25.7,138.16
+497,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,289.78,28.62,30.48,29.57,25.2,44.98,56.17,23.32,51.44
+501,Prefer not to say,Italy,5 - 10 years,Experiment,845.39,265.61,251.96,62.36,35.24,60.08,55.8,32.03,82.31
+502,Male,Italy,11 - 15 years,Experiment,862.13,52.49,62.9,89.56,226.57,79.99,77.18,47.17,226.27
+507,Female,India,less than 5 years,Experiment,873.91,73.14,160.01,71.83,91.7,156.52,150.21,35.81,134.69
+509,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,586.97,42.65,52.46,130.64,75.51,67.97,81.91,26.65,109.18
+511,Male,Germany,less than 5 years,Experiment,553.56,25.59,39.53,70.81,41.03,64.71,169.68,37.16,105.05
+512,Male,Turkey,less than 5 years,Experiment,391.88,20.06,64.43,36.36,43.65,61.31,60.83,27.69,77.55
+516,Male,Italy,more than 20 years,Experiment,727.44,24.11,74.9,83.36,48.01,129.97,123.15,52.25,191.69
+518,Male,United States of America,16 - 20 years,Experiment,549.06,37.98,50.05,46.29,39.84,40.04,240.58,15.12,79.16
+519,Male,Poland,more than 20 years,Experiment,396.28,30.16,31.93,54.53,32.38,61.55,60.44,29.66,95.63
+520,Female,Romania,11 - 15 years,Experiment,429.03,31.57,68.11,45.31,38.14,68.99,74.45,24.87,77.59
+521,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,498.49,26.1,56.06,50.45,31.89,55.64,125.48,40.42,112.45
+522,Male,Austria,11 - 15 years,Experiment,678.21,19.03,56.01,65.52,49.93,62.09,88.43,247.02,90.18
+523,Male,United States of America,5 - 10 years,Experiment,360.42,25.8,29.61,49.22,27.56,65.33,64.55,36.4,61.95
+527,Male,Switzerland,5 - 10 years,Experiment,632.61,35.18,149.95,93.88,49.39,75.36,112.78,33.18,82.89
+528,Male,Italy,16 - 20 years,Experiment,539.23,34.96,55.68,81.36,51.11,102.71,82.32,29.53,101.56
+530,Male,France,more than 20 years,Experiment,371.16,50.81,33.79,44.14,22.75,58.7,57.1,29.91,73.96
+532,Male,United States of America,5 - 10 years,Experiment,479.1,19.64,37.7,41.33,41.91,38.58,197.49,20.11,82.34
+533,Female,United States of America,11 - 15 years,Experiment,274.78,30.43,29.38,31.09,24.09,39.22,42.04,21.81,56.72
+534,Male,United States of America,5 - 10 years,Experiment,945.82,38.26,182.55,110.61,96.91,171.73,155.85,78.71,111.2
+539,Male,Germany,more than 20 years,Experiment,516.77,21.33,45.7,84.34,49.7,88.98,93.84,37.79,95.09
+541,Male,Norway,less than 5 years,Experiment,626.34,24.56,89.66,73.65,50.18,107.77,127.75,40.15,112.62
+542,Male,Slovenia,more than 20 years,Experiment,558.07,36.09,59.76,64.12,44.31,73.53,111.86,47.58,120.82
+544,Male,Romania,5 - 10 years,Experiment,493.69,25.59,59.46,68.24,43.52,76.41,81.15,28.89,110.43
+548,Male,Austria,more than 20 years,Experiment,777.96,34.1,22.03,41.73,25,43.15,61.39,23.24,527.32
+549,Female,Italy,5 - 10 years,Experiment,520.85,37.25,65.57,60.44,62.78,73.96,72.4,37.74,110.71
+550,Male,Russian Federation,more than 20 years,Experiment,569.39,33.64,89.17,54.63,45.42,105.95,76.41,40.45,123.72
+555,Male,France,more than 20 years,Experiment,879.46,34.07,229.14,76.84,91.42,77.98,158.3,36.28,175.43
+556,Male,France,16 - 20 years,Experiment,505.72,36.84,43.65,36.28,63.97,70.17,70.36,39.46,144.99
+558,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,532.72,31.78,158.88,33.39,33.98,72.25,83.09,30.64,88.71
+561,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,1545.48,45.07,499.3,104.99,55.12,168.58,233.63,55.69,383.1
+562,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Experiment,525.89,23.91,96.18,43.21,78.95,65.71,110.1,38.84,68.99
+568,Female,Germany,less than 5 years,Experiment,4022.36,32.27,3624.95,49.56,70.58,53.23,54.06,44.08,93.63
+569,Prefer not to say,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,579.66,45.65,88.2,79.45,43.01,114.83,91.46,32.44,84.62
+570,Male,Croatia,more than 20 years,Experiment,759.67,41.04,65.66,115.67,59.1,89.19,101.12,147.64,140.25
+573,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,389.69,20.58,53.91,44.59,32.15,38.93,40.25,102.21,57.07
+574,Male,Italy,more than 20 years,Experiment,839.94,36.68,90.79,110.08,52.53,189.49,155.57,38.94,165.86
+577,Male,Austria,5 - 10 years,Experiment,734.89,44.47,172.45,98,64.9,84.33,97.47,34.66,138.61
+579,Female,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Experiment,438.87,48.92,65.24,47.06,33.3,71.46,74.58,30.16,68.15
+580,Male,Germany,more than 20 years,Experiment,571.42,40.07,95.05,46.04,54.06,63.13,150.84,29.97,92.26
+583,Prefer not to say,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,404.75,29.42,29.23,44.33,45.62,59.55,65.41,19.32,111.87
+584,Male,Israel,5 - 10 years,Experiment,3328.06,61,95.97,2810.9,43.82,95.68,86.35,41.33,93.01
+585,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,346.16,25.58,26.16,53.14,32.7,52.38,61.38,22.38,72.44
+586,Male,Germany,5 - 10 years,Experiment,1121.1,104.09,203.78,154.68,93.47,155.02,167.67,72.37,170.02
+590,Female,Hungary,less than 5 years,Experiment,552.32,25.31,77.39,55.57,59.15,79.91,86.2,44.51,124.28
+594,Male,Slovenia,more than 20 years,Experiment,474.7,24.38,53.07,54.15,36.35,75.32,77.28,45.82,108.33
+595,Male,Germany,less than 5 years,Experiment,415.35,35.51,36.09,41.21,67.22,57.18,81.48,30.78,65.88
+598,Female,Germany,less than 5 years,Experiment,339.82,34.03,49.44,35.43,41.05,50.44,20.07,31.94,77.42
+599,Male,United States of America,16 - 20 years,Experiment,366.55,34.86,34.31,52.19,34.66,60.71,62.75,28.04,59.03
+600,Female,Switzerland,more than 20 years,Experiment,790.03,44.67,65.62,60.32,65.45,146.99,136.44,127.13,143.41
+606,Male,Turkey,16 - 20 years,Experiment,1411.03,38.86,719.56,76.39,62.82,112.62,184.57,57.93,158.28
+611,Male,United States of America,11 - 15 years,Experiment,505.7,18.29,40.1,89.14,155.98,31.28,57.4,61.13,52.38
+614,Male,Italy,5 - 10 years,Experiment,586.98,42.63,54,51.32,23.21,103.94,66.97,115.59,129.32
+616,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,349.58,41.42,30.4,46.46,32.53,50.04,61.59,18.78,68.36
+620,Male,Spain,16 - 20 years,Experiment,843.53,51.93,76.3,106.5,66.6,116.36,122.65,106.51,196.68
+621,Male,United States of America,5 - 10 years,Experiment,770.31,27.82,101.15,102.12,68.47,78.59,203.94,75.95,112.27
+626,Male,France,more than 20 years,Experiment,781.62,39.39,120.51,66.92,44.96,150.2,136.57,59.67,163.4
+629,Male,Italy,5 - 10 years,Experiment,421.57,21.99,56.94,46.23,41.66,70.75,59.6,23.8,100.6
+638,Male,India,less than 5 years,Experiment,332.19,22.87,20.18,45.79,37.51,77.76,52.74,16.43,58.91
+639,Male,Germany,more than 20 years,Experiment,685.17,41.25,134.75,60.66,30.9,91,136.04,34.6,155.97
+645,Male,Spain,more than 20 years,Experiment,590.1,40.55,75.36,48.46,101.28,78.66,94.6,48.73,102.46
+646,Female,United States of America,5 - 10 years,Experiment,346.37,26.97,37,42.36,46.01,43.51,57.55,28.68,64.29
+650,Female,Italy,5 - 10 years,Experiment,544.07,35.88,35.81,55.31,87.69,81.07,72.08,28.74,147.49
+652,Female,China,less than 5 years,Experiment,726.35,86.9,82.62,97.33,81.1,84.8,102.98,32.75,157.87
+655,Female,Italy,more than 20 years,Experiment,615.13,37.7,67.1,171.61,49.33,63.1,97.24,42.89,86.16
+656,Female,Brazil,more than 20 years,Experiment,799.75,40.29,179.15,65.15,71.9,103.72,140.91,37.46,161.17
+657,Male,Italy,more than 20 years,Experiment,334.11,21.31,29.2,48.5,20.49,42.82,49.11,34.82,87.86
+664,Male,Belgium,less than 5 years,Experiment,555.06,44.81,58.27,50.96,54.76,74.13,110.81,35.69,125.63
+665,Male,Switzerland,11 - 15 years,Experiment,616.59,24.88,168.92,51.77,56.09,69.96,103.79,47.74,93.44
+666,Male,Italy,more than 20 years,Experiment,345.79,25.13,50.17,39.49,34.52,44.85,57.19,26.14,68.3
+670,Male,Canada,more than 20 years,Experiment,409.69,23.34,38.6,49.55,43.66,84.83,65.94,33.83,69.94
+672,Male,India,16 - 20 years,Experiment,86811.48,46.59,76.39,70.06,44.26,89.38,86319.18,44.56,121.06
+673,Male,United States of America,less than 5 years,Experiment,338.55,20.07,37.88,39.66,30.35,55.25,66.04,15.1,74.2
+675,Male,Italy,more than 20 years,Experiment,634.62,33.55,55.44,92.38,54.35,111.08,118.09,34.65,135.08
+677,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,461.09,23.05,93.94,61.13,36.95,58.56,75.19,30.46,81.81
+678,Female,United States of America,less than 5 years,Experiment,3333.72,112.13,538.05,73.9,483.69,220.25,1620.1,175.52,110.08
+679,Male,Belgium,5 - 10 years,Experiment,897.04,30.41,95.04,115.54,133.02,127.33,179.9,55.53,160.27
+680,Female,Germany,16 - 20 years,Experiment,594.74,29.95,89.79,70.05,48.05,96.47,101.76,40.64,118.03
+681,Male,China,more than 20 years,Experiment,740.27,38.23,56.9,85.67,146.51,107.48,107.4,59.04,139.04
+686,Male,Italy,more than 20 years,Experiment,381.51,27.88,36.02,39.55,36.61,43.21,76.57,30.61,91.06
+687,Female,United States of America,16 - 20 years,Experiment,635.07,31.93,83.66,61.89,56.05,54.49,88.76,173.27,85.02
+688,Male,Italy,more than 20 years,Experiment,676.61,32.83,41.16,78.2,117.98,124.11,119.65,23.43,139.25
+689,Male,Germany,more than 20 years,Experiment,780.64,41.66,88.71,68.8,51.07,97.84,144.62,52.38,235.56
+690,Male,Iran (Islamic Republic of),11 - 15 years,Experiment,661.34,39.31,69.46,67.46,108.32,101.21,113.31,29.96,132.31
+691,Female,Finland,more than 20 years,Experiment,543.64,28.72,42.51,95.33,50.55,75.49,111.88,41.91,97.25
+692,Male,Brazil,11 - 15 years,Experiment,361.38,23.42,46.91,39.91,36.36,50.28,69.65,31.63,63.22
+694,Male,Italy,more than 20 years,Experiment,416.82,24.35,44.43,48.78,34.97,62.66,77.72,29.1,94.81
+695,Male,Germany,more than 20 years,Experiment,483.86,24.25,55.71,49.24,18.05,50.87,108.22,27.62,149.9
+696,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Experiment,777.83,32.48,133.97,121.17,79.1,117.55,134.07,66.17,93.32
+699,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,521.75,56.4,81.56,56.31,49.14,75.6,85.58,35,82.16
+701,Female,Italy,more than 20 years,Experiment,2107.71,36.29,67.05,1386.21,62.52,233.7,168.25,37.9,115.79
+702,Female,Poland,5 - 10 years,Experiment,794.95,29.15,56.27,53.03,98.97,81.52,262.91,36.17,176.93
+704,Female,United States of America,less than 5 years,Experiment,248.25,19.1,22.44,27.26,19.32,38.7,49.52,21.46,50.45
+706,Female,Republic of Korea,16 - 20 years,Experiment,806.67,67.78,98.64,77.71,66.24,122.51,114,51.49,208.3
+708,Female,Italy,more than 20 years,Experiment,758.25,30.62,94.58,102.63,69.04,146.75,107.68,46.74,160.21
+709,Male,Italy,more than 20 years,Experiment,465.18,23.65,54.55,52.4,44.45,65.95,96.72,41.72,85.74
+711,Male,Bulgaria,16 - 20 years,Experiment,1103.35,63.53,111.66,119.62,55.61,250.15,234.43,70.2,198.15
+712,Female,Canada,16 - 20 years,Experiment,443.24,24.86,55.44,69.28,49.75,61.14,67.83,33.33,81.61
+714,Male,France,more than 20 years,Experiment,946.99,75.58,90.66,155.49,44.35,216.12,131.19,54.55,179.05
+715,Prefer not to say,France,more than 20 years,Experiment,914.11,27.46,107.14,82.49,34.3,326.53,127.74,49.77,158.68
+716,Male,France,more than 20 years,Experiment,6074.43,50.16,5515.29,159.85,48.47,67.02,71.62,45.84,116.18
+717,Male,Switzerland,more than 20 years,Experiment,662.1,26.13,73.01,82.74,54.51,84.75,169.48,32.29,139.19
+718,Male,United States of America,5 - 10 years,Experiment,650.42,30.27,131.6,62.87,60.88,101.74,100.47,54.4,108.19
+719,Male,Canada,more than 20 years,Experiment,495.43,27.25,76.39,48.61,84.38,64.57,80.64,25.51,88.08
+720,Male,South Africa,less than 5 years,Experiment,629.26,51.04,79.41,88.91,56.48,84.42,125.96,45.03,98.01
+721,Male,United States of America,more than 20 years,Experiment,807.47,47.06,88.22,73.52,80.81,143.55,156.61,42.68,175.02
+724,Male,France,16 - 20 years,Experiment,622.51,58.32,86.73,49.43,44.03,56.83,143.11,35.65,148.41
+725,Male,France,5 - 10 years,Experiment,1279.95,78.59,139.8,117.73,74.42,250.84,281.37,86.29,250.91
+728,Male,Italy,5 - 10 years,Experiment,280.21,24.71,30.45,40.53,32.89,30.72,48.54,22.58,49.79
+731,Prefer not to say,United States of America,11 - 15 years,Experiment,687.16,65.28,57.13,91.78,35.76,88.23,104.54,175.73,68.71
+732,Male,United States of America,5 - 10 years,Experiment,407.34,31.85,20.97,51.84,40.02,75.56,73.06,31.54,82.5
+733,Male,United States of America,more than 20 years,Experiment,575.97,56.01,92.29,112.86,45.13,66.66,66.2,35.17,101.65
+737,Male,Colombia,less than 5 years,Experiment,735.44,37.67,83.04,54.36,227.17,56.4,122.8,47.57,106.43
+738,Male,United States of America,more than 20 years,Experiment,485.78,36.67,70.36,79.46,38.89,62.04,85.43,20.85,92.08
+739,Male,Germany,more than 20 years,Experiment,557.59,47.55,64.91,56.81,47.9,80,121.8,33.31,105.31
+741,Prefer not to say,Germany,5 - 10 years,Experiment,950.95,38.78,447.45,59.56,52.12,84.73,98.31,45.11,124.89
+742,Female,United States of America,more than 20 years,Experiment,617.15,34.55,82.7,73.17,44.57,105.98,104.92,45.88,125.38
+743,Male,China,less than 5 years,Experiment,437.46,37.44,34.51,61.34,30.92,58.41,93.59,21.84,99.41
+748,Male,United States of America,5 - 10 years,Experiment,685.16,238.48,66.01,48.38,52.15,68.64,93.57,23.35,94.58
+750,Male,United States of America,more than 20 years,Experiment,572.07,165.78,48.34,38.04,53.71,42.17,78.91,41.79,103.33
+752,Female,United States of America,5 - 10 years,Experiment,497.65,22.12,160.54,39.77,21.23,54.06,89.14,44,66.79
+753,Male,Italy,11 - 15 years,Experiment,782.26,52.42,69.32,83.56,268.82,77.59,85.5,42.15,102.9
+754,Male,United States of America,more than 20 years,Experiment,526.43,30.61,80.24,54.84,34.94,56.59,78.88,67.98,122.35
+756,Male,United States of America,less than 5 years,Experiment,468.66,27.64,43.52,38.17,51.62,79.02,73.06,28.66,126.97
+759,Male,Germany,5 - 10 years,Experiment,1063.79,52.45,307.55,137.24,87.69,85.72,173.47,53.27,166.4
+761,Male,Russian Federation,more than 20 years,Experiment,829.24,54.2,118.54,85.76,49.05,126.82,136.73,63.78,194.36
+766,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,2297.37,1929.48,30.02,30.4,33.02,38.52,158.67,32,45.26
+767,Male,Canada,5 - 10 years,Experiment,398.89,19.36,22.3,33.46,50.17,73.14,86.55,25.02,88.89
+769,Male,New Zealand,5 - 10 years,Experiment,647.65,50.14,93.78,61.12,54.08,106.54,98.28,41.11,142.6
+771,Female,France,5 - 10 years,Experiment,451.72,35.52,42.55,52.51,34.95,78.19,73.24,31.46,103.3
+774,Male,Switzerland,less than 5 years,Experiment,512.72,39.58,78.67,64.02,50.29,84.14,74.7,33.78,87.54
+775,Male,France,more than 20 years,Experiment,1476.88,56.91,115.89,197.07,102.64,310.53,319.28,90.83,283.73
+778,Male,France,less than 5 years,Experiment,572.69,17.5,21.7,108.48,59.38,85.01,101.18,49.12,130.32
+781,Male,France,11 - 15 years,Experiment,817.59,32.36,76.95,96.24,54.18,94.02,110.35,223.77,129.72
+782,Male,Greece,more than 20 years,Experiment,767.62,61.7,92.35,80.94,58.79,114.58,147.04,64.1,148.12
+786,Female,France,more than 20 years,Experiment,1457.04,41.26,195.32,159.29,101.41,230.71,261.76,228.02,239.27
+787,Male,Portugal,16 - 20 years,Experiment,704.55,60.57,141.11,119.87,48.75,67.38,113.23,55.15,98.49
+788,Male,Spain,less than 5 years,Experiment,1268.88,38.52,82.04,263.01,246.49,344.96,168.85,42.14,82.87
+789,Male,Poland,more than 20 years,Experiment,1532.53,41.88,98.61,1040.94,44.49,73.94,70.89,47.61,114.17
+790,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Experiment,428.19,34.39,43.84,31.22,26.99,104.61,56.86,55.91,74.37
+791,Male,Germany,more than 20 years,Experiment,516.56,24.89,84.65,58.2,30.12,101.91,78.52,32.93,105.34
+792,Male,Sweden,more than 20 years,Experiment,3982.34,44.64,47.81,34.79,24.16,3680.8,60.73,26.79,62.62
+794,Male,Russian Federation,less than 5 years,Experiment,918.99,61.1,173.28,88.24,65.5,124.09,155.86,64.05,186.87
+798,Female,Germany,16 - 20 years,Experiment,603.85,51.05,35.07,63.07,70.62,68.59,62.79,33.67,218.99
+799,Male,France,more than 20 years,Experiment,613.24,28.59,37.43,75.21,181.08,59.94,97.1,38.16,95.73
+800,Male,Germany,more than 20 years,Experiment,735.3,33.25,101.07,65.39,46.5,102.41,169.34,86.48,130.86
+803,Male,Italy,more than 20 years,Experiment,345.78,18.74,28.22,26.95,31.47,70.55,59.35,23.54,86.96
+804,Male,Czech Republic,11 - 15 years,Experiment,403.89,28.56,63.5,42.68,41.35,62.4,65.9,21.13,78.37
+805,Male,France,more than 20 years,Experiment,612.87,25.15,41.47,85.8,79.48,66.82,114.38,91.03,108.74
+806,Female,South Africa,5 - 10 years,Experiment,642.04,60.6,58.39,59.91,49.4,84.05,129.61,110.07,90.01
+807,Male,Israel,more than 20 years,Experiment,829.02,25.36,40.43,45.37,47.32,86.31,116.49,140.09,327.65
+809,Male,United States of America,more than 20 years,Experiment,1311.81,41.27,120.69,108.88,673.48,96.33,103.73,56.73,110.7
+813,Male,United States of America,more than 20 years,Experiment,461.73,28.16,46.61,50.68,33.49,73,86.77,35.03,107.99
+818,Male,China,5 - 10 years,Experiment,968.06,45.61,58.17,42.04,610.42,66.78,59.98,22.08,62.98
+822,Male,Spain,more than 20 years,Experiment,602.23,44.81,67.83,75.76,51.92,87.05,97.5,66.16,111.2
+824,Female,Italy,more than 20 years,Experiment,659.69,38.7,43.33,66.35,36.46,105.23,120.75,40.44,208.43
+825,Male,Netherlands,more than 20 years,Experiment,557.27,29.21,65.96,53.22,48.66,92.41,110.34,36.89,120.58
+826,Male,Colombia,more than 20 years,Experiment,709.46,33.35,87.48,58.18,30.99,274.66,103.29,34.03,87.48
+827,Female,Italy,16 - 20 years,Experiment,710.91,32.62,93.59,114.99,62.46,97.22,125.58,57.55,126.9
+830,Male,Russian Federation,5 - 10 years,Experiment,1398.15,146.64,376.54,170.32,150.61,187.62,108.38,46.01,212.03
+831,Male,Italy,more than 20 years,Experiment,435.86,36.01,63.14,52.7,38.08,60.73,68.4,28.02,88.78
+833,Male,Germany,less than 5 years,Experiment,716.89,35.79,102.85,83.25,80.49,107.67,138.94,58.45,109.45
+834,Male,Ukraine,more than 20 years,Experiment,1056.52,42.3,224.39,90.61,59.04,179.99,212.21,48.23,199.75
+836,Female,Israel,more than 20 years,Experiment,796.05,54.67,67.62,63.56,227.69,105.83,96.93,62.64,117.11
+837,Male,France,5 - 10 years,Experiment,3666.46,23.21,78.39,69.08,40.08,2990.89,143.67,137.55,183.59
+838,Male,Russian Federation,16 - 20 years,Experiment,677.81,50.12,52.5,133.28,67.02,132.74,101.87,39.67,100.61
+839,Male,Romania,5 - 10 years,Experiment,726.75,46.7,91.13,82.08,72.94,101.27,128.53,46.97,157.13
+840,Male,Spain,more than 20 years,Experiment,358.78,24.06,25.89,33.9,31.4,51.98,68.35,24.73,98.47
+842,Male,France,11 - 15 years,Experiment,602.08,40.92,69.3,90.7,53.05,75.19,132.26,23.43,117.23
+845,Male,Czech Republic,more than 20 years,Experiment,892.31,64.32,145.22,90.2,71.85,104.07,151.21,135.22,130.22
+853,Male,Spain,11 - 15 years,Experiment,349.88,29.69,47.04,31.4,37.09,64.08,61.26,13.35,65.97
+855,Female,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,949.25,31.08,108.3,131.42,35.97,197.73,121,22.12,301.63
+859,Male,Germany,5 - 10 years,Experiment,426.1,29.47,63.59,55.61,38.25,57.01,62.55,22.85,96.77
+862,Male,Germany,5 - 10 years,Experiment,976.19,42.6,204.32,90.53,45.45,194.68,118.53,71.91,208.17
+863,Male,United States of America,more than 20 years,Experiment,764.69,23.74,259.85,81.25,55.35,71.41,109.62,76.47,87
+866,Male,Austria,less than 5 years,Experiment,717.04,25.45,100.38,79.58,65,80.61,195.25,44.76,126.01
+868,Female,Brazil,5 - 10 years,Experiment,867.21,124.5,54.88,54.78,51.99,192.33,146.28,56.56,185.89
+869,Male,Hungary,more than 20 years,Experiment,3062.08,208.2,301.33,300.74,196.79,519.78,318.93,113.93,1102.38
+870,Prefer not to say,United States of America,less than 5 years,Experiment,963.81,28.42,81.7,142.95,131.7,168.53,112.23,48.68,249.6
+872,Male,Sweden,more than 20 years,Experiment,459.23,27.13,40.02,65.12,36.6,60.77,88.35,36.95,104.29
+874,Female,United States of America,11 - 15 years,Experiment,1139.96,47.56,132.49,94.78,86.84,241.28,242.31,87.28,207.42
+876,Male,Italy,16 - 20 years,Experiment,729.18,46.96,188.22,79.55,99.56,82.8,73.84,40.89,117.36
+879,Male,Czech Republic,more than 20 years,Experiment,937.07,78.4,137.02,95.28,60.79,121.34,135.76,78.44,230.04
+47,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,129.47,24.04,22.64,50.76,32.03,0,0,0,0
+50,Male,Switzerland,less than 5 years,Experiment,111.11,20.41,25.65,38.06,26.99,0,0,0,0
+74,Male,the United Kingdom of Great Britain and Northern Ireland,less than 5 years,Experiment,244.02,36.37,62.1,68.99,76.56,0,0,0,0
+95,Male,United States of America,less than 5 years,Experiment,381.61,25.55,93.91,64.64,82.27,115.24,0,0,0
+97,Male,Brazil,less than 5 years,Experiment,238.95,20.71,118.08,49.11,51.05,0,0,0,0
+125,Male,Italy,less than 5 years,Experiment,197.02,28.21,65.36,63.15,40.3,0,0,0,0
+127,Male,Germany,less than 5 years,Experiment,139.52,16.22,34.82,28.46,42.77,17.25,0,0,0
+137,Male,Hungary,11 - 15 years,Experiment,220.61,52.02,38.4,104.18,26.01,0,0,0,0
+469,Male,Spain,16 - 20 years,Experiment,632.72,30.84,87.74,136.32,377.82,0,0,0,0
+609,Male,Spain,16 - 20 years,Experiment,165.61,37.96,54.39,38.09,35.17,0,0,0,0
+619,Male,Japan,less than 5 years,Experiment,229.6,27.01,44.77,42.99,114.83,0,0,0,0
+627,Male,Norway,less than 5 years,Experiment,160.39,26.62,31.63,17.15,84.99,0,0,0,0
+640,Male,Poland,more than 20 years,Experiment,556.33,50.94,83.38,63.98,303.26,54.77,0,0,0
+772,Male,France,11 - 15 years,Experiment,120.37,22.19,36.85,37.35,23.98,0,0,0,0
+44,Male,Germany,less than 5 years,Experiment,195.23,28.1,38.24,42.04,34.93,51.92,0,0,0
+86,Male,Spain,less than 5 years,Experiment,17481.1,31.44,94.69,88.28,146.14,118.06,17002.49,0,0
+113,Male,India,less than 5 years,Experiment,498.51,38.81,103.48,89.02,96.8,158.69,11.71,0,0
+160,Male,Russian Federation,11 - 15 years,Experiment,384.33,36.66,101.82,41.54,142.55,61.76,0,0,0
+241,Male,Italy,5 - 10 years,Experiment,350.6,23.72,51.55,50.83,57.39,167.11,0,0,0
+256,Male,Netherlands,11 - 15 years,Experiment,266.81,32.68,76.86,49.58,39.71,67.98,0,0,0
+294,Male,Brazil,more than 20 years,Experiment,355.09,29.07,43.19,63.11,54.39,152.65,12.68,0,0
+524,Male,Spain,11 - 15 years,Experiment,190.45,40.05,25.24,34.15,41.97,49.04,0,0,0
+552,Male,South Africa,11 - 15 years,Experiment,185.61,21.96,27.49,29.32,20.04,86.8,0,0,0
+723,Male,Germany,more than 20 years,Experiment,423.71,56.01,149.47,54.5,54.78,108.95,0,0,0
+760,Male,United States of America,more than 20 years,Experiment,266.67,35.05,82.48,47.4,44.7,57.04,0,0,0
+780,Male,Italy,16 - 20 years,Experiment,828.9,51.41,152.03,237.36,55.71,146.81,185.58,0,0
+802,Female,Italy,less than 5 years,Experiment,283.05,34.17,38.3,71.11,66.59,72.88,0,0,0
+880,Male,France,11 - 15 years,Experiment,179.64,28.47,35.7,37.68,23.56,38.18,16.05,0,0
+333,Male,Russian Federation,more than 20 years,Experiment,882.6,63.95,181.2,113.69,107.46,216.11,161.02,39.17,0
+817,Male,Andorra,5 - 10 years,Experiment,490.71,100.86,138.42,86.31,27.7,67.69,36.27,33.46,0
+861,Male,United States of America,5 - 10 years,Experiment,1139.68,57.72,189.28,188.74,115.57,181.43,336.96,69.98,0
+865,Male,Poland,11 - 15 years,Experiment,671.03,48.72,112.4,91.84,62.95,74.21,226.34,54.57,0
+13,Male,Finland,5 - 10 years,Theory,350.32,20.22,58.43,47.59,25.7,45.1,66.11,19.46,67.71
+15,Male,the United Kingdom of Great Britain and Northern Ireland,16 - 20 years,Theory,672.81,67.36,83.52,142.8,53.05,63.16,93.35,70.04,99.53
+31,Male,Italy,11 - 15 years,Theory,259.92,28.81,31.65,33.16,25.41,33.71,44.61,14.88,47.69
+41,Prefer not to say,United States of America,more than 20 years,Theory,538.9,33.22,38.49,77.2,38.59,117.38,74.34,27.95,131.73
+58,Male,Slovenia,11 - 15 years,Theory,6671.85,28.39,35.58,6316.98,53.84,65.56,68.49,24.64,78.37
+70,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Theory,481.22,40.24,67.33,75.29,50.28,78.87,85.3,17.48,66.43
+108,Male,the United Kingdom of Great Britain and Northern Ireland,5 - 10 years,Theory,426.97,33.83,49.44,74.8,45.21,64.64,60.48,19.69,78.88
+109,Male,Italy,16 - 20 years,Theory,505.86,29.31,54.33,54.28,53.56,80.08,95.54,28.8,109.96
+138,Male,France,11 - 15 years,Theory,381.56,13.49,31.45,103.71,23.7,54.9,75.24,13.17,65.9
+139,Female,Portugal,5 - 10 years,Theory,889.04,21.71,47.41,163.67,349.34,85.94,114.71,26.07,80.19
+150,Male,Sweden,more than 20 years,Theory,577.92,17.48,34.67,75.11,99.57,120.18,118.15,18.67,94.09
+151,Male,Republic of Korea,more than 20 years,Theory,564.08,60.67,47.47,64.58,49.18,76.52,89.65,40.74,135.27
+156,Male,Denmark,5 - 10 years,Theory,253.36,13.98,14.44,34.4,27.64,35.58,56.79,9.91,60.62
+158,Male,Portugal,more than 20 years,Theory,388.46,28.62,40.97,50.84,47.01,54.05,62.31,14.64,90.02
+169,Male,Netherlands,more than 20 years,Theory,571.96,43.64,71.84,85.61,67.58,77.45,95.86,36.25,93.73
+196,Male,Germany,5 - 10 years,Theory,587.29,29.59,62.96,84.94,51.62,109.58,97.24,25.89,125.47
+210,Male,Italy,more than 20 years,Theory,439.99,21.24,31.08,63.95,44.86,64.15,76.2,21.01,117.5
+211,Male,Australia,11 - 15 years,Theory,524,23.65,59.14,52.04,59.93,76.07,132.01,27.42,93.74
+214,Male,Germany,more than 20 years,Theory,582.7,31.32,98.4,72.25,60.25,76.61,92.53,44.12,107.22
+236,Male,Czech Republic,5 - 10 years,Theory,772.79,20.83,483.12,42.25,39.33,62.76,44.66,12.95,66.89
+265,Male,the United Kingdom of Great Britain and Northern Ireland,more than 20 years,Theory,887.85,24.18,37.28,54.67,73.99,469.1,56.93,38.49,133.21
+283,Male,Italy,more than 20 years,Theory,749.12,25.96,107.45,136.09,86.47,111.46,125.85,32.47,123.37
+300,Male,France,more than 20 years,Theory,457.98,26.86,27.92,67.63,32.51,99.55,73.71,22.46,107.34
+314,Male,Poland,more than 20 years,Theory,422.45,23.97,24.13,20.7,32.36,73.4,73.84,36.07,137.98
+328,Male,United States of America,more than 20 years,Theory,276.24,16.76,32.09,33.95,25.79,37.78,53.55,18.76,57.56
+331,Female,South Africa,less than 5 years,Theory,661.86,28.18,154.56,80,46.78,76.6,108.69,44.2,122.85
+346,Male,Slovakia,16 - 20 years,Theory,685.76,41.12,47.47,45.13,51.08,66.92,254.52,37.32,142.2
+354,Male,France,16 - 20 years,Theory,547.52,21.99,62.18,69.39,129.23,80.36,73.77,21.4,89.2
+361,Male,Norway,less than 5 years,Theory,640.35,20.14,49.59,92.96,49.87,207.16,82.65,22.11,115.87
+400,Male,Germany,more than 20 years,Theory,631.45,39.76,70.53,155.44,84.58,78.14,74.46,25.13,103.41
+407,Prefer not to say,Germany,more than 20 years,Theory,536.82,32.89,50.35,66.86,47.53,87.21,83.35,40.34,128.29
+423,Male,Russian Federation,11 - 15 years,Theory,1194.23,84.27,138.69,81.73,82.92,162.35,313.67,87.34,243.26
+425,Male,France,11 - 15 years,Theory,1133.7,55.28,138.28,125.45,49.49,125.22,129.77,379.28,130.93
+438,Male,Italy,more than 20 years,Theory,1105.35,25.49,65.2,87.31,49.98,74.48,72.53,615.57,114.79
+444,Male,Italy,more than 20 years,Theory,584.39,21.55,88.87,78.4,52.09,120.09,148.6,21.98,52.81
+445,Female,Italy,more than 20 years,Theory,549.81,21.94,116.05,75.68,56.98,62.93,97.63,23.2,95.4
+456,Male,United States of America,more than 20 years,Theory,474.61,25.15,68.12,79.13,43.56,59.36,84.7,23.22,91.37
+467,Female,Germany,more than 20 years,Theory,561.51,34.76,95.41,79.49,61.06,95.38,79.85,16.16,99.4
+529,Male,Chile,more than 20 years,Theory,971.51,52.7,123.93,171.05,97.8,162.43,143.41,30.98,189.21
+536,Male,France,more than 20 years,Theory,444.2,39.25,44.19,63,53.79,60.94,56.43,17.32,109.28
+564,Male,Germany,11 - 15 years,Theory,516.72,26.85,27.61,46.33,30.04,43.28,259.2,12.53,70.88
+582,Male,Germany,5 - 10 years,Theory,511.89,23.34,72.48,76.78,77.2,73.36,71.33,35.44,81.96
+617,Male,Republic of Korea,more than 20 years,Theory,571.5,54.33,45.68,56.74,59.15,84.73,112.77,31.12,126.98
+634,Female,China,less than 5 years,Theory,500.68,111.77,124.88,58.75,23.51,62.91,42.83,20.47,55.56
+642,Male,United States of America,more than 20 years,Theory,868.35,46.56,103.63,127.7,75.47,108.78,165.98,26.01,214.22
+661,Male,France,11 - 15 years,Theory,434.62,24.7,67.84,80.72,45.46,55.27,61.49,18.64,80.5
+668,Male,Germany,16 - 20 years,Theory,542.73,23.77,65.9,62.66,49.94,91.42,96.33,37.78,114.93
+697,Male,Colombia,more than 20 years,Theory,707.84,42.44,62.35,92.51,75.37,94.89,109.55,35.91,194.82
+700,Male,Russian Federation,more than 20 years,Theory,22593,74.36,21774.62,162.03,67.49,190.17,102.54,33.78,188.01
+703,Male,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Theory,738.48,28.93,53.31,60.34,39.05,78.72,197.89,204.96,75.28
+713,Male,Ukraine,more than 20 years,Theory,825.15,39.27,243.04,87.99,39.4,77.46,175.36,37.49,125.14
+749,Male,Italy,5 - 10 years,Theory,341.67,34.77,48.69,40.64,29,57.1,50.31,14.47,66.69
+751,Male,Hungary,more than 20 years,Theory,13315.83,35.2,12359.06,172.46,65.77,304.28,152.5,64.62,161.94
+757,Male,France,more than 20 years,Theory,667.25,28.36,159.09,71.56,66.02,90.62,107.02,21.05,123.53
+758,Male,Russian Federation,more than 20 years,Theory,346.71,27.31,47.84,52.45,29.56,81.18,33.29,18.47,56.61
+779,Male,Spain,more than 20 years,Theory,440.46,24.5,60.5,72.12,31.43,60.7,77.62,18.25,95.34
+793,Male,France,more than 20 years,Theory,431.07,29.22,62.92,77.08,47.29,54.98,58.19,15.68,85.71
+795,Male,Italy,more than 20 years,Theory,578.19,36.93,80.17,87.09,39.26,84.01,99.19,31.95,119.59
+796,Male,Bulgaria,more than 20 years,Theory,415.97,27.75,46.75,69.02,27.93,64.13,83.29,21.74,75.36
+797,Female,Denmark,16 - 20 years,Theory,1010.23,49.78,130.88,255.46,124.68,114.71,148.82,19.53,166.37
+801,Male,Italy,more than 20 years,Theory,313.69,25.2,39.5,40.18,32.83,42.22,58.94,19.77,55.05
+849,Male,Lithuania,more than 20 years,Theory,636.63,28.16,59.77,79,56.9,126.02,112.41,35.15,139.22
+850,Male,Poland,more than 20 years,Theory,475.29,23.69,42.46,66.26,40.16,76.96,74.75,25.04,125.97
+852,Male,United States of America,more than 20 years,Theory,415.11,33.11,46.26,54.37,60.78,64.99,61.4,21.36,72.84
+857,Female,Venezuela (Bolivarian Republic of),more than 20 years,Theory,717.69,41.42,58.8,168.32,70.76,99.06,121.82,27.64,129.87
+867,Male,Switzerland,more than 20 years,Theory,599.78,74.7,40.5,71.22,43.28,84.85,114.28,34.15,136.8
+878,Male,Iran (Islamic Republic of),more than 20 years,Theory,781.79,72.92,100.07,106.69,83.89,124.28,111.68,38.32,143.94
+11,Male,United States of America,less than 5 years,Theory,126.02,25.51,36.41,45.93,18.17,0,0,0,0
+247,Male,Norway,more than 20 years,Theory,212.77,24.01,76.69,63.18,48.89,0,0,0,0
+291,Male,Ukraine,more than 20 years,Theory,1038.95,125.01,265.14,296.38,104.76,247.66,0,0,0
+846,Male,Hungary,more than 20 years,Theory,194.57,37.56,54.3,58.7,44.01,0,0,0,0
+1,Female,China,less than 5 years,Other,408.93,27.56,72.56,35.86,42.64,63.75,58.19,17.86,90.51
+17,Male,Switzerland,more than 20 years,Other,418.63,31.76,52.25,49.31,33.52,60.93,83.68,28.45,78.73
+64,Male,Germany,11 - 15 years,Other,562.17,32.93,101.29,91.15,46.44,80.22,99.43,33.33,77.38
+134,Male,Sweden,5 - 10 years,Other,301.44,18.02,35.86,30.64,21.87,37.27,74.73,21.83,61.22
+155,Male,Hungary,11 - 15 years,Other,423.45,42.28,16.47,37.19,71.54,45.88,91.46,60.01,58.62
+188,Male,Poland,less than 5 years,Other,392.6,26.76,31.79,52.48,35.08,56.45,82.83,27.44,79.77
+207,Male,France,11 - 15 years,Other,391.58,21.63,25.76,37.27,33.33,71.27,69.66,29.78,102.88
+250,Male,Germany,16 - 20 years,Other,528.47,32.79,70.17,62.03,49.39,85.6,92.83,32.13,103.53
+347,Male,Netherlands,less than 5 years,Other,521.95,30.36,30.38,77.44,69.14,75.8,112.74,33.69,92.4
+356,Male,Russian Federation,5 - 10 years,Other,2044.33,208.29,89.78,72.75,311.12,156.74,529,28.65,648
+381,Male,the United Kingdom of Great Britain and Northern Ireland,11 - 15 years,Other,314.31,32.89,35.89,46.21,28.28,44.72,47.06,22.83,56.43
+406,Male,Brazil,5 - 10 years,Other,677.4,37.14,87.2,83.94,84.13,87.41,134.64,36.37,126.57
+442,Male,Netherlands,less than 5 years,Other,291.19,33.12,19.79,37.18,37.98,39.81,46.77,22.79,53.75
+504,Male,Italy,more than 20 years,Other,447.14,44.78,49.19,40.78,37.62,89.91,65.23,35.1,84.53
+505,Male,Bulgaria,less than 5 years,Other,1251.13,121.87,126.12,147.94,119.98,229.15,169.69,75.47,260.91
+546,Male,Belgium,11 - 15 years,Other,485.48,32.23,40.08,57.58,60.74,115.13,71.29,24.82,83.61
+553,Male,Italy,16 - 20 years,Other,1010.57,146.22,118.81,103.34,99.01,191.56,155.76,49.94,145.93
+612,Male,Romania,less than 5 years,Other,779.23,37.64,108.85,85.27,73.84,141.5,152.92,32.77,146.44
+630,Female,Italy,16 - 20 years,Other,848.83,54.17,84.89,67.17,46.87,72.68,373.65,29.64,119.76
+671,Male,Germany,11 - 15 years,Other,765.83,32.82,92.86,64.53,73.46,88.61,112.31,48.77,252.47
+698,Male,Portugal,more than 20 years,Other,453.66,52.18,47.39,51.08,38.65,73.39,78.37,38.17,74.43
+848,Male,Germany,more than 20 years,Other,1036.95,57.14,141.54,119.43,129.46,107.97,142.76,131.36,207.29
+854,Male,Belarus,more than 20 years,Other,893.9,60.37,200.67,138.4,83.23,120.95,112.15,46.02,132.11
+875,Male,Greece,more than 20 years,Other,593.92,48.29,46.69,60.01,38.29,93.37,122.36,39.32,145.59
+231,Prefer not to say,United States of America,11 - 15 years,Other,148.49,22.58,28.47,34.86,20.67,41.91,0,0,0

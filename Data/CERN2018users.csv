@@ -1,0 +1,77 @@
+Country/Region, count, status
+Austria, 96, M
+Belgium, 152, M
+Bulgaria, 41, M
+Czech Republic, 258, M
+Denmark, 56, M
+Finland, 116, M
+France, 834, M
+Germany, 1373, M
+Greece, 133, M
+Hungary, 63, M
+Israel, 73, M
+Italy, 1582, M
+Netherlands, 179, M
+Norway, 89, M
+Poland, 304, M
+Portugal, 97, M
+Romania, 106, M
+Slovakia, 86, M
+Spain, 375, M
+Sweden, 104, M
+Switzerland, 280, M
+United Kingdom, 952, M
+Cyprus, 16, AM-P
+Serbia, 37, AM-P
+Slovenia, 19, AM-P
+India, 207, AM
+Lithuania, 23, AM
+Pakistan, 37, AM
+Turkey, 117, AM
+Ukraine, 34, AM
+Japan, 258, OB
+Russia, 1040, OB
+USA, 1998, OB
+Algeria, 2, O
+Arab Emirates, 1, O
+Argentina, 15, O
+Armenia, 13, O
+Australia, 30, O
+Azerbaijan, 4, O
+Bangladesh, 2, O
+Belarus, 22, O
+Brazil, 120, O
+Canada, 198, O
+Chile, 19, O
+Colombia, 24, O
+Croatia, 28, O
+Cuba, 3, O
+Ecuador, 3, O
+Egypt, 19, O
+Estonia, 19, O
+Georgia, 32, O
+Hong Kong, 20, O
+Iceland, 3, O
+Indonesia, 7, O
+Iran, 17, O
+Ireland, 6, O
+Latvia, 2, O
+Lebanon, 16, O
+Madagascar, 2, O
+Malaysia, 9, O
+Malta, 5, O
+Mexico, 59, O
+Mongolia, 2, O
+Montenegro, 7, O
+Morocco, 14, O
+New Zealand, 7, O
+Oman, 4, O
+People’s Republic of China, 327, O
+Peru, 3, O
+Puerto Rico, 1, O
+Republic of Korea, 157, O
+Singapore, 4, O
+South Africa, 69, O
+Sri Lanka, 8, O
+Taiwan, 57, O
+Thailand, 18, O

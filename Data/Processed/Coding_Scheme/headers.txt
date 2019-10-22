@@ -1,0 +1,62 @@
+[1] "id"                      "Gender"                  "Country"
+[4] "Seniority"               "Field"                   "OS_BeneDiscipline"
+[7] "OS_BeneIndividual"       "OS_BenePublic"           "OA_ChSeeking"
+[10] "OA_ChSub"                "OD_aware"                "OD_seeking"
+[13] "OD_using"                "OD_sharing"              "OD_none"
+[16] "OD_publish"              "OD_anyone"               "OD_helpful"
+[19] "OD_dontaffect"           "Who_decide"              "Sharing_asked"
+[22] "Sharing_shared"          "Sharing_never"           "Sharing_not_interested"
+[25] "Sharing_addedwork"       "Sharing_rights"          "Sharing_competition"
+[28] "Sharing_quality"         "Sharing_essential"       "Sharing_selfeval"
+[31] "Sharing_request"         "Sharing_responsiblyused" "Sharing_required"
+[34] "Doc_askpeople"           "Doc_reproduc"            "Doc_unproductive"
+[37] "Doc_unuseful"            "Rev_coderev"             "Rev_qualitynotaffect"
+[40] "Rev_doc"                 "Rev_docreadywhenpublish" "Tool_codemanage"
+[43] "Tool_issuetracker"       "Tool_docmanage"          "Tool_coediting"
+[46] "Tool_eventmanage"        "Tool_notebook"           "Happy_codemanage"
+[49] "Happy_issuetracker"      "Happy_docmanage"         "Happy_coediting"
+[52] "Happy_refmanage"         "Happy_eventmanage"       "Happy_notebook"
+[55] "Tool_endorsement"        "Tool_efficient"          "Tool_easy"
+[58] "Tool_peers"
+
+QG1
+"id"                      "Gender"                  "Country"
+"Seniority"               "Field"
+
+QG2
+"OS_BeneDiscipline"
+"OS_BeneIndividual"       "OS_BenePublic"           "OA_ChSeeking"
+"OA_ChSub"
+
+QG3
+"OD_aware"                "OD_seeking"
+"OD_using"                "OD_sharing"              "OD_none"
+"OD_publish"              "OD_anyone"               "OD_helpful"
+"OD_dontaffect"
+
+QG4
+"Who_decide"
+
+QG5
+"Sharing_asked"
+"Sharing_shared"          "Sharing_never"           "Sharing_not_interested"
+"Sharing_addedwork"       "Sharing_rights"          "Sharing_competition"
+"Sharing_quality"         "Sharing_essential"       "Sharing_selfeval"
+"Sharing_request"         "Sharing_responsiblyused" "Sharing_required"
+
+QG6
+"Doc_askpeople"           "Doc_reproduc"            "Doc_unproductive"
+"Doc_unuseful"
+
+QG7
+"Rev_coderev"             "Rev_qualitynotaffect"
+"Rev_doc"                 "Rev_docreadywhenpublish"
+
+QG8
+"Tool_codemanage"
+"Tool_issuetracker"       "Tool_docmanage"          "Tool_coediting"
+"Tool_eventmanage"        "Tool_notebook"           "Happy_codemanage"
+"Happy_issuetracker"      "Happy_docmanage"         "Happy_coediting"
+"Happy_refmanage"         "Happy_eventmanage"       "Happy_notebook"
+"Tool_endorsement"        "Tool_efficient"          "Tool_easy"
+"Tool_peers"
