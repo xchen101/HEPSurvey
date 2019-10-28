@@ -1,7 +1,12 @@
+
+# Housekeeping ----------------------------------------------------------------------------------------------------------------------------------------------
 install.packages("tidyverse")
 install.packages("dplyr")
 install.packages("remotes")
 install.packages("gridExtra")
+install.packages("forcats")
+install.packages("broom")
+install.packages("RColorBrewer")
 remotes::install_github("vapniks/mergeutils")
 library(mergeutils)
 library(tidyverse)
@@ -10,14 +15,15 @@ library(tidyr)
 library(scales)
 library(tibble)
 library(gridExtra)
+library(forcats)
+library(reshape2)
+library(broom)
+library(RColorBrewer)
+library(cluster)
+library(gmodels)
 
-
-# ========external data source========
-# Users demography by location of home institute and member status, in year 2018. Source: CERN annual report
-user <- read_csv("Data/CERN2018users.csv")
 
 # modify country names for better readability
-
 completesubmission <- 
   completesubmission%>% 
   mutate(D2 = as.character(D2)) %>% 
@@ -28,49 +34,47 @@ completesubmission <-
   mutate(D2 = replace(D2, D2 == "Russian Federation", "Russia"))
 
 
-#completesubmission <- recode(data$D2, "Venezuela (Bolivarian Republic of)" = "Venezuela")
+# Demography ----------------------------------------------------------------------------------------------------------------------------------------------
 
-
-#completesubmission[completesubmission$D2 == "Venezuela (Bolivarian Republic of)"] <- "Venezuela"
-
-#completesubmission1 <- gsub("Venezuela (Bolivarian Republic of)", "Venezuela", completesubmission$D2)
-
-
-# ========Demography========
 # Country/Region
 ggplot(completesubmission) +
   geom_bar(mapping = aes(x = reorder(D2, D2, function(x) + length(x)))) +
   labs(x = "Country/ Region", y = "Count") +
   coord_flip()
 
-# Survey participants by country of home institute and field
+  # Survey participants by country of home institute and field
 ggplot(completesubmission) +
   geom_bar(mapping = aes(x = reorder(D2, D2, function(x) + length(x)), fill = D4)) +
   coord_flip() +
   labs(x = "Country/ Region", y = "Count") +
   guides(fill = guide_legend(title = "Field"))
 
-# CERN user stats from CERN annual report 2018
-# modify country names for better readability
+  # ========external data source========
+  # Users demography by location of home institute and member status, in year 2018. Source: CERN annual report
+user <- read_csv("Data/CERN2018users.csv")
+
+    # modify country names to match main data set
 user <- user %>% 
   mutate(Country_Region = as.character(Country_Region)) %>% 
   mutate(Country_Region = replace(Country_Region, Country_Region == "People’s Republic of China", "China")) %>% 
   mutate(Country_Region = replace(Country_Region, Country_Region == "United Kingdom", "UK")) %>% 
   mutate(Country_Region = replace(Country_Region, Country_Region == "USA", "US"))
 
-# plot CERN users by location of home institute
+  # CERN users by location of home institute & membership status
 ggplot(user) + 
   geom_bar(mapping = aes(x = reorder(Country_Region, count), y = count, fill = status), stat = "identity") +
   labs(x = "Country/ Region", 
        y = "Count",
-       caption = "AM: Associate Member, AM-P: Prestage Associate Member, 
-       M: Member, O: Other, OB: Observer") +
+       caption = "AM: Associate Member, 
+       AM-P: Prestage Associate Member, 
+       M: Member, O: Other, OB: Observer
+       Data source: CERN Annual Report") +
   coord_flip() 
 
-
-# compare the percentage of CERN users and survey participants by location of home institute
-
+  # compare the percentage of CERN users and survey participants by location of home institute
 comparison <- read_csv("Data/comparison.csv")
+
+represented <- filter(comparison, !count == 0)
 
 ggplot(represented) + 
   geom_bar(mapping = aes(x = reorder(country, count), y = (count)/sum(count), alpha = 1/3), fill = "red", stat = "identity") + 
@@ -78,17 +82,16 @@ ggplot(represented) +
   scale_y_continuous(labels = scales::percent) +
   labs(x = "Country/ Region", 
        y = "Percentage", 
-    #   title = "Comparison",
        caption = "Data source: CERN Annual Report") +
   #  theme(legend.position = "none") +
   #  scale_alpha_discrete(guide = FALSE) +
   guides(alpha = FALSE) +
   coord_flip()
 
-# unrepresented countries
+  # unrepresented countries
 unrepresented <- filter(comparison, count == 0)
-represented <- filter(comparison, !count == 0)
-sum(unrepresented$user) / sum(comparison$user)
+  # % of unrepresented users (2%)
+sum(unrepresented$user) / sum(user$count)
 
 unrepresented <- within(unrepresented, rm(count))
 write.csv(unrepresented, file = "Data/Unrepresented.csv", row.names = FALSE)
@@ -113,11 +116,17 @@ names(experience)[names(experience) == "D3"] <- "Years of Experience"
 
 write.csv(experience, file = "Data/experience.csv")
 
-ggplot(experience) %>% 
-  geom_bar(mapping = aes(x = D3, y = n))
+  # experience & gender
+ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = D3, fill = D1)) +
+  labs(x = "Years of Experience",
+       y = "Count") +
+  guides(fill = guide_legend(title = "Gender")) +
+  coord_flip() 
 
 # ================
 # Gender
+  # create gender stats table
 gender <- completesubmission %>% 
   count(D1) 
 gender <- mutate(gender, percentage = n/sum(n) * 100)
@@ -127,14 +136,47 @@ names(gender)[names(gender) == "D1"] <- "Gender"
 
 write.csv(gender, file = "Data/gender.csv")
 
+  # plot gender count
+gender.pct <- completesubmission %>% group_by(D1) %>% 
+  summarise(count = n()) %>% 
+  mutate(pct = count/sum(count))
+
+ggplot(gender.pct, aes(x = D1, y = pct)) +
+  geom_bar(stat = "identity") +
+  scale_y_continuous(labels=percent) + 
+  geom_text(data=gender.pct, 
+            aes(label=paste0(round(pct*100,1),"%"), 
+                y=pct+0.012), 
+            size=4) +
+  labs(x = NULL, y = NULL)
+
+  # plot gender count by experience
 ggplot(completesubmission) +
   geom_bar(mapping = aes(x = D1, fill = D3)) +
   labs(x = "Gender",
        y = "Count") +
   guides(fill = guide_legend(title = "Experience level"))
 
-ggplot(gender) + 
-  geom_bar(mapping = aes(x = Gender, y = (Count)/sum(Count)), fill = "red", stat = "identity")
+
+
+ggplot(completesubmission, aes(x = D1, group = D4)) + 
+  geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
+  geom_text(aes( label = scales::percent(..prop..),
+                 y= ..prop.. ), stat= "count", vjust = -.5) +
+  labs(y = "Percent", fill="day") +
+  facet_grid(~D4) +
+  scale_y_continuous(labels = scales::percent)
+
+ggplot(completesubmission, aes(x = D1)) + 
+  geom_bar(aes(x = D1, y = (..count..)/sum(..count..)), stat = "count") + 
+  scale_y_continuous(labels=scales::percent) +
+  labs (x = NULL,
+        y = NULL) +
+  geom_text(aes(label = scales::percent(..prop..),
+                y = ..prop..), stat = "count", vjust = -.5)
+  
+  theme(axis.ticks.x = element_blank(),
+        axis.text = element_text(size = 7))
 
 # ================
 # Field
@@ -147,18 +189,96 @@ names(field)[names(field) == "D4"] <- "Field"
 
 write.csv(field, file = "Data/field.csv")
 
-# Field_other
+  # Field_other
 field_other <- filter(completesubmission,!is.na(D4_2))
 select(field_other, D4_2)
 
-# ========Attitude========
+  # collaboration size
+summary(completesubmission$D4_1)
+
+
+# Attitude ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+par(mfrow=c(2,3))
+for (i in 10:14) {
+  plot(completesubmission[,i], main=colnames(completesubmission)[i],
+       ylab = "Count", col="steelblue", las = 2)
+}
+
+
+# Open Data -----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# when to share
+
+# all freetext comments (output gathered in external freetext_comments.md file)
+when_other <- filter(completesubmission, !is.na(p4q1T_O))
+when_other <- select(when_other, p4q1T_O)
+
+when_other <- filter(completesubmission, !is.na(p4q1E_O))
+when_other <- select(when_other, p4q1E_O)
+
+when_other <- filter(completesubmission, !is.na(p4q2_O))
+when_other <- select(when_other, p4q2_O)
+
+when_other <- filter(completesubmission, !is.na(p5q1_N))
+when_other <- select(when_other, p5q1_N)
+
+when_other <- filter(completesubmission, !is.na(p7q2))
+when_other <- select(when_other, p7q2)
+
+when_other
 
 # ========Sharing Preference========
+
+# Factors
+factor <- select(completesubmission, 59:67)
+
+summary(factor)
+summary <- summary(factor)
+factor_summary <- do.call(cbind, lapply(factor, summary))
+factor_sum <- as_tibble(factor_summary, rownames("levels"))
+names(factor_sum)[names(factor_sum) == "p5q2_1"] <- "Additional work" 
+names(factor_sum)[names(factor_sum) == "p5q2_2"] <- "Rights" 
+names(factor_sum)[names(factor_sum) == "p5q2_3"] <- "Competition" 
+names(factor_sum)[names(factor_sum) == "p5q2_4"] <- "Quality"
+names(factor_sum)[names(factor_sum) == "p5q2_5"] <- "Needed for reproduction"
+names(factor_sum)[names(factor_sum) == "p5q2_6"] <- "Useful"
+names(factor_sum)[names(factor_sum) == "p5q2_7"] <- "Requested"
+names(factor_sum)[names(factor_sum) == "p5q2_8"] <- "Responsible user"
+names(factor_sum)[names(factor_sum) == "p5q2_9"] <- "Mandates"
+
+factor_sum$levels <- seq_len(nrow(factor_sum))
+factor2 <- melt(factor_sum, id.vars = "levels")
+factor2 <- 
+  factor2 %>% 
+  mutate(levels = as.character(levels)) %>% 
+  mutate(levels = replace(levels, levels == "1", "1 Not at all affect")) %>% 
+  mutate(levels = replace(levels, levels == "2", "2 Rarely affect")) %>% 
+  mutate(levels = replace(levels, levels == "3", "3 Neutral")) %>% 
+  mutate(levels = replace(levels, levels == "4", "4 Somewhat affect")) %>% 
+  mutate(levels = replace(levels, levels == "5", "5 Affect a lot"))  
+
+ggplot(factor2, aes(x = variable, y = value, fill = levels)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Factor", y = "Count") +
+  scale_fill_brewer(palette = "RdBu") +
+  coord_flip()
+
+# single factor
+ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_1)) +
+  labs(x = "Additional work", 
+       y = "Count")
+
+
+
 
 # ========Documentation and Peer Review========
 
 # comment about documentation for review
 comment <- filter(completesubmission,!is.na(p7q2))
 comment 
-
+tibble <- summary
 # ========Tools========
