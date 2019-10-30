@@ -22,7 +22,21 @@ library(RColorBrewer)
 library(cluster)
 library(gmodels)
 
+# take out entries that did't complete the whole survey
+completesubmission <- filter(data, !is.na(submitdate))
 
+# there are 161 entries incomplete submissions, are they salvageable? 
+
+# drop irrelevant columns
+completesubmission <- select(completesubmission, - c(startlanguage, token, refurl, datestamp))
+
+# coerce to tibble
+completesubmission <- as_tibble(completesubmission)
+
+
+# Demography ----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Country/Region
 # modify country names for better readability
 completesubmission <- 
   completesubmission%>% 
@@ -33,10 +47,6 @@ completesubmission <-
   mutate(D2 = replace(D2, D2 == "Iran (Islamic Republic of)", "Iran")) %>% 
   mutate(D2 = replace(D2, D2 == "Russian Federation", "Russia"))
 
-
-# Demography ----------------------------------------------------------------------------------------------------------------------------------------------
-
-# Country/Region
 ggplot(completesubmission) +
   geom_bar(mapping = aes(x = reorder(D2, D2, function(x) + length(x)))) +
   labs(x = "Country/ Region", y = "Count") +
@@ -105,7 +115,6 @@ ggplot(unrepresented) +
   guides(alpha = FALSE) +
   coord_flip()
 
-# ================
 # years of experience
 experience <- completesubmission %>% 
   count(D3) 
@@ -124,7 +133,6 @@ ggplot(completesubmission) +
   guides(fill = guide_legend(title = "Gender")) +
   coord_flip() 
 
-# ================
 # Gender
   # create gender stats table
 gender <- completesubmission %>% 
@@ -178,7 +186,6 @@ ggplot(completesubmission, aes(x = D1)) +
   theme(axis.ticks.x = element_blank(),
         axis.text = element_text(size = 7))
 
-# ================
 # Field
 field <- completesubmission %>% 
   count(D4) 
@@ -208,7 +215,42 @@ for (i in 10:14) {
 
 
 # Open Data -----------------------------------------------------------------------------------------------------------------------------------------------
+ODE <- select(completesubmission, 19:23)
 
+summary(ODE)
+summary <- summary(ODE)
+ODE_summary <- do.call(cbind, lapply(ODE, summary))
+ODE_sum <- as_tibble(ODE_summary, rownames("levels"))
+names(ODE_sum)[names(ODE_sum) == "p3q1E_OD1"] <- "read/heard about OD" 
+names(ODE_sum)[names(ODE_sum) == "p3q1E_OD2"] <- "tried to find OD" 
+names(ODE_sum)[names(ODE_sum) == "p3q1E_OD3"] <- "used OD" 
+names(ODE_sum)[names(ODE_sum) == "p3q1E_OD4"] <- "openly released OD" 
+names(ODE_sum)[names(ODE_sum) == "p3q1E_OD5"] <- "never interacted with OD" 
+
+
+ODE_sum$levels <- seq_len(nrow(ODE_sum))
+ODE2 <- melt(ODE_sum, id.vars = "Yes/No")
+ODE2 <- 
+  ODE2 %>% 
+  mutate("Yes/No" = as.character("Yes/No")) %>% 
+  mutate("Yes/No" = replace("Yes/No", "Yes/No" == "1", "Yes")) %>% 
+  mutate("Yes/No" = replace("Yes/No", "Yes/No" == "2", "No"))
+
+
+ODE_sum$levels <- seq_len(nrow(ODE_sum))
+ODE2 <- melt(ODE_sum, id.vars = "levels")
+ODE2 <- 
+  ODE2 %>% 
+  mutate(levels = as.character(levels)) %>% 
+  mutate(levels = replace(levels, levels == "1", "Yes")) %>% 
+  mutate(levels = replace(levels, levels == "2", "No")) 
+
+ggplot(ODE2, aes(x = variable, y = value, fill = levels)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Factor", y = "Count") +
+  scale_fill_discrete(NULL) +
+  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha= 0)) +
+  coord_flip()
 
 # when to share
 
@@ -230,6 +272,24 @@ when_other <- select(when_other, p7q2)
 
 when_other
 
+
+# who decide ----------------------------------------------------------------------------------------------------------------------------------------------
+
+# modify country names for better readability
+whodecide <- 
+  completesubmission%>% 
+  select(D4, p4q2) %>% 
+  mutate(p4q2 = as.character(p4q2)) %>% 
+  mutate(p4q2 = replace(p4q2, p4q2 == "Each individual researcher should decide for their work autonomously.", "Each individual researcher\n should decide for their \nwork autonomously.")) %>% 
+  mutate(p4q2 = replace(p4q2, p4q2 == "Each collaboration or team should decide for their work.", "Each collaboration or\n team should decide for\n their work.")) %>% 
+  mutate(p4q2 = replace(p4q2, p4q2 == "The HEP community as a whole should decide and set practices.", "The HEP community as\n a whole should decide and\n set practices.")) %>% 
+  mutate(p4q2 = replace(p4q2, p4q2 == "The funding bodies or institutions should decide and develop policies for researchers to follow.", "The funding bodies or institutions\n should decide and develop\n policies for researchers to follow.")) 
+
+ggplot(whodecide) + 
+  geom_bar(mapping = aes(x = reorder(p4q2, p4q2, function(x) + length(x)), fill = D4)) +
+  labs(x = NULL, y = "Count") +
+  coord_flip()
+
 # ========Sharing Preference========
 
 # Factors
@@ -240,14 +300,14 @@ summary <- summary(factor)
 factor_summary <- do.call(cbind, lapply(factor, summary))
 factor_sum <- as_tibble(factor_summary, rownames("levels"))
 names(factor_sum)[names(factor_sum) == "p5q2_1"] <- "Additional work" 
-names(factor_sum)[names(factor_sum) == "p5q2_2"] <- "Rights" 
-names(factor_sum)[names(factor_sum) == "p5q2_3"] <- "Competition" 
-names(factor_sum)[names(factor_sum) == "p5q2_4"] <- "Quality"
-names(factor_sum)[names(factor_sum) == "p5q2_5"] <- "Needed for reproduction"
-names(factor_sum)[names(factor_sum) == "p5q2_6"] <- "Useful"
-names(factor_sum)[names(factor_sum) == "p5q2_7"] <- "Requested"
-names(factor_sum)[names(factor_sum) == "p5q2_8"] <- "Responsible user"
-names(factor_sum)[names(factor_sum) == "p5q2_9"] <- "Mandates"
+names(factor_sum)[names(factor_sum) == "p5q2_2"] <- "Having the rights" 
+names(factor_sum)[names(factor_sum) == "p5q2_3"] <- "Competition in the subject area" 
+names(factor_sum)[names(factor_sum) == "p5q2_4"] <- "Quality of the data and code"
+names(factor_sum)[names(factor_sum) == "p5q2_5"] <- "Necessary for reproduction"
+names(factor_sum)[names(factor_sum) == "p5q2_6"] <- "Self-evaluated usefulness"
+names(factor_sum)[names(factor_sum) == "p5q2_7"] <- "Requested by others"
+names(factor_sum)[names(factor_sum) == "p5q2_8"] <- "Ensured responsible usage"
+names(factor_sum)[names(factor_sum) == "p5q2_9"] <- "Policy and mandates"
 
 factor_sum$levels <- seq_len(nrow(factor_sum))
 factor2 <- melt(factor_sum, id.vars = "levels")
