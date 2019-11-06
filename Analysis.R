@@ -1,13 +1,5 @@
 
 # Housekeeping ----------------------------------------------------------------------------------------------------------------------------------------------
-install.packages("tidyverse")
-install.packages("dplyr")
-install.packages("remotes")
-install.packages("gridExtra")
-install.packages("forcats")
-install.packages("broom")
-install.packages("RColorBrewer")
-remotes::install_github("vapniks/mergeutils")
 library(mergeutils)
 library(tidyverse)
 library(dplyr)
@@ -21,6 +13,8 @@ library(broom)
 library(RColorBrewer)
 library(cluster)
 library(gmodels)
+library(ggpubr)
+library(vcd)
 
 # take out entries that did't complete the whole survey
 completesubmission <- filter(data, !is.na(submitdate))
@@ -30,9 +24,9 @@ completesubmission <- filter(data, !is.na(submitdate))
 # drop irrelevant columns
 completesubmission <- select(completesubmission, - c(startlanguage, token, refurl, datestamp))
 
-# coerce to tibble
+# coerce to tibble, save as RData file
 completesubmission <- as_tibble(completesubmission)
-
+save(completesubmission, file = "data.RData")
 
 # Demography ----------------------------------------------------------------------------------------------------------------------------------------------
 
