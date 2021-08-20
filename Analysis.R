@@ -30,6 +30,7 @@ completesubmission <- as_tibble(completesubmission)
 save(completesubmission, file = "data.RData")
 
 # Completion time ----------------------------------------------------------------------------------------------------------------------------------------------
+# ref:https://data.library.virginia.edu/working-with-dates-and-time-in-r-using-the-lubridate-package/
 start <- dmy_hms(completesubmission$startdate)
 end <- dmy_hms(completesubmission$submitdate)
 time.interval <- start %--% end
@@ -51,9 +52,19 @@ completesubmission <-
   mutate(D2 = replace(D2, D2 == "Iran (Islamic Republic of)", "Iran")) %>% 
   mutate(D2 = replace(D2, D2 == "Russian Federation", "Russia"))
 
+# count of respondents by country
+# ref: https://www.programmingr.com/count-occurrences-in-column/ 
+represented <- as.data.frame(table(completesubmission$D2))
+write.csv(represented, file = "Data/represented.csv", row.names = FALSE)
+  # change column names
+  # ref: https://www.geeksforgeeks.org/change-column-name-of-a-given-dataframe-in-r/ 
+colnames(represented) <- c("country", "count")
+
 ggplot(completesubmission) +
   geom_bar(mapping = aes(x = reorder(D2, D2, function(x) + length(x)))) +
-  labs(x = "Country/ Region", y = "Count") +
+  labs(x = "Country/ Region", 
+       y = "Count",
+       title = "Geographical distribution of participants") +
   coord_flip()
 
   # Survey participants by country of home institute and field
@@ -86,9 +97,10 @@ ggplot(user) +
   coord_flip() 
 
   # compare the percentage of CERN users and survey participants by location of home institute
-comparison <- read_csv("Data/comparison.csv")
+comparison <- read_csv("Data/comparison1.csv")
 
 represented <- filter(comparison, !count == 0)
+write.csv(represented, file = "Data/represented.csv", row.names = FALSE)
 
 ggplot(represented) + 
   geom_bar(mapping = aes(x = reorder(country, count), y = (count)/sum(count), alpha = 1/3), fill = "red", stat = "identity") + 
