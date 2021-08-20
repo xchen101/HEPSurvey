@@ -8,7 +8,7 @@ The survey is part of my Ph.D. project on _supporting HEP scientists' engagement
 
 The survey is open to all active HEP scientists in the world, activated on April 19th, 2018, taking data in the following 4 weeks.
 
-Please direct questions to [me](xiaoli.chen@cern.ch)
+Please direct questions to [me](zoe.chen.xiaoli@gmail.com)
 
 ## Data usage
 All data published in the repository are under CC-BY license.
