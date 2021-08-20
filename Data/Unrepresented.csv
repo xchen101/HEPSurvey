@@ -1,30 +1,30 @@
-"country","user"
-"Algeria",2
-"Arab Emirates",1
-"Argentina",15
-"Armenia",13
-"Azerbaijan",4
-"Bangladesh",2
-"Cuba",3
-"Cyprus",16
-"Egypt",3
-"Estonia",19
-"Hong Kong",20
-"Iceland",3
-"Indonesia",7
-"Latvia",2
-"Lebanon",16
-"Madagascar",2
-"Malaysia",9
-"Malta",5
-"Mongolia",2
-"Montenegro",7
-"Morocco",14
-"Oman",4
-"Pakistan",37
-"Peru",3
-"Serbia",37
-"Singapore",4
-"Sri Lanka",8
-"Taiwan",57
-"Thailand",18
+"country","count","user"
+"Algeria",0,2
+"Arab Emirates",0,1
+"Argentina",0,15
+"Armenia",0,13
+"Azerbaijan",0,4
+"Bangladesh",0,2
+"Cuba",0,3
+"Cyprus",0,16
+"Egypt",0,3
+"Estonia",0,19
+"Hong Kong",0,20
+"Iceland",0,3
+"Indonesia",0,7
+"Latvia",0,2
+"Lebanon",0,16
+"Madagascar",0,2
+"Malaysia",0,9
+"Malta",0,5
+"Mongolia",0,2
+"Montenegro",0,7
+"Morocco",0,14
+"Oman",0,4
+"Pakistan",0,37
+"Peru",0,3
+"Serbia",0,37
+"Singapore",0,4
+"Sri Lanka",0,8
+"Taiwan",0,57
+"Thailand",0,18

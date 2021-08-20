@@ -15,6 +15,7 @@ library(cluster)
 library(gmodels)
 library(ggpubr)
 library(vcd)
+library(lubridate)
 
 # take out entries that did't complete the whole survey
 completesubmission <- filter(data, !is.na(submitdate))
@@ -27,6 +28,15 @@ completesubmission <- select(completesubmission, - c(startlanguage, token, refur
 # coerce to tibble, save as RData file
 completesubmission <- as_tibble(completesubmission)
 save(completesubmission, file = "data.RData")
+
+# Completion time ----------------------------------------------------------------------------------------------------------------------------------------------
+start <- dmy_hms(completesubmission$startdate)
+end <- dmy_hms(completesubmission$submitdate)
+time.interval <- start %--% end
+
+time.duration <- as.duration(time.interval)
+
+summary(time.duration)
 
 # Demography ----------------------------------------------------------------------------------------------------------------------------------------------
 
