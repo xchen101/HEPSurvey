@@ -65,7 +65,7 @@ ggplot(completesubmission) +
   labs(x = "Country/ Region", 
        y = "Count",
        title = "Geographical distribution of participants") +
-  coord_flip()
+  coord_flip() 
 
   # Survey participants by country of home institute and field
 ggplot(completesubmission) +
@@ -108,11 +108,13 @@ ggplot(represented) +
   scale_y_continuous(labels = scales::percent) +
   labs(x = "Country/ Region", 
        y = "Percentage", 
-       caption = "Data source: CERN Annual Report") +
+       caption = "Data source: CERN Annual Report",
+       title = "Comparison of Geographical distribution of \n survey participants and CERN user") +
   #  theme(legend.position = "none") +
   #  scale_alpha_discrete(guide = FALSE) +
   guides(alpha = FALSE) +
   coord_flip()
+
 
   # unrepresented countries
 unrepresented <- filter(comparison, count == 0)
@@ -223,11 +225,26 @@ summary(completesubmission$D4_1)
 # Attitude ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-par(mfrow=c(2,3))
+
+par(mfrow=c(2,3),
+    mar = c(10,5,5,5))
 for (i in 10:14) {
   plot(completesubmission[,i], main=colnames(completesubmission)[i],
        ylab = "Count", col="steelblue", las = 2)
 }
+
+par(mfrow=c(2,3),
+    mar = c(10,5,5,5))
+plot(completesubmission$p2q1_OS1, main="OS benefits HEP",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p2q1_OS2, main="OS benefits researchers",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p2q1_OS3, main="OS benefits\n the general public",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p2q2_OA1, main="OA changed how I read",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p2q2_OA2, main="OA changed how I submit",
+     ylab = "Count", col="steelblue", las = 2)
 
 
 # Open Data -----------------------------------------------------------------------------------------------------------------------------------------------
