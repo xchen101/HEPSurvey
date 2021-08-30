@@ -248,7 +248,9 @@ plot(completesubmission$p2q2_OA2, main="OA changed how I submit",
 
 
 # Open Data -----------------------------------------------------------------------------------------------------------------------------------------------
-ODE <- select(completesubmission, 19:23)
+# Experimentlaists' experience with Open Data
+ODE <- filter(completesubmission, D4 == "Experiment")
+ODE <- select(ODE, 15:19)
 
 summary(ODE)
 summary <- summary(ODE)
@@ -262,7 +264,7 @@ names(ODE_sum)[names(ODE_sum) == "p3q1E_OD5"] <- "never interacted with OD"
 
 
 ODE_sum$levels <- seq_len(nrow(ODE_sum))
-ODE2 <- melt(ODE_sum, id.vars = "Yes/No")
+ODE2 <- reshape2::melt(ODE_sum, id.vars = "Yes/No")
 ODE2 <- 
   ODE2 %>% 
   mutate("Yes/No" = as.character("Yes/No")) %>% 
@@ -271,7 +273,7 @@ ODE2 <-
 
 
 ODE_sum$levels <- seq_len(nrow(ODE_sum))
-ODE2 <- melt(ODE_sum, id.vars = "levels")
+ODE2 <- reshape2::melt(ODE_sum, id.vars = "levels")
 ODE2 <- 
   ODE2 %>% 
   mutate(levels = as.character(levels)) %>% 
@@ -280,10 +282,52 @@ ODE2 <-
 
 ggplot(ODE2, aes(x = variable, y = value, fill = levels)) +
   geom_bar(stat = "identity") +
-  labs(x = "Factor", y = "Count") +
+  labs(x = "", y = "Count",
+       title = "Experimentalists' experience with Open Data") +
   scale_fill_discrete(NULL) +
-  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha= 0)) +
-  coord_flip()
+  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
+  coord_flip() 
+
+# Theorists' experiences with Open Data
+ODT <- filter(completesubmission, D4 == "Theory")
+ODT <- select(ODT, 20:25)
+
+summary(ODT)
+summary <- summary(ODT)
+ODT_summary <- do.call(cbind, lapply(ODT, summary))
+ODT_sum <- as_tibble(ODT_summary, rownames("levels"))
+names(ODT_sum)[names(ODT_sum) == "p3q1T_OD1"] <- "read/heard about OD" 
+names(ODT_sum)[names(ODT_sum) == "p3q1T_OD2"] <- "tried to find OD" 
+names(ODT_sum)[names(ODT_sum) == "p3q1T_OD3"] <- "used TH OD" 
+names(ODT_sum)[names(ODT_sum) == "p3q1T_OD4"] <- "use EX OD" 
+names(ODT_sum)[names(ODT_sum) == "p3q1T_OD5"] <- "openly released OD"
+names(ODT_sum)[names(ODT_sum) == "p3q1T_OD6"] <- "never interacted with OD" 
+
+
+ODT_sum$levels <- seq_len(nrow(ODT_sum))
+ODT2 <- reshape2::melt(ODT_sum, id.vars = "Yes/No")
+ODT2 <- 
+  ODT2 %>% 
+  mutate("Yes/No" = as.character("Yes/No")) %>% 
+  mutate("Yes/No" = replace("Yes/No", "Yes/No" == "1", "Yes")) %>% 
+  mutate("Yes/No" = replace("Yes/No", "Yes/No" == "2", "No"))
+
+
+ODT_sum$levels <- seq_len(nrow(ODT_sum))
+ODT2 <- reshape2::melt(ODT_sum, id.vars = "levels")
+ODT2 <- 
+  ODT2 %>% 
+  mutate(levels = as.character(levels)) %>% 
+  mutate(levels = replace(levels, levels == "1", "Yes")) %>% 
+  mutate(levels = replace(levels, levels == "2", "No")) 
+
+ggplot(ODT2, aes(x = variable, y = value, fill = levels)) +
+  geom_bar(stat = "identity") +
+  labs(x = "", y = "Count",
+       title = "Theorists' experience with Open Data") +
+  scale_fill_discrete(NULL) +
+  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
+  coord_flip() 
 
 # when to share
 
