@@ -329,7 +329,102 @@ ggplot(ODT2, aes(x = variable, y = value, fill = levels)) +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
   coord_flip() 
 
-# when to share
+# Open Data attitude EX
+OD2E <- filter(completesubmission, D4 == "Experiment")
+OD2E <- select(OD2E, 26:29)
+
+par(mfrow=c(2,2),
+    mar = c(8,4,3,2))
+plot(completesubmission$p3q2E_OD_E1, main="Data used in published \n studies should be made open",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2E_OD_E2, main="Data should be accessible\n for anyone interested",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2E_OD_E3, main="Open and easy access to data\n is helpful to me",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2E_OD_E4, main="Open Data does not \n affect how I work",
+     ylab = "Count", col="steelblue", las = 2)
+
+# Open Data attitude TH
+par(mfrow=c(2,3),
+    mar = c(8,4,3,4))
+plot(completesubmission$p3q2T_OD_E1, main="Data used in published \n studies should be made open",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2T_OD_E2, main="Data should be accessible\n for anyone interested",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2T_OD_E3, main="Open and easy access to\n theory data is helpful to me",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2T_OD_E4, main="Open and easy access to exp \n data is helpful to me",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p3q2T_OD_E5, main="Open Data does not \n affect how I work",
+     ylab = "Count", col="steelblue", las = 2)
+
+
+# when to share TH
+
+shareT <- filter(completesubmission, D4 == "Theory")
+shareT <- select(shareT, 35:41)
+
+summary(shareT)
+summary <- summary(shareT)
+shareT_summary <- do.call(cbind, lapply(shareT, summary))
+shareT_sum <- as_tibble(shareT_summary, rownames("levels"))
+names(shareT_sum)[names(shareT_sum) == "p4q1T_1"] <- "research complete" 
+names(shareT_sum)[names(shareT_sum) == "p4q1T_2"] <- "arxiv submission" 
+names(shareT_sum)[names(shareT_sum) == "p4q1T_3"] <- "journal submission" 
+names(shareT_sum)[names(shareT_sum) == "p4q1T_4"] <- "journal acceptance" 
+names(shareT_sum)[names(shareT_sum) == "p4q1T_5"] <- "journal publication" 
+names(shareT_sum)[names(shareT_sum) == "p4q1T_6"] <- "After publication" 
+names(shareT_sum)[names(shareT_sum) == "p4q1T_7"] <- "never" 
+
+
+shareT_sum$levels <- seq_len(nrow(shareT_sum))
+shareT2 <- reshape2::melt(shareT_sum, id.vars = "levels")
+shareT2 <- 
+  shareT2 %>% 
+  mutate(levels = as.character(levels)) %>% 
+  mutate(levels = replace(levels, levels == "1", "Yes")) %>% 
+  mutate(levels = replace(levels, levels == "2", "No")) 
+
+ggplot(shareT2, aes(x = variable, y = value, fill = levels)) +
+  geom_bar(stat = "identity") +
+  labs(x = "", y = "Count",
+       title = "Theorists' preferred data sharing time") +
+  scale_fill_discrete(NULL) +
+  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
+  coord_flip() 
+
+# when to share EX
+shareE <- filter(completesubmission, D4 == "Experiment")
+shareE <- select(shareE, 44:49)
+
+summary(shareE)
+summary <- summary(shareE)
+shareE_summary <- do.call(cbind, lapply(shareE, summary))
+shareE_sum <- as_tibble(shareE_summary, rownames("levels"))
+names(shareE_sum)[names(shareE_sum) == "p4q1E_1"] <- "research complete" 
+names(shareE_sum)[names(shareE_sum) == "p4q1E_2"] <- "arxiv submission" 
+names(shareE_sum)[names(shareE_sum) == "p4q1E_3"] <- "journal acceptance" 
+names(shareE_sum)[names(shareE_sum) == "p4q1E_4"] <- "journal publication" 
+names(shareE_sum)[names(shareE_sum) == "p4q1E_5"] <- "after publication" 
+names(shareE_sum)[names(shareE_sum) == "p4q1E_6"] <- "never" 
+
+
+shareE_sum$levels <- seq_len(nrow(shareE_sum))
+shareE2 <- reshape2::melt(shareE_sum, id.vars = "levels")
+shareE2 <- 
+  shareE2 %>% 
+  mutate(levels = as.character(levels)) %>% 
+  mutate(levels = replace(levels, levels == "1", "Yes")) %>% 
+  mutate(levels = replace(levels, levels == "2", "No")) 
+
+ggplot(shareE2, aes(x = variable, y = value, fill = levels)) +
+  geom_bar(stat = "identity") +
+  labs(x = "", y = "Count",
+       title = "Experimentalists' preferred data sharing time") +
+  scale_fill_discrete(NULL) +
+  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
+  coord_flip() 
+
 
 # all freetext comments (output gathered in external freetext_comments.md file)
 when_other <- filter(completesubmission, !is.na(p4q1T_O))
