@@ -16,6 +16,7 @@ library(gmodels)
 library(ggpubr)
 library(vcd)
 library(lubridate)
+library(cowplot)
 
 # take out entries that did't complete the whole survey
 completesubmission <- filter(data, !is.na(submitdate))
@@ -362,7 +363,7 @@ plot(completesubmission$p3q2T_OD_E5, main="Open Data does not \n affect how I wo
 # when to share TH
 
 shareT <- filter(completesubmission, D4 == "Theory")
-shareT <- select(shareT, 35:41)
+shareT <- select(shareT, 39:45)
 
 summary(shareT)
 summary <- summary(shareT)
@@ -425,13 +426,14 @@ ggplot(shareE2, aes(x = variable, y = value, fill = levels)) +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
   coord_flip() 
 
+ggsave("ex_sharing_time.tiff", width = 6, height = 4)
 
 # all freetext comments (output gathered in external freetext_comments.md file)
 when_other <- filter(completesubmission, !is.na(p4q1T_O))
 when_other <- select(when_other, p4q1T_O)
 
-when_other <- filter(completesubmission, !is.na(p4q1E_O))
-when_other <- select(when_other, p4q1E_O)
+when_otherE <- filter(completesubmission, !is.na(p4q1E_O))
+when_otherE <- select(when_otherE, p4q1E_O)
 
 when_other <- filter(completesubmission, !is.na(p4q2_O))
 when_other <- select(when_other, p4q2_O)
@@ -441,8 +443,6 @@ when_other <- select(when_other, p5q1_N)
 
 when_other <- filter(completesubmission, !is.na(p7q2))
 when_other <- select(when_other, p7q2)
-
-when_other
 
 
 # who decide ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -457,9 +457,29 @@ whodecide <-
   mutate(p4q2 = replace(p4q2, p4q2 == "The HEP community as a whole should decide and set practices.", "The HEP community as\n a whole should decide and\n set practices.")) %>% 
   mutate(p4q2 = replace(p4q2, p4q2 == "The funding bodies or institutions should decide and develop policies for researchers to follow.", "The funding bodies or institutions\n should decide and develop\n policies for researchers to follow.")) 
 
+
+who_ex <- filter(whodecide, D4=="Experiment")
+
+
+ex.pct <- who_ex %>% group_by(p4q2) %>% 
+  summarise(count = n()) %>% 
+  mutate(pct = count/sum(count))
+
+who_th <- filter(whodecide, D4=="Theory")
+th.pct <- who_th %>% group_by(p4q2) %>% 
+  summarise(count = n()) %>% 
+  mutate(pct = count/sum(count))
+
+whodecide.pct <- whodecide %>% group_by(p4q2) %>% 
+  summarise(count = n()) %>% 
+  mutate(pct = count/sum(count))
+
+
 ggplot(whodecide) + 
   geom_bar(mapping = aes(x = reorder(p4q2, p4q2, function(x) + length(x)), fill = D4)) +
-  labs(x = NULL, y = "Count") +
+  labs(x = NULL, y = "Count",
+       title = "Who should decide the accessibility \n of data and code")+
+  scale_fill_discrete(name = "Field") +
   coord_flip()
 
 # ========Sharing Preference========
@@ -498,15 +518,159 @@ ggplot(factor2, aes(x = variable, y = value, fill = levels)) +
   scale_fill_brewer(palette = "RdBu") +
   coord_flip()
 
+
+# when to share EX
+shareExp <- select(completesubmission, 58:61)
+
+summary(shareExp)
+summary <- summary(shareExp)
+shareExp_summary <- do.call(cbind, lapply(shareExp, summary))
+shareExp_sum <- as_tibble(shareExp_summary, rownames("levels"))
+
+names(shareExp_sum)[names(shareExp_sum) == "p5q1_SQ002"] <- "asked others to \n share with me" 
+names(shareExp_sum)[names(shareExp_sum) == "p5q1_SQ001"] <- "shared with others before" 
+names(shareExp_sum)[names(shareExp_sum) == "p5q1_SQ004"] <- "never considered sharing" 
+names(shareExp_sum)[names(shareExp_sum) == "p5q1_SQ005"] <- "no interest in sharing" 
+
+
+shareExp_sum$levels <- seq_len(nrow(shareExp_sum))
+shareExp2 <- reshape2::melt(shareExp_sum, id.vars = "levels")
+shareExp2 <- 
+  shareExp2 %>% 
+  mutate(levels = as.character(levels)) %>% 
+  mutate(levels = replace(levels, levels == "1", "Yes")) %>% 
+  mutate(levels = replace(levels, levels == "2", "No")) 
+
+ggplot(shareExp2, aes(x = variable, y = value, fill = levels)) +
+  geom_bar(stat = "identity") +
+  labs(x = "", y = "Count",
+       title = "Experience with data sharing") +
+  scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA)), name = " ") +
+  coord_flip() 
+
+
+
+
 # single factor
-ggplot(completesubmission) +
+# plotting with ggplot and cowplot
+
+Factor1 <- ggplot(completesubmission) +
   geom_bar(mapping = aes(x = p5q2_1)) +
   labs(x = "Additional work", 
-       y = "Count")
+       y = "Count") +
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
 
+Factor2 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_2)) +
+  labs(x = "Have rights", 
+       y = "Count") +
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
 
+Factor3 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_3)) +
+  labs(x = "Competitiveness", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
 
+Factor4 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_4)) +
+  labs(x = "Quality of data and code", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
 
+Factor5 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_5)) +
+  labs(x = "Essential for reproducibility", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
+
+Factor6 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_6)) +
+  labs(x = "usefulness for others", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
+
+Factor7 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_7)) +
+  labs(x = "Request from others", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
+
+Factor8 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_8)) +
+  labs(x = "Responsible reuse", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
+
+Factor9 <- ggplot(completesubmission) +
+  geom_bar(mapping = aes(x = p5q2_9)) +
+  labs(x = "Mandates", 
+       y = "Count")+
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
+
+plot_grid(Factor1, Factor2, Factor3, Factor4, Factor5, Factor6, Factor7, Factor8, Factor9)
+
+# plotting the same data with base R and mfrow
+
+par(mfrow=c(3,3),
+    mar = c(10,5,5,5))
+plot(completesubmission$p5q2_1, main="Additional work",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_2, main="Having rights",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_3, main="Competitiveness",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_4, main="Quality of data and code",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_5, main="Essential for reproducibility",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_6, main="Usefulness for others",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_7, main="Request from others",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_8, main="Responsible reuse",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p5q2_9, main="Mandates",
+     ylab = "Count", col="steelblue", las = 2)
+
+# an attempt to do some statistical tests
+#convert factor to numeric
+which(colnames(completesubmission)=="p5q2_1" )
+
+Factor <- select(completesubmission, 63:71)
+write.csv(Factor, file = "Factor.csv")
+
+Factor <-
+  Factor %>% 
+  mutate(p5q2_1 = as.numeric(p5q2_1)) %>% 
+  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Somewhat affect", 1)) %>% 
+  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Affect a lot", 2)) %>% 
+  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Neutral", 0)) %>% 
+  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Rarely affect", -1)) %>% 
+  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Not at all affect", -2)) %>% 
+  
+  mutate(p5q2_2 = as.numeric(p5q2_2)) %>% 
+  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Somewhat affect", 1)) %>% 
+  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Affect a lot", 2)) %>% 
+  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Neutral", 0)) %>% 
+  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Rarely affect", -1)) %>% 
+  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Not at all affect", -2)) %>% 
+  
+  mutate(p5q2_3 = as.numeric(p5q2_3)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Somewhat affect", 1)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Affect a lot", 2)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Neutral", 0)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Rarely affect", -1)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Not at all affect", -2))
+
+  mutate(p5q2_3 = as.numeric(p5q2_3)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Somewhat affect", 1)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Affect a lot", 2)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Neutral", 0)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Rarely affect", -1)) %>% 
+  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Not at all affect", -2))
+  
+  
 # ========Documentation and Peer Review========
 
 # comment about documentation for review
