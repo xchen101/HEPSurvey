@@ -441,8 +441,6 @@ when_other <- select(when_other, p4q2_O)
 when_other <- filter(completesubmission, !is.na(p5q1_N))
 when_other <- select(when_other, p5q1_N)
 
-when_other <- filter(completesubmission, !is.na(p7q2))
-when_other <- select(when_other, p7q2)
 
 
 # who decide ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -639,6 +637,82 @@ which(colnames(completesubmission)=="p5q2_1" )
 
 Factor <- select(completesubmission, 63:71)
 write.csv(Factor, file = "Factor.csv")
+# used excel to change factors to numeric, saved to the same file
+# haven't found an easy way of doing this in R, yet.
+Factor<-read.csv("Factor.csv")
+data_long <- gather(Factor, factor_key = TRUE)
+Factor_mean <- data_long %>% group_by(key) %>% 
+  summarise(mean = mean(value))
+
+# rename all the Factors (code to text)
+Factor_mean <- 
+  Factor_mean%>% 
+  mutate(key = as.character(key)) %>% 
+  mutate(key = replace(key, key == "p5q2_1", "Addtional work")) %>% 
+  mutate(key = replace(key, key == "p5q2_2", "Rights to share")) %>% 
+  mutate(key = replace(key, key == "p5q2_3", "Competition")) %>% 
+  mutate(key = replace(key, key == "p5q2_4", "Quality of data/code")) %>% 
+  mutate(key = replace(key, key == "p5q2_5", "Reproducibility")) %>% 
+  mutate(key = replace(key, key == "p5q2_6", "perceived usefulness")) %>% 
+  mutate(key = replace(key, key == "p5q2_7", "Requests")) %>% 
+  mutate(key = replace(key, key == "p5q2_8", "Responsible usage")) %>% 
+  mutate(key = replace(key, key == "p5q2_9", "Mandates"))
+
+# sort data frame by mean
+Factor_mean <-
+  Factor_mean %>% arrange(mean)
+
+#plot
+Factor_mean %>% 
+ggplot(aes(fct_reorder(key,
+                       mean),
+           mean)) +
+  geom_col() +
+  coord_cartesian(ylim = c(1,5)) +
+  scale_y_continuous(breaks = c(1:5))+
+  labs(x = "Factors",
+       y = "Mean",
+       title = "How much each factor impact sharing decision") +
+  coord_flip()
+
+ggplot(data = Factor_mean, aes(x = key, y = mean)) + 
+  stat_summary(fun.y = "mean", geom = "bar", width = 0.5) +
+  stat_summary(aes(label = round(..y.., 1)), 
+               fun.y="mean", geom="text", vjust = -0.5) +
+  geom_hline(yintercept = 3, linetype = "solid", 
+             color = "red", size = 1.5, alpha = 0.25) +
+  # limit the vertical space to 1 to 4, but keep the data
+  coord_cartesian(ylim = c(1, 5)) +
+  # set ticks at 1, 2, 3, 4
+  scale_y_continuous(breaks = c(1:5),
+                     # label them with names
+                     labels = c("Strongly Disagree", "Disagree", "Neutral",
+                                "Agree", "Strongly Agree")) 
+  coord_flip()
+
+#test
+ggplot(data = Factor_mean, aes(fct_reorder(key,
+                                           mean),
+                               mean)) + 
+    stat_summary(fun = "mean", geom = "bar", width = 0.5) +
+    stat_summary(aes(label = round(..y.., 1)), 
+                 fun="mean", geom="text", vjust = -0.5) +
+    geom_hline(yintercept = 3, linetype = "solid", 
+               color = "red", size = 1.5, alpha = 0.25) +
+    # limit the vertical space to 1 to 4, but keep the data
+    coord_cartesian(ylim = c(1, 5)) +
+    # set ticks at 1, 2, 3, 4
+    scale_y_continuous(breaks = c(1:5),
+                       # label them with names
+                       labels = c("Not at all affect", "Rarely affect", "Neutral",
+                                  "Somewhat affect", "Affect a lot")) +
+    labs(x = "", y = "", title = "How much each factor impact sharing decision") +
+    theme(axis.text.x = element_text(angle=45, vjust=1, hjust=1))
+    coord_flip()
+
+  
+
+
 
 Factor <-
   Factor %>% 
@@ -669,12 +743,129 @@ Factor <-
   mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Neutral", 0)) %>% 
   mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Rarely affect", -1)) %>% 
   mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Not at all affect", -2))
-  
-  
+
 # ========Documentation and Peer Review========
 
+par(mfrow=c(2,2),
+      mar = c(8,5,5,5))
+plot(completesubmission$p6q1_1, main="Prefer human interaction \n than reading docs",
+       ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q1_2, main="Docs directly affect\n reproducibility",
+       ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q1_3, main="Writing docs is \n not productive",
+       ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q1_4, main="Outsiders can't \n understand docs",
+       ylab = "Count", col="steelblue", las = 2)
+
+#Peer review questions for experimentalists
+par(mfrow=c(2,2),
+    mar = c(8,5,5,5))
+plot(completesubmission$p6q2E_1, main="Code review during official PR",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q2E_2, main="Code quality shouldn't \n affect PR decision",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q2E_3, main="Doc review during official PR",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q2E_4, main="Doc ready before official PR",
+     ylab = "Count", col="steelblue", las = 2)
+
+#Peer review questions for Theorists
+par(mfrow=c(2,2),
+    mar = c(8,5,5,5))
+plot(completesubmission$p6q2T_1, main="Code review during official PR",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q2T_2, main="Code quality shouldn't \n affect PR decision",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q2T_3, main="Doc review during official PR",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p6q2T_4, main="Doc ready before official PR",
+     ylab = "Count", col="steelblue", las = 2)
+
+#Improvement to peer review EX
+par(mfrow=c(2,3),
+    mar = c(9,5,5,5))
+plot(completesubmission$p7q1E_1, main="Data",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p7q1E_2, main="Code",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p7q1E_3, main="Twiki pages",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p7q1E_4, main="Slides",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p7q1E_5, main="Workflow scripts",
+     ylab = "Count", col="steelblue", las = 2)
+
+# Improvement to peer review TH
+par(mfrow=c(1,3),
+    mar = c(9,5,5,5))
+plot(completesubmission$p7q1T_1, main="Data",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p7q1T_2, main="Scripts",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p7q1T_3, main="Methods doc",
+     ylab = "Count", col="steelblue", las = 2)
+  
 # comment about documentation for review
-comment <- filter(completesubmission,!is.na(p7q2))
-comment 
-tibble <- summary
+
+when_other <- filter(completesubmission, !is.na(p7q2))
+when_other <- select(when_other, p7q2)
+
+#copy text to clipboard, use copy values to clipboard in the Addins button (Rstudio under tool bar)
+
 # ========Tools========
+
+# How often
+par(mfrow=c(2,3),
+    mar = c(10,5,5,5))
+plot(completesubmission$p8q1_1, main="Source code management",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q1_2, main="Issue tracker",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q1_3, main="Documentation management",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q1_4, main="Multi-user editors",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q1_5, main="Event managers",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q1_6, main="Interactive notebooks",
+     ylab = "Count", col="steelblue", las = 2)
+
+# How satisfied
+# Change factor "neither satisfied nor dissatisfied" to "neither"
+
+completesubmission <-
+  completesubmission %>% 
+  mutate(p8q2_1 = as.character(p8q2_1)) %>% 
+  mutate(p8q2_1 = replace(p8q2_1, p8q2_1 == "Neither satisfied nor dissatisfied", "Neutral"))
+
+par(mfrow=c(2,4),
+    mar = c(10,5,5,5))
+plot(completesubmission$p8q2_1, main="Source code management",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q2_2, main="Issue tracker",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q2_3, main="Documentation management",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q2_4, main="Multi-user editors",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q2_5, main="Reference managers",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q2_6, main="Event managers",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q2_7, main="Interactive notebooks",
+     ylab = "Count", col="steelblue", las = 2)
+
+
+# Tool uptake factor
+par(mfrow=c(2,2),
+    mar = c(8,5,5,5))
+plot(completesubmission$p8q3_1, main="Endorsement by a trusted group",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q3_1, main="Improvement in efficiency",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q3_1, main="Ease of use",
+     ylab = "Count", col="steelblue", las = 2)
+plot(completesubmission$p8q3_1, main="Adoption rate among peers",
+     ylab = "Count", col="steelblue", las = 2)
+
+
