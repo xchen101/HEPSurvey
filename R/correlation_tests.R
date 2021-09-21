@@ -39,19 +39,28 @@ CrossTable(completesubmission$D1, completesubmission$p2q2_OA2, chisq = TRUE)
 CrossTable(completesubmission$D3, completesubmission$p3q1E_OD1, chisq = TRUE) #p =  0.0001664108 the younger researchers are more likely to be aware of Open Data
 CrossTable(completesubmission$D3, completesubmission$p3q1E_OD2, chisq = TRUE) #p =  0.0002161671 the younger researchers are more likely to have tried to look for open data
 CrossTable(completesubmission$D3, completesubmission$p3q1E_OD3, chisq = TRUE)
-CrossTable(completesubmission$D3, completesubmission$p3q1E_OD4, chisq = TRUE)
+CrossTable(completesubmission$D3, completesubmission$p3q1E_OD4, chisq = TRUE) #p =  0.009376694 mid-career researchers tend to agree, students are seniors tend to disagree
 CrossTable(completesubmission$D3, completesubmission$p3q1E_OD5, chisq = TRUE)
 
 SeOD1<-table(completesubmission$D3, completesubmission$p3q1E_OD1) 
 SeOD1 <- round(prop.table(SeOD1,1), 2) # crosstab as proportion
-
 corrplot(SeOD1, method = "color",
          addCoef.col = "black",
          tl.col = "black")
         # p.mat = p.mat, sig.level = 0.01, insig = "blank")
 
+
 SeOD2<-table(completesubmission$D3, completesubmission$p3q1E_OD2) 
 SeOD2 <- round(prop.table(SeOD2,1), 2) # crosstab as proportion
+corrplot(SeOD2, method = "color",
+         addCoef.col = "black",
+         tl.col = "black")
+
+SeOD4<-table(completesubmission$D3, completesubmission$p3q1E_OD4) 
+SeOD4 <- round(prop.table(SeOD4,1), 2) # crosstab as proportion
+corrplot(SeOD4, method = "color",
+         addCoef.col = "black",
+         tl.col = "black")
 
 # Association between size of experimental collaboration and OD practice#
 CrossTable(completesubmission$D4_1, completesubmission$p3q1E_OD1, chisq = TRUE)
@@ -153,6 +162,12 @@ CrossTable(completesubmission$D3, completesubmission$p4q2, chisq = TRUE)
 #Association between field and preference
 CrossTable(completesubmission$D4, completesubmission$p4q2, chisq = TRUE) #p =  5.185171e-06  the experimentalists are significantly more likely to want the collaboraiton to decide
 
+FiPre<-table(completesubmission$D4, completesubmission$p4q2) 
+FiPre <- round(prop.table(FiPre,1), 2) # crosstab as proportion
+corrplot(FiPre, method = "color",
+         addCoef.col = "black",
+         tl.col = "black",
+         p.mat = p.mat, sig.level = 0.01, insig = "blank")
 
 ggplot(completesubmission) + 
   geom_bar(mapping = aes(p4q2, fill = D4)) +
@@ -187,6 +202,17 @@ CrossTable(completesubmission$D4, completesubmission$p5q2_9, chisq = TRUE) #p = 
 
 ggplot(completesubmission) + 
   geom_bar(mapping = aes(p5q2_1, fill = D4), position = "dodge")
+
+#Association between gender and factor
+CrossTable(completesubmission$D1, completesubmission$p5q2_1, chisq = TRUE)
+CrossTable(completesubmission$D1, completesubmission$p5q2_2, chisq = TRUE)
+CrossTable(completesubmission$D1, completesubmission$p5q2_3, chisq = TRUE)
+CrossTable(completesubmission$D1, completesubmission$p5q2_4, chisq = TRUE)
+CrossTable(completesubmission$D1, completesubmission$p5q2_5, chisq = TRUE)
+CrossTable(completesubmission$D1, completesubmission$p5q2_6, chisq = TRUE)
+CrossTable(completesubmission$D1, completesubmission$p5q2_7, chisq = TRUE) 
+CrossTable(completesubmission$D1, completesubmission$p5q2_8, chisq = TRUE)  
+CrossTable(completesubmission$D1, completesubmission$p5q2_9, chisq = TRUE)
 
 
 # documentation -------------------------------------------------------------------------------------------------------------------------------------------

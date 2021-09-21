@@ -2,6 +2,7 @@
 # Housekeeping ----------------------------------------------------------------------------------------------------------------------------------------------
 library(mergeutils)
 library(tidyverse)
+library(plyr)
 library(dplyr)
 library(tidyr)
 library(scales)
@@ -636,6 +637,8 @@ plot(completesubmission$p5q2_9, main="Mandates",
 which(colnames(completesubmission)=="p5q2_1" )
 
 Factor <- select(completesubmission, 63:71)
+
+
 write.csv(Factor, file = "Factor.csv")
 # used excel to change factors to numeric, saved to the same file
 # haven't found an easy way of doing this in R, yet.
@@ -691,58 +694,42 @@ ggplot(data = Factor_mean, aes(x = key, y = mean)) +
   coord_flip()
 
 #test
-ggplot(data = Factor_mean, aes(fct_reorder(key,
-                                           mean),
-                               mean)) + 
+  ggplot(data = Factor_mean, aes(fct_reorder(key,
+                                             mean),
+                                 mean)) +
     stat_summary(fun = "mean", geom = "bar", width = 0.5) +
-    stat_summary(aes(label = round(..y.., 1)), 
-                 fun="mean", geom="text", vjust = -0.5) +
-    geom_hline(yintercept = 3, linetype = "solid", 
-               color = "red", size = 1.5, alpha = 0.25) +
+    stat_summary(aes(label = round(..y.., 1)),
+                 fun = "mean",
+                 geom = "text",
+                 vjust = -0.5) +
+    geom_hline(
+      yintercept = 3,
+      linetype = "solid",
+      color = "red",
+      size = 1.5,
+      alpha = 0.25
+    ) +
     # limit the vertical space to 1 to 4, but keep the data
     coord_cartesian(ylim = c(1, 5)) +
     # set ticks at 1, 2, 3, 4
-    scale_y_continuous(breaks = c(1:5),
-                       # label them with names
-                       labels = c("Not at all affect", "Rarely affect", "Neutral",
-                                  "Somewhat affect", "Affect a lot")) +
+    scale_y_continuous(
+      breaks = c(1:5),
+      # label them with names
+      labels = c(
+        "Not at all affect",
+        "Rarely affect",
+        "Neutral",
+        "Somewhat affect",
+        "Affect a lot"
+      )
+    ) +
     labs(x = "", y = "", title = "How much each factor impact sharing decision") +
-    theme(axis.text.x = element_text(angle=45, vjust=1, hjust=1))
-    coord_flip()
-
-  
-
-
-
-Factor <-
-  Factor %>% 
-  mutate(p5q2_1 = as.numeric(p5q2_1)) %>% 
-  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Somewhat affect", 1)) %>% 
-  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Affect a lot", 2)) %>% 
-  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Neutral", 0)) %>% 
-  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Rarely affect", -1)) %>% 
-  mutate(p5q2_1 = replace(p5q2_1, p5q2_1 == "Not at all affect", -2)) %>% 
-  
-  mutate(p5q2_2 = as.numeric(p5q2_2)) %>% 
-  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Somewhat affect", 1)) %>% 
-  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Affect a lot", 2)) %>% 
-  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Neutral", 0)) %>% 
-  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Rarely affect", -1)) %>% 
-  mutate(p5q2_2 = replace(p5q2_2, p5q2_2 == "Not at all affect", -2)) %>% 
-  
-  mutate(p5q2_3 = as.numeric(p5q2_3)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Somewhat affect", 1)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Affect a lot", 2)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Neutral", 0)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Rarely affect", -1)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Not at all affect", -2))
-
-  mutate(p5q2_3 = as.numeric(p5q2_3)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Somewhat affect", 1)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Affect a lot", 2)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Neutral", 0)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Rarely affect", -1)) %>% 
-  mutate(p5q2_3 = replace(p5q2_3, p5q2_3 == "Not at all affect", -2))
+    theme(axis.text.x = element_text(
+      angle = 45,
+      vjust = 1,
+      hjust = 1
+    ))
+  coord_flip()
 
 # ========Documentation and Peer Review========
 
@@ -835,11 +822,11 @@ plot(completesubmission$p8q1_6, main="Interactive notebooks",
 
 completesubmission <-
   completesubmission %>% 
-  mutate(p8q2_1 = as.character(p8q2_1)) %>% 
+ # mutate(p8q2_1 = as.character(p8q2_1)) %>% 
   mutate(p8q2_1 = replace(p8q2_1, p8q2_1 == "Neither satisfied nor dissatisfied", "Neutral"))
 
 par(mfrow=c(2,4),
-    mar = c(10,5,5,5))
+    mar = c(10,5,2,2))
 plot(completesubmission$p8q2_1, main="Source code management",
      ylab = "Count", col="steelblue", las = 2)
 plot(completesubmission$p8q2_2, main="Issue tracker",
@@ -861,11 +848,11 @@ par(mfrow=c(2,2),
     mar = c(8,5,5,5))
 plot(completesubmission$p8q3_1, main="Endorsement by a trusted group",
      ylab = "Count", col="steelblue", las = 2)
-plot(completesubmission$p8q3_1, main="Improvement in efficiency",
+plot(completesubmission$p8q3_2, main="Improvement in efficiency",
      ylab = "Count", col="steelblue", las = 2)
-plot(completesubmission$p8q3_1, main="Ease of use",
+plot(completesubmission$p8q3_3, main="Ease of use",
      ylab = "Count", col="steelblue", las = 2)
-plot(completesubmission$p8q3_1, main="Adoption rate among peers",
+plot(completesubmission$p8q3_4, main="Adoption rate among peers",
      ylab = "Count", col="steelblue", las = 2)
 
 
