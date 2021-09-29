@@ -284,7 +284,7 @@ ODE2 <-
 
 ggplot(ODE2, aes(x = variable, y = value, fill = levels)) +
   geom_bar(stat = "identity") +
-  labs(x = "", y = "Count",
+  labs(x = NULL, y = "Count",
        title = "Experimentalists' experience with Open Data") +
   scale_fill_discrete(NULL) +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
@@ -325,7 +325,7 @@ ODT2 <-
 
 ggplot(ODT2, aes(x = variable, y = value, fill = levels)) +
   geom_bar(stat = "identity") +
-  labs(x = "", y = "Count",
+  labs(x = NULL, y = "Count",
        title = "Theorists' experience with Open Data") +
   scale_fill_discrete(NULL) +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
@@ -389,7 +389,7 @@ shareT2 <-
 
 ggplot(shareT2, aes(x = variable, y = value, fill = levels)) +
   geom_bar(stat = "identity") +
-  labs(x = "", y = "Count",
+  labs(x = NULL, y = "Count",
        title = "Theorists' preferred data sharing time") +
   scale_fill_discrete(NULL) +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
@@ -421,7 +421,7 @@ shareE2 <-
 
 ggplot(shareE2, aes(x = variable, y = value, fill = levels)) +
   geom_bar(stat = "identity") +
-  labs(x = "", y = "Count",
+  labs(x = NULL, y = "Count",
        title = "Experimentalists' preferred data sharing time") +
   scale_fill_discrete(NULL) +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA))) +
@@ -542,7 +542,7 @@ shareExp2 <-
 
 ggplot(shareExp2, aes(x = variable, y = value, fill = levels)) +
   geom_bar(stat = "identity") +
-  labs(x = "", y = "Count",
+  labs(x = NULL, y = "Count",
        title = "Experience with data sharing") +
   scale_fill_manual(values = c("Yes" = "grey", "No" = alpha(NA)), name = " ") +
   coord_flip() 
@@ -693,7 +693,9 @@ ggplot(data = Factor_mean, aes(x = key, y = mean)) +
                                 "Agree", "Strongly Agree")) 
   coord_flip()
 
-#test
+#test 
+# didn't work
+  
   ggplot(data = Factor_mean, aes(fct_reorder(key,
                                              mean),
                                  mean)) +
@@ -723,13 +725,30 @@ ggplot(data = Factor_mean, aes(x = key, y = mean)) +
         "Affect a lot"
       )
     ) +
-    labs(x = "", y = "", title = "How much each factor impact sharing decision") +
+    labs(x = NULL, y = NULL, title = "How much each factor impact sharing decision") +
     theme(axis.text.x = element_text(
       angle = 45,
       vjust = 1,
       hjust = 1
     ))
   coord_flip()
+  
+  
+# recreate https://rcompanion.org/handbook/E_03.html
+  library(likert)
+  
+  factor <- select(completesubmission, 63:71)
+  colnames(factor) <- c("Amount of additional work",
+                        "Rights to share",
+                        "Competition",
+                        "Quality of data/code", 
+                        "Importance for reproducibility",
+                        "Perceived usefulness",
+                        "Being asked",
+                        "Responsible usage",
+                        "Mandates")
+  factor = likert(factor)
+  plot(factor, type = "bar")
 
 # ========Documentation and Peer Review========
 
